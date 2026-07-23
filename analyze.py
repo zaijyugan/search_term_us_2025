@@ -107,11 +107,16 @@ SEED_MIN_FAMILY_SIZE = 3      # 词族至少 N 个成员才输出
 SEED_MAX_FAMILY_SIZE = 60     # 词族上限：真正的小众场景词族小；>N 视为通用词泄漏，剔除（可调，越大召回越高噪音越多）
 SEED_MIN_TOKEN_LEN = 4        # 种子最短长度：<4 字符前缀（boo/pre/can/leg…）会误捞海量无关词
 
+SEED_FAMILY_CAP_COMPARE = 150 # 4C 对照档位：额外跑一遍更宽的族上限，产出 *_cap150 供对比
+
 NEW_ENTRANT_MIN_ABSENT_MONTHS = 3
 SEASONAL_MAX_MONTHS = 4
 SPIKE_IMPROVE_RATIO = 0.5
 RELIABLE_RANK_CEILING = 100000
 TOP_OUTPUT_N = 500
+# 机会词候选里「品类季节 spike」的中位排名门槛：median_rank 须 ≥ 此值，
+# 剔除全年常青头部词（jewelry box / gold earrings 等，其 spike 非真季节信号）
+SPIKE_CANDIDATE_MIN_MEDIAN_RANK = 5000
 
 # =============================================================================
 # 全局常量
@@ -731,7 +736,7 @@ def phase4b_commemoration(wide, ctx):
     return agg
 
 
-def phase4c_snowball(wide, ctx, gift_agg, comm_agg):
+def phase4c_snowball(wide, ctx, max_family_size, suffix=""):
     """
     种子滚雪球 —— 从「已验证的场景词汇」（HYPOTHESIS_DICT 关键词，按短语/前缀/精确语义
     匹配）出发，捞出各场景词族，并抽取族内无结构成员（裸场景词）。
@@ -740,11 +745,13 @@ def phase4c_snowball(wide, ctx, gift_agg, comm_agg):
       spec 原方案种子池 = 4A gift-X + 4B 被纪念 token + Phase5 场景 token。实测本数据集里
       4A/4B 的残留 token 被通用词（glass/holder/cards…）和影视书名（twilight/tyler perry…）
       主导，前缀滚雪球会淹没出 10 万+ 无关词。故此处只用 Phase5 词典关键词作为高置信场景种子，
-      并加两道闸：族规模上限 SEED_MAX_FAMILY_SIZE（小众场景族小）、族内须含结构锚点
+      并加两道闸：族规模上限 max_family_size（小众场景族小）、族内须含结构锚点
       （gift/marker/category 任一，符合 spec「族内几乎总有结构成员」前提）。
       4A/4B 仍作为独立产出与 REPORT「假设空白区」，供人工发现词典外的新场景。
+
+    max_family_size / suffix：支持不同族上限档位对照（默认档 + _cap150 对照档）。
     """
-    log("=== Phase 4C：种子滚雪球（词典场景种子）===")
+    log(f"=== Phase 4C：种子滚雪球（词典场景种子，族上限={max_family_size}{' '+suffix if suffix else ''}）===")
     compiled = _compile_hypothesis()  # {theme: [(kw, regex)]}
 
     terms = wide["term"]
@@ -769,7 +776,7 @@ def phase4c_snowball(wide, ctx, gift_agg, comm_agg):
             idxs = np.where(m)[0]
             if len(idxs) < SEED_MIN_FAMILY_SIZE:
                 continue
-            if len(idxs) > SEED_MAX_FAMILY_SIZE:   # 通用词泄漏，剔除
+            if len(idxs) > max_family_size:        # 通用词泄漏，剔除
                 n_toobroad += 1
                 continue
             anchor = has_gift[idxs] | has_marker[idxs] | is_cat[idxs]
@@ -798,7 +805,7 @@ def phase4c_snowball(wide, ctx, gift_agg, comm_agg):
     if len(fam_df):
         fam_df = fam_df.sort_values(["family_size", "seed", "best_rank"],
                                     ascending=[False, True, True])
-    write_csv(fam_df, "04c_term_families.csv")
+    write_csv(fam_df, f"04c_term_families{suffix}.csv")
     log(f"  合格词族 {n_family} 个（过宽剔除 {n_toobroad}，无锚点剔除 {n_noanchor}），"
         f"成员行 {len(fam_df):,}")
 
@@ -820,11 +827,12 @@ def phase4c_snowball(wide, ctx, gift_agg, comm_agg):
         bare_df = pd.DataFrame(columns=["term", "best_rank", "worst_rank", "median_rank",
                                         "months_present", "first_month", "last_month",
                                         "trend_ratio", "is_category", "seeds", "themes"])
-    write_csv(bare_df, "04c_bare_scenario_terms.csv")
+    write_csv(bare_df, f"04c_bare_scenario_terms{suffix}.csv")
     log(f"  裸场景词 {len(bare_df):,}")
 
     seeds_kept = sorted(set(fam_df["seed"])) if len(fam_df) else []
-    return {"families": fam_df, "bare": bare_df, "seeds": seeds_kept}
+    return {"families": fam_df, "bare": bare_df, "seeds": seeds_kept,
+            "cap": max_family_size}
 
 
 def phase4d_category(wide, ctx):
@@ -967,7 +975,84 @@ def _hypothesis_all_keywords():
     return toks
 
 
-def build_final_report(wide, ctx, quality, p2, p3, gift_agg, comm_agg, p4c, p4d, p5):
+# 无场景信息的功能词/停用词，不进入空白区共现视图
+_BLINDSPOT_SKIP = set(SEED_STOPWORDS) | {
+    "for", "of", "the", "and", "with", "to", "in", "on", "a", "an",
+    "your", "my", "that", "this", "from", "by", "or", "it", "is", "are",
+    "gift", "gifts", "set", "sets", "pack",
+}
+
+
+_ROOT_FORMS = set(CATEGORY_ROOTS) | {r + "s" for r in CATEGORY_ROOTS} | {r + "es" for r in CATEGORY_ROOTS}
+
+
+def _meaningful_blindspot(token):
+    """过滤功能词/停用词/品类根：保留至少含一个实义且非品类的 token 的条目。"""
+    toks = tokenize(str(token).lower())
+    if not toks:
+        return False
+    # 纯品类词（rings / jewelry 等）不是「未知场景」，剔除
+    if all(t in _ROOT_FORMS for t in toks):
+        return False
+    keep = [t for t in toks if t not in _BLINDSPOT_SKIP and t not in _ROOT_FORMS and len(t) >= 3]
+    return len(keep) > 0
+
+
+def blindspot_category_cooccur(wide, gap_gift, gap_comm):
+    """
+    为「假设空白区」的词典外 token（4A gift-X + 4B 被纪念对象）计算品类共现：
+    该 token 有多少搜索词同时命中品类词根，以及其中珠宝占比 —— 共现绝对量大、
+    珠宝占比高，说明这个团队陌生的场景已在和珠宝一起被搜，最该优先跟进。
+    share = 品类词数 / 含该 token 的全部词数（≤1）。输出 04e_blindspot_category_cooccur.csv。
+    """
+    all_terms = wide["term"]
+    is_cat = wide["is_category"].fillna(False).to_numpy()
+    all_best = wide["best_rank"].to_numpy()
+    all_arr = all_terms.to_numpy()
+
+    rows = []
+    seen = set()
+
+    def one(token, source):
+        if token in seen or not _meaningful_blindspot(token):
+            return
+        seen.add(token)
+        parts = str(token).split()
+        pat = r"\b" + r"\s+".join(re.escape(p) for p in parts) + r"\b"
+        m = all_terms.str.contains(pat, regex=True, na=False).to_numpy()
+        idx = np.where(m)[0]
+        n_all = len(idx)
+        cat_idx = idx[is_cat[idx]]
+        n_cat = len(cat_idx)
+        if n_cat:
+            order = np.argsort(all_best[cat_idx])
+            reps = " | ".join(all_arr[cat_idx[k]] for k in order[:3])
+            best_min = int(np.nanmin(all_best[cat_idx]))
+        else:
+            reps, best_min = "", None
+        rows.append({
+            "token": token, "source": source,
+            "n_terms_with_token": n_all, "n_category_terms": n_cat,
+            "category_share": round(n_cat / n_all, 3) if n_all else 0.0,
+            "cat_best_rank_min": best_min,
+            "rep_category_terms": reps,
+        })
+
+    for _, r in gap_gift.iterrows():
+        one(r["x"], "4A_gift_X")
+    for _, r in gap_comm.iterrows():
+        one(r["commemorated_token"], "4B_commemorated")
+
+    df = pd.DataFrame(rows)
+    if len(df):
+        df = df.sort_values(["n_category_terms", "category_share"], ascending=False)
+    write_csv(df, "04e_blindspot_category_cooccur.csv")
+    log(f"  假设空白区品类共现：{len(df)} 个词典外 token（已过滤功能词），"
+        f"其中有品类共现的 {int((df['n_category_terms'] > 0).sum()) if len(df) else 0} 个")
+    return df
+
+
+def build_final_report(wide, ctx, quality, p2, p3, gift_agg, comm_agg, p4c, p4d, p5, p4c150=None):
     log("=== 生成 REPORT.md ===")
     months = ctx["months"]
     hyp_tokens = _hypothesis_all_keywords()
@@ -994,7 +1079,10 @@ def build_final_report(wide, ctx, quality, p2, p3, gift_agg, comm_agg, p4c, p4d,
         add(t, "品类新入榜")
     spike_df = p3["spike_df"]
     if len(spike_df):
-        for t in spike_df.loc[spike_df["is_category"], "term"].unique():
+        # 加中位排名门槛：剔除全年常青头部词（median 太好者非真季节机会）
+        cat_spike = spike_df[spike_df["is_category"]
+                             & (spike_df["median_rank"] >= SPIKE_CANDIDATE_MIN_MEDIAN_RANK)]
+        for t in cat_spike["term"].unique():
             add(t, "品类季节spike")
     # 4C 裸场景词中，族含品类成员 或 族内任一成员 trend<0.7
     fam = p4c["families"]
@@ -1030,8 +1118,13 @@ def build_final_report(wide, ctx, quality, p2, p3, gift_agg, comm_agg, p4c, p4d,
         toks = set(tokenize(str(token_str).lower()))
         return not (toks & hyp_tokens)
 
-    gap_gift = gift_agg[gift_agg["x"].map(not_in_dict)].head(25) if len(gift_agg) else gift_agg
-    gap_comm = comm_agg[comm_agg["commemorated_token"].map(not_in_dict)].head(25) if len(comm_agg) else comm_agg
+    gap_gift_all = gift_agg[gift_agg["x"].map(not_in_dict)] if len(gift_agg) else gift_agg
+    gap_comm_all = comm_agg[comm_agg["commemorated_token"].map(not_in_dict)] if len(comm_agg) else comm_agg
+    gap_gift = gap_gift_all.head(25)
+    gap_comm = gap_comm_all.head(25)
+    # 品类共现视图：词典外 token 有多少词同时命中品类根（优先跟进已触珠宝的陌生场景）
+    cooccur = blindspot_category_cooccur(wide, gap_gift_all.head(150), gap_comm_all.head(150))
+    cooccur_top = cooccur[cooccur["n_category_terms"] > 0].head(20) if len(cooccur) else cooccur
     # 4C 种子现全部来自词典；改为展示「哪些已验证场景捞出最多裸变体」
     if len(fam):
         bare_by_seed = (fam[fam["is_bare_scenario"]].groupby("seed")["term"].nunique()
@@ -1083,7 +1176,8 @@ def build_final_report(wide, ctx, quality, p2, p3, gift_agg, comm_agg, p4c, p4d,
         # 3 机会词候选
         fh.write("## 3. 机会词候选合并清单\n\n")
         fh.write("满足任一条件即入选（Phase5命中×品类 / Phase5命中×趋势<0.7 / 品类新入榜 / "
-                 "品类季节spike / 裸场景词×优质词族），去重后按 best_rank 排序。完整表见 `candidates.csv`。\n\n")
+                 f"品类季节spike〔median_rank≥{SPIKE_CANDIDATE_MIN_MEDIAN_RANK}，剔除常青头部词〕 / "
+                 "裸场景词×优质词族），去重后按 best_rank 排序。完整表见 `candidates.csv`。\n\n")
         if len(cand):
             fh.write(f"共 **{len(cand)}** 个候选。top 20：\n\n")
             fh.write("| term | best_rank | present | trend | 品类 | 入选理由 |\n|---|--:|--:|--:|:--:|---|\n")
@@ -1107,6 +1201,38 @@ def build_final_report(wide, ctx, quality, p2, p3, gift_agg, comm_agg, p4c, p4d,
         fh.write("\n\n**4C 已验证场景的裸变体产出 top（种子 → 裸场景词数，供优先跟进）：** ")
         fh.write(", ".join(f"{s}({c})" for s, c in top_bare_seed) or "_无_")
         fh.write("\n\n")
+
+        # 4' 品类共现视图：词典外场景里，哪些已经在和珠宝一起被搜
+        fh.write("### 4.1 空白区 × 品类共现（优先级排序）\n\n")
+        fh.write("词典外 token 与品类词根的共现越高，越说明这个陌生场景已在珠宝语境里被搜索，"
+                 "最该优先补投。完整表见 `04e_blindspot_category_cooccur.csv`。\n\n")
+        if len(cooccur_top):
+            fh.write("| token | 来源 | 品类共现词数 | 占比 | 品类最优rank | 代表品类词 |\n"
+                     "|---|:--:|--:|--:|--:|---|\n")
+            for _, r in cooccur_top.iterrows():
+                src = "4A" if r["source"] == "4A_gift_X" else "4B"
+                bm = int(r["cat_best_rank_min"]) if pd.notna(r["cat_best_rank_min"]) else "—"
+                fh.write(f"| {r['token']} | {src} | {r['n_category_terms']} | "
+                         f"{r['category_share']:.0%} | {bm} | {r['rep_category_terms']} |\n")
+            fh.write("\n")
+        else:
+            fh.write("_词典外 token 均无品类共现。_\n\n")
+
+        # 4C 档位对照
+        fh.write("### 4.2 Phase 4C 族上限档位对照\n\n")
+        fh.write(f"- 默认档 族上限={p4c['cap']}：裸场景词 **{len(bare)}**（`04c_bare_scenario_terms.csv`）\n")
+        if p4c150 is not None:
+            extra = set(p4c150["bare"]["term"]) - set(bare["term"]) if len(p4c150["bare"]) else set()
+            fh.write(f"- 对照档 族上限={p4c150['cap']}：裸场景词 **{len(p4c150['bare'])}**"
+                     f"（`04c_bare_scenario_terms_cap150.csv`），比默认档多 {len(extra)} 词\n")
+            new_seeds = sorted(set(p4c150["seeds"]) - set(p4c["seeds"]))
+            if new_seeds:
+                fh.write(f"- 放宽到 150 才纳入的场景种子：{', '.join(new_seeds)}\n")
+            if extra:
+                ex_df = p4c150["bare"][p4c150["bare"]["term"].isin(extra)].nsmallest(10, "best_rank")
+                fh.write("- 对照档新增裸词 best_rank top 10："
+                         + "; ".join(f"{r['term']}({int(r['best_rank'])})" for _, r in ex_df.iterrows()) + "\n")
+        fh.write("\n")
 
         # 5 逐主题解读
         fh.write("## 5. 候选主题解读\n\n")
@@ -1170,12 +1296,13 @@ def main():
     gift_agg = phase4a_gift(wide, ctx)
     comm_agg = phase4b_commemoration(wide, ctx)
     p5 = phase5_hypothesis(wide, ctx)
-    p4c = phase4c_snowball(wide, ctx, gift_agg, comm_agg)
+    p4c = phase4c_snowball(wide, ctx, SEED_MAX_FAMILY_SIZE)
+    p4c150 = phase4c_snowball(wide, ctx, SEED_FAMILY_CAP_COMPARE, suffix="_cap150")
     p4d = phase4d_category(wide, ctx)
 
     build_final_report(wide, ctx, quality,
                        p2=p2, p3=p3, gift_agg=gift_agg, comm_agg=comm_agg,
-                       p4c=p4c, p4d=p4d, p5=p5)
+                       p4c=p4c, p4d=p4d, p5=p5, p4c150=p4c150)
 
     list_outputs()
     log("全部 Phase 完成。")
