@@ -1,12 +1,31 @@
 # ABA 搜索词隐藏需求挖掘 — 分析报告
 
-生成时间：2026-07-23 05:51:58｜数据：美国站 ABA 2025 全年 12 月
+生成时间：2026-07-28 08:21:29｜数据：美国站 ABA 2025 全年 12 月
 
 ## 1. 数据概况
 
 - 月度原始行合计 **2,400,690** → 清洗后 **2,400,688**（损耗 2，0.000%）
 - 跨月去重唯一搜索词 **414,489**；其中品类词 **5,146**（1.24%）
 - 全年 12 月覆盖，编码混合（10 UTF-8-BOM + 2 GB18030），详见 `00_data_quality.md`
+
+## ★ 珠宝场景发现（隐藏需求 · 归纳引擎）
+
+在 325 个候选珠宝场景里,**300 个不在假设词典内**——这些是团队「连假设都没假设到」的方向。完整表 `06_discovered_scenes.csv`,分簇详见 `06_discovery.md`。
+
+每簇挑词典外(★)、按品类词数排的代表场景:
+
+- **功能健康/特殊需求**：fidget(13,#4995), repellent(7,#3316), permanent(7,#13006), alert(6,#19260), mosquito repellent(4,#3316), calmi(4,#12424), medical alert(4,#19260), mosquito(4,#34823)
+- **宗教灵性/护佑**：cross(94,#1003), lucky(16,#2586), clover(11,#18905), christian(9,#62290), bible verse(6,#21081), jesus(6,#32081), wwjd(4,#14109), verse(4,#21081)
+- **身体珠宝/穿孔**：nose(77,#761), piercing(31,#6893), button(24,#1357), belly button(24,#1357), arm(24,#7655), hand(17,#7016), toe(14,#4481), flat back(11,#3975)
+- **风格/审美/亚文化**：western(10,#11102), gothic(10,#22651), beach(9,#26757), indian(8,#24538), vampire(7,#22542), summer(7,#34788), leather(7,#56897), goth(7,#79096)
+- **charm潮流**：nail(38,#971), croc(34,#2181), phone(17,#5345), purse(14,#3842), italian(8,#7666), keychain(5,#20175), bogg bag(4,#5549), crocs(4,#10504)
+- **个性化/定制**：initial(21,#5937), name(11,#7453), letter(7,#19405), photo(4,#53972), bubble letter(3,#19405)
+- **节日/场合**：christmas(43,#1210), wedding(38,#6940), halloween(28,#2191), prom(17,#9641), july(13,#12077), valentines(9,#13376), mardi gras(8,#7904), easter(8,#12532)
+- **运动/兴趣**：baseball(15,#7558), tennis(13,#9843), football(13,#16216), basketball(9,#82020), softball(6,#89983), fantasy football(5,#24216), volleyball(4,#63322), soccer(4,#143046)
+- **关系/身份**：couples(7,#6532), teacher(5,#19763), bff(4,#43096), mama(3,#23903), wife(3,#69039)
+- **动物/自然/motif**：heart(35,#6187), bow(21,#12788), flower(11,#28283), cat(11,#36213), spider(9,#12242), butterfly(9,#31857), shell(8,#17582), dog(8,#39933)
+
+**建议下一轮加入 `HYPOTHESIS_DICT` 的场景**（词典外、品类词数靠前）：`cross`, `nose`, `christmas`, `wedding`, `nail`, `heart`, `croc`, `piercing`, `bag`, `halloween`, `belly button`, `arm`, `button`, `silicone`, `bow`, `initial`, `hand`, `prom`, `phone`, `lucky`
 
 ## 2. 各 Phase 核心发现
 
@@ -65,7 +84,7 @@
 
 **4A gift 场景 X（词典外，按词数）：** women(13029), men(4785), kids(2525), girls(1343), adults(1325), dogs(794), christmas(705), boys(662), home(368), car(331), bedroom(317), birthday(264), outside(261), living room(224), face(224), christmas tree(222), woman(209), cats(198), classroom(195), teens(194), toddlers(187), school(186), baby(174), bathroom(163), wall(161)
 
-**4B 被纪念对象（词典外，按词数）：** for(56), gifts(43), 50th(15), of(13), baby(12), 250th(10), decorations(10), hat(10), gift(9), card(9), cards(9), wedding(8), the(8), sleep(8), 25th(7), blanket(7), dog(7), loss(7), book(6), ps5(6), 30th(6), happy(6), shirt(5), princess(5), pet(5)
+**4B 被纪念对象（词典外，按词数）：** for(56), gifts(43), 50th(15), of(13), baby(12), hat(10), decorations(10), 250th(10), gift(9), card(9), cards(9), wedding(8), the(8), sleep(8), 25th(7), blanket(7), dog(7), loss(7), book(6), ps5(6), 30th(6), happy(6), shirt(5), princess(5), pet(5)
 
 **4C 已验证场景的裸变体产出 top（种子 → 裸场景词数，供优先跟进）：** awareness(52), prayer(52), saint(39), faith(36), ashes(34), divorce*(31), firefighter(28), retirement(25), friendship(19), police officer(16), quincea*(15), baptism(14), mental health(14), graduate(12), sweet 16(9), matching couple*(8), long distance(7), sympathy(6), purity(5), evil eye(4)
 

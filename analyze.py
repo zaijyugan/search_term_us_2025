@@ -118,6 +118,65 @@ TOP_OUTPUT_N = 500
 # 剔除全年常青头部词（jewelry box / gold earrings 等，其 spike 非真季节信号）
 SPIKE_CANDIDATE_MIN_MEDIAN_RANK = 5000
 
+# ---- Phase 6 珠宝场景发现（归纳发现引擎，主动挖词典外的隐藏场景）----
+SCENE_MIN_TERMS = 3           # 一个候选场景至少出现在 N 个品类词里才纳入
+
+# 抽取时要剔除的噪音：材质/颜色/通用限定/送礼对象/配件工具/品牌/医疗误伤/成人向
+DISCOVERY_SKIP = set("""
+gold silver sterling rose white yellow platinum pearl pearls diamond diamonds cubic zirconia
+moissanite stainless steel plated 14k 18k 925 titanium copper brass gemstone crystal crystals
+beaded bead beads enamel opal jade turquoise gems stone black red blue green pink purple gray grey
+women womens woman men mens man for her him his hers girls boys kids girl boy ladies unisex adult adults
+mom dad mother father grandma grandpa nana papa gift gifts set sets pack lot bulk personalized custom
+customized dainty tiny small large medium cute simple minimalist adjustable layered layering chunky
+thick thin vintage boho fashion trendy statement handmade everyday piece pieces multi mixed assorted
+new best top real fine cool little the and with of for a an to in on inch inches mm size sizes wide long short
+making kit box organizer cleaner holder case stand display storage roll tray mirror hook tarnish
+magnetic clasp clasps closures closure extender extenders wholesale findings supplies supply tool tools
+pliers wire cord string elastic packaging pouch pouches scale polishing cloth remover backs stopper
+stoppers screwdriver container band bands maker glass loose spacer spacers pierced non
+pandora pavoi kendra scott alex ani tiffany swarovski brighton mejuri baublebar coach disney
+van cleef cartier kate spade betsey johnson taylor swift stranger elden apple
+napkin curtain shower blood pressure monitor kitchen island lights light watch belt cock penis
+emerald amethyst sapphire ruby garnet topaz aquamarine citrine onyx quartz morganite peridot tanzanite jasper
+hoop hoops stud studs dangle drop huggie huggies drops
+key bike tire egg eggs ultrasonic truck suv car vehicle frying knife knives phone-holder
+metal mini women's men's womens mens ankle toddler kids' costume slap glow rubber
+""".split())
+
+# 场景粗分类词表：命中即归入该簇（按优先级从上到下，先命中先归）
+DISCOVERY_CLUSTERS = {
+    "功能健康/特殊需求": ["medical", "alert", "anxiety", "fidget", "calmi", "calm", "spinner",
+                    "chew", "sensory", "autism", "mosquito", "repellent", "migraine",
+                    "nausea", "posture", "permanent", "sleep", "acupressure"],
+    "宗教灵性/护佑": ["cross", "faith", "saint", "prayer", "bible", "verse", "wwjd", "rosary",
+                 "god", "jesus", "christian", "angel", "guardian", "evil", "hamsa",
+                 "clover", "shamrock", "lucky", "protection", "chakra", "zen", "spiritual"],
+    "身体珠宝/穿孔": ["nose", "belly", "button", "septum", "cartilage", "tongue", "toe", "nipple",
+                 "navel", "piercing", "tragus", "helix", "industrial", "midi",
+                 "upper", "arm", "cuban", "hand", "flat", "waist", "body"],
+    "风格/审美/亚文化": ["western", "gothic", "goth", "vampire", "witch", "witches", "pagan",
+                  "boho", "beach", "coastal", "summer", "mermaid", "fairy", "celestial",
+                  "y2k", "grunge", "punk", "steampunk", "cottagecore", "indian", "oxidized",
+                  "rhinestone", "leather", "vintage", "minimalist", "dainty", "cottage"],
+    "charm潮流": ["croc", "crocs", "shoe", "sneaker", "bogg", "purse", "phone", "keychain",
+                "nail", "italian", "clip", "bracelet stack", "stack"],
+    "个性化/定制": ["initial", "name", "birthstone", "letter", "monogram", "coordinate",
+                "photo", "zodiac", "engraved", "fingerprint", "handwriting", "bar", "custom"],
+    "节日/场合": ["christmas", "halloween", "valentine", "valentines", "easter", "mardi",
+               "gras", "patrick", "patricks", "july", "thanksgiving", "prom", "wedding",
+               "bridal", "bridesmaid", "graduation", "mothers", "fathers", "advent", "anniversary"],
+    "运动/兴趣": ["baseball", "football", "basketball", "tennis", "soccer", "golf", "fishing",
+               "gym", "yoga", "gamer", "gaming", "music", "guitar", "fantasy", "softball",
+               "volleyball", "dance", "cheer", "pickleball"],
+    "关系/身份": ["teacher", "nurse", "doctor", "daughter", "sister", "couple", "couples",
+               "matching", "bff", "bestie", "friendship", "wife", "husband", "mama", "grandma"],
+    "动物/自然/motif": ["butterfly", "snake", "spider", "starfish", "shell", "snowflake", "bee",
+                   "elephant", "turtle", "sunflower", "dragon", "cat", "dog", "horse",
+                   "mushroom", "flower", "leaf", "moon", "star", "sun", "celestial", "tree",
+                   "fish", "frog", "bird", "heart", "bow", "clover", "cherry"],
+}
+
 # =============================================================================
 # 全局常量
 # =============================================================================
@@ -861,6 +920,113 @@ def phase4d_category(wide, ctx):
 
 
 # =============================================================================
+# Phase 6 — 珠宝场景发现（归纳发现引擎）
+# =============================================================================
+
+def _assign_cluster(scene_tokens):
+    for name, kws in DISCOVERY_CLUSTERS.items():
+        if scene_tokens & set(kws):
+            return name
+    return "未分类(待人工归类)"
+
+
+def phase6_discover_scenes(wide, ctx):
+    """
+    只在「已经是珠宝」的品类子集里挖场景修饰词/短语 —— 信噪比高、天然珠宝相关。
+    多角度抽取(紧贴珠宝名词的修饰词 + 实义二元短语) → 去噪 → 粗分类到场景簇 →
+    标注是否已在 HYPOTHESIS_DICT。目标:主动发现团队「连假设都没假设到」的隐藏场景。
+    """
+    log("=== Phase 6：珠宝场景发现 ===")
+    months = ctx["months"]
+    cat = wide[wide["is_category"].fillna(False)].reset_index(drop=True)
+    best = cat["best_rank"].to_numpy()
+    terms = cat["term"].to_numpy()
+    dict_tokens = _hypothesis_all_keywords()
+
+    root_alt = "|".join(sorted(set(CATEGORY_ROOTS), key=len, reverse=True))
+    head_re = re.compile(r"\b([a-z][a-z']+)\s+(?:(?:" + root_alt + r")(?:e?s)?)\b")
+    wr = re.compile(r"[a-z][a-z']+")
+
+    cand = {}  # scene -> set(cat 行 idx)
+
+    def addc(scene, i):
+        cand.setdefault(scene, set()).add(i)
+
+    for i, t in enumerate(terms):
+        toks = wr.findall(t)
+        # 角度1:紧贴珠宝名词前的修饰词(motif/主题最强信号)
+        for m in head_re.finditer(t):
+            x = m.group(1)
+            if x in DISCOVERY_SKIP or x in _ROOT_FORMS or len(x) < 3:
+                continue
+            addc(x, i)
+        # 角度2:实义二元短语(捕捉 evil eye / medical alert / bible verse 等多词场景)
+        for a, b in zip(toks, toks[1:]):
+            if a in _ROOT_FORMS or b in _ROOT_FORMS:
+                continue
+            if a in DISCOVERY_SKIP or b in DISCOVERY_SKIP or len(a) < 3 or len(b) < 3:
+                continue
+            addc(a + " " + b, i)
+
+    rows = []
+    for scene, idxs in cand.items():
+        if len(idxs) < SCENE_MIN_TERMS:
+            continue
+        order = sorted(idxs, key=lambda k: best[k])
+        top_i = order[0]
+        rr = cat.iloc[top_i]
+        mvals = [(m, rr[m]) for m in months if pd.notna(rr[m])]
+        peak = min(mvals, key=lambda z: z[1])[0] if mvals else ""
+        stoks = set(tokenize(scene))
+        rows.append({
+            "scene": scene,
+            "cluster": _assign_cluster(stoks),
+            "n_category_terms": len(idxs),
+            "best_rank_min": int(best[top_i]),
+            "peak_month": peak,
+            "in_hypothesis_dict": bool(stoks & dict_tokens),
+            "rep_terms": " | ".join(terms[k] for k in order[:3]),
+        })
+    df = pd.DataFrame(rows)
+    if len(df):
+        df = df.sort_values(["cluster", "n_category_terms", "best_rank_min"],
+                            ascending=[True, False, True])
+    write_csv(df, "06_discovered_scenes.csv")
+    n_novel = int((~df["in_hypothesis_dict"]).sum()) if len(df) else 0
+    log(f"  候选场景 {len(df)} 个（词典未覆盖 {n_novel}），"
+        f"覆盖 {df['cluster'].nunique() if len(df) else 0} 个场景簇")
+    write_discovery_md(df)
+    return {"scenes": df}
+
+
+def write_discovery_md(df):
+    path = os.path.join(OUTPUT_DIR, "06_discovery.md")
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write("# Phase 6 — 珠宝场景发现\n\n")
+        fh.write("在「已经是珠宝」的品类词里挖出的场景/motif,按簇归类。"
+                 "**★ = 不在 HYPOTHESIS_DICT**(团队尚未主动打的方向,发现重点)。\n")
+        fh.write("列:场景｜品类词数｜最优 best_rank｜峰值月｜代表词\n\n")
+        if not len(df):
+            fh.write("_无。_\n")
+            log(f"已写出 {path}（空）")
+            return
+        for cl in DISCOVERY_CLUSTERS.keys() | {"未分类(待人工归类)"}:
+            sub = df[df["cluster"] == cl]
+            if not len(sub):
+                continue
+            novel = int((~sub["in_hypothesis_dict"]).sum())
+            fh.write(f"## {cl}　（{len(sub)} 个场景,词典外 {novel}）\n\n")
+            fh.write("| 场景 | 品类词数 | best_rank | 峰值月 | 代表词 |\n|---|--:|--:|:--:|---|\n")
+            for _, r in sub.head(18).iterrows():
+                star = "★ " if not r["in_hypothesis_dict"] else ""
+                fh.write(f"| {star}{r['scene']} | {r['n_category_terms']} | "
+                         f"{r['best_rank_min']} | {r['peak_month'][-2:] if r['peak_month'] else '—'} | "
+                         f"{r['rep_terms']} |\n")
+            fh.write("\n")
+    log(f"已写出 {path}")
+
+
+# =============================================================================
 # Phase 5 — 假设词典验证
 # =============================================================================
 
@@ -1052,7 +1218,32 @@ def blindspot_category_cooccur(wide, gap_gift, gap_comm):
     return df
 
 
-def build_final_report(wide, ctx, quality, p2, p3, gift_agg, comm_agg, p4c, p4d, p5, p4c150=None):
+def write_discovery_section(fh, p6):
+    """REPORT 置顶的场景发现章节:按簇展示词典外(★)隐藏场景 + 建议入典清单。"""
+    fh.write("## ★ 珠宝场景发现（隐藏需求 · 归纳引擎）\n\n")
+    if p6 is None or not len(p6["scenes"]):
+        fh.write("_本轮无发现。_\n\n")
+        return
+    df = p6["scenes"]
+    novel = df[~df["in_hypothesis_dict"]]
+    fh.write(f"在 {int(df['n_category_terms'].notna().sum())} 个候选珠宝场景里,"
+             f"**{len(novel)} 个不在假设词典内**——这些是团队「连假设都没假设到」的方向。"
+             f"完整表 `06_discovered_scenes.csv`,分簇详见 `06_discovery.md`。\n\n")
+    fh.write("每簇挑词典外(★)、按品类词数排的代表场景:\n\n")
+    for cl in DISCOVERY_CLUSTERS.keys():
+        sub = novel[novel["cluster"] == cl]
+        if not len(sub):
+            continue
+        items = ", ".join(f"{r['scene']}({r['n_category_terms']},#{r['best_rank_min']})"
+                          for _, r in sub.head(8).iterrows())
+        fh.write(f"- **{cl}**：{items}\n")
+    fh.write("\n**建议下一轮加入 `HYPOTHESIS_DICT` 的场景**（词典外、品类词数靠前）："
+             + ", ".join(f"`{r['scene']}`" for _, r in
+                         novel.sort_values("n_category_terms", ascending=False).head(20).iterrows())
+             + "\n\n")
+
+
+def build_final_report(wide, ctx, quality, p2, p3, gift_agg, comm_agg, p4c, p4d, p5, p4c150=None, p6=None):
     log("=== 生成 REPORT.md ===")
     months = ctx["months"]
     hyp_tokens = _hypothesis_all_keywords()
@@ -1148,6 +1339,9 @@ def build_final_report(wide, ctx, quality, p2, p3, gift_agg, comm_agg, p4c, p4d,
         fh.write(f"- 跨月去重唯一搜索词 **{len(wide):,}**；其中品类词 "
                  f"**{int(is_cat.sum()):,}**（{is_cat.mean()*100:.2f}%）\n")
         fh.write(f"- 全年 12 月覆盖，编码混合（10 UTF-8-BOM + 2 GB18030），详见 `00_data_quality.md`\n\n")
+
+        # ★ 场景发现（置顶，主动挖词典外隐藏场景）
+        write_discovery_section(fh, p6)
 
         # 2 各 Phase top 摘要
         fh.write("## 2. 各 Phase 核心发现\n\n")
@@ -1299,10 +1493,11 @@ def main():
     p4c = phase4c_snowball(wide, ctx, SEED_MAX_FAMILY_SIZE)
     p4c150 = phase4c_snowball(wide, ctx, SEED_FAMILY_CAP_COMPARE, suffix="_cap150")
     p4d = phase4d_category(wide, ctx)
+    p6 = phase6_discover_scenes(wide, ctx)
 
     build_final_report(wide, ctx, quality,
                        p2=p2, p3=p3, gift_agg=gift_agg, comm_agg=comm_agg,
-                       p4c=p4c, p4d=p4d, p5=p5, p4c150=p4c150)
+                       p4c=p4c, p4d=p4d, p5=p5, p4c150=p4c150, p6=p6)
 
     list_outputs()
     log("全部 Phase 完成。")
