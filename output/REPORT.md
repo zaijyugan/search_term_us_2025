@@ -1,6 +1,6 @@
 # ABA 搜索词隐藏需求挖掘 — 分析报告
 
-生成时间：2026-07-28 08:21:29｜数据：美国站 ABA 2025 全年 12 月
+生成时间：2026-07-28 09:38:46｜数据：美国站 ABA 2025 全年 12 月
 
 ## 1. 数据概况
 
@@ -10,73 +10,73 @@
 
 ## ★ 珠宝场景发现（隐藏需求 · 归纳引擎）
 
-在 325 个候选珠宝场景里,**300 个不在假设词典内**——这些是团队「连假设都没假设到」的方向。完整表 `06_discovered_scenes.csv`,分簇详见 `06_discovery.md`。
+在 325 个候选珠宝场景里,**238 个不在假设词典内**——这些是团队「连假设都没假设到」的方向。完整表 `06_discovered_scenes.csv`,分簇详见 `06_discovery.md`。
 
 每簇挑词典外(★)、按品类词数排的代表场景:
 
-- **功能健康/特殊需求**：fidget(13,#4995), repellent(7,#3316), permanent(7,#13006), alert(6,#19260), mosquito repellent(4,#3316), calmi(4,#12424), medical alert(4,#19260), mosquito(4,#34823)
-- **宗教灵性/护佑**：cross(94,#1003), lucky(16,#2586), clover(11,#18905), christian(9,#62290), bible verse(6,#21081), jesus(6,#32081), wwjd(4,#14109), verse(4,#21081)
-- **身体珠宝/穿孔**：nose(77,#761), piercing(31,#6893), button(24,#1357), belly button(24,#1357), arm(24,#7655), hand(17,#7016), toe(14,#4481), flat back(11,#3975)
-- **风格/审美/亚文化**：western(10,#11102), gothic(10,#22651), beach(9,#26757), indian(8,#24538), vampire(7,#22542), summer(7,#34788), leather(7,#56897), goth(7,#79096)
-- **charm潮流**：nail(38,#971), croc(34,#2181), phone(17,#5345), purse(14,#3842), italian(8,#7666), keychain(5,#20175), bogg bag(4,#5549), crocs(4,#10504)
-- **个性化/定制**：initial(21,#5937), name(11,#7453), letter(7,#19405), photo(4,#53972), bubble letter(3,#19405)
-- **节日/场合**：christmas(43,#1210), wedding(38,#6940), halloween(28,#2191), prom(17,#9641), july(13,#12077), valentines(9,#13376), mardi gras(8,#7904), easter(8,#12532)
-- **运动/兴趣**：baseball(15,#7558), tennis(13,#9843), football(13,#16216), basketball(9,#82020), softball(6,#89983), fantasy football(5,#24216), volleyball(4,#63322), soccer(4,#143046)
+- **功能健康/特殊需求**：spinner(3,#52083)
+- **宗教灵性/护佑**：lucky(16,#2586), rosary(4,#73053)
+- **身体珠宝/穿孔**：piercing(31,#6893), hand(17,#7016), flat back(11,#3975), nipple(8,#22538), cuban link(7,#13602), helix(6,#46547), tongue(4,#17532), tragus(3,#41062)
+- **风格/审美/亚文化**：beach(9,#26757), indian(8,#24538), summer(7,#34788), leather(7,#56897), rhinestone(7,#86888), witch(5,#49607), fairy(3,#114574)
+- **charm潮流**：keychain(5,#20175), crocs(4,#10504), shoe(4,#13956), clip(4,#121311), stack(3,#101468)
+- **个性化/定制**：photo(4,#53972)
+- **节日/场合**：christmas(43,#1210), wedding(38,#6940), halloween(28,#2191), july(13,#12077), valentines(9,#13376), easter(8,#12532), valentine(8,#19903), christmas tree(5,#40714)
+- **运动/兴趣**：cheer(3,#130968)
 - **关系/身份**：couples(7,#6532), teacher(5,#19763), bff(4,#43096), mama(3,#23903), wife(3,#69039)
 - **动物/自然/motif**：heart(35,#6187), bow(21,#12788), flower(11,#28283), cat(11,#36213), spider(9,#12242), butterfly(9,#31857), shell(8,#17582), dog(8,#39933)
 
-**建议下一轮加入 `HYPOTHESIS_DICT` 的场景**（词典外、品类词数靠前）：`cross`, `nose`, `christmas`, `wedding`, `nail`, `heart`, `croc`, `piercing`, `bag`, `halloween`, `belly button`, `arm`, `button`, `silicone`, `bow`, `initial`, `hand`, `prom`, `phone`, `lucky`
+**建议下一轮加入 `HYPOTHESIS_DICT` 的场景**（词典外、品类词数靠前）：`christmas`, `wedding`, `heart`, `piercing`, `halloween`, `bow`, `silicone`, `hand`, `travel`, `lucky`, `hair`, `back`, `july`, `stackable`, `hello kitty`, `flat back`, `flower`, `cat`, `waterproof`, `valentines`
 
 ## 2. 各 Phase 核心发现
 
 - **Phase 2 生死簿**：新入榜 500（品类 500）、掉榜 500（品类 500）、间歇 500（品类 500）
 - **Phase 3 轨迹**：合格词 139,591；seasonal spike 涉及 38907 词，详见 `03_spike_calendar.md`
-- **Phase 4A gift**：X 6,232 个｜**4B 纪念标记**：被纪念 token 232 个｜**4C 词族**：种子 30，裸场景词 **437**
-- **Phase 5 假设验证**：命中去重词 2,183，品类命中 129，详见 `05_hypothesis_summary.md`
+- **Phase 4A gift**：X 6,232 个｜**4B 纪念标记**：被纪念 token 232 个｜**4C 词族**：种子 56，裸场景词 **589**
+- **Phase 5 假设验证**：命中去重词 8,366，品类命中 687，详见 `05_hypothesis_summary.md`
 
 ### 4C 裸场景词 top 10（无 gift / 无标记 / 无品类根的隐藏需求）
 
 | term | best_rank | present | trend | seeds |
 |---|--:|--:|--:|---|
+| bogg bag | 196 | 12 | 1.04 | bogg bag |
 | divorced sister | 363 | 7 | 61.69 | divorce* |
+| bogg bag accessories | 487 | 12 | 2.08 | bogg bag |
 | divorce in the black tyler perry | 1469 | 12 | 8.34 | divorce* |
 | breast cancer awareness accessories | 1589 | 12 | 0.79 | awareness |
+| fantasy football draft board 2025 | 2004 | 2 | — | fantasy football |
 | the perfect divorce jeneva rose | 2026 | 9 | 2.02 | divorce* |
 | friendship | 2115 | 9 | 5.44 | friendship |
 | breast cancer awareness shirt | 2297 | 3 | — | awareness |
 | autism awareness shirt | 2443 | 6 | 44.14 | awareness |
-| the perfect divorce | 3197 | 12 | 0.38 | divorce* |
-| the divorce insurance | 3445 | 6 | 3.88 | divorce* |
-| the saint | 5311 | 12 | 2.00 | saint |
 
 ## 3. 机会词候选合并清单
 
 满足任一条件即入选（Phase5命中×品类 / Phase5命中×趋势<0.7 / 品类新入榜 / 品类季节spike〔median_rank≥5000，剔除常青头部词〕 / 裸场景词×优质词族），去重后按 best_rank 排序。完整表见 `candidates.csv`。
 
-共 **1515** 个候选。top 20：
+共 **2123** 个候选。top 20：
 
 | term | best_rank | present | trend | 品类 | 入选理由 |
 |---|--:|--:|--:|:--:|---|
+| bogg bag | 196 | 12 | 1.04 |  | 裸场景词×优质词族 |
 | divorced sister | 363 | 7 | 61.69 |  | 裸场景词×优质词族 |
+| bogg bag accessories | 487 | 12 | 2.08 |  | 裸场景词×优质词族 |
 | graduation gifts for her | 983 | 12 | 0.55 |  | Phase5命中×趋势向好 |
 | tiffany & co jewelry | 1001 | 10 | 1.05 | ✓ | 品类季节spike |
+| cross necklace for women | 1003 | 12 | 0.76 | ✓ | Phase5命中×品类 |
 | christmas earrings | 1210 | 6 | 0.02 | ✓ | 品类季节spike；品类新入榜 |
+| belly button ring | 1357 | 12 | 1.83 | ✓ | Phase5命中×品类 |
 | ankle bracelets for women | 1439 | 12 | 1.67 | ✓ | 品类季节spike |
 | divorce in the black tyler perry | 1469 | 12 | 8.34 |  | 裸场景词×优质词族 |
 | breast cancer awareness accessories | 1589 | 12 | 0.79 |  | 裸场景词×优质词族 |
 | gold necklace | 1893 | 12 | 0.33 | ✓ | 品类季节spike |
 | christmas earrings for women | 1900 | 4 | — | ✓ | 品类新入榜 |
+| fantasy football draft board 2025 | 2004 | 2 | — |  | 裸场景词×优质词族 |
 | the perfect divorce jeneva rose | 2026 | 9 | 2.02 |  | 裸场景词×优质词族 |
 | friendship | 2115 | 9 | 5.44 |  | 裸场景词×优质词族 |
 | women's jewelry | 2259 | 12 | 2.35 | ✓ | 品类季节spike |
 | breast cancer awareness shirt | 2297 | 3 | — |  | 裸场景词×优质词族 |
 | autism awareness shirt | 2443 | 6 | 44.14 |  | 裸场景词×优质词族 |
 | lucky charms marshmallows only | 2586 | 12 | 3.75 | ✓ | 品类季节spike |
-| travel jewelry case | 2592 | 12 | 0.50 | ✓ | 品类季节spike |
-| pandora bracelets for women | 2779 | 12 | 1.01 | ✓ | 品类季节spike |
-| engagement rings for women | 3137 | 12 | 1.92 | ✓ | Phase5命中×品类 |
-| the perfect divorce | 3197 | 12 | 0.38 |  | Phase5命中×趋势向好；裸场景词×优质词族 |
-| mosquito repellent bracelets | 3316 | 12 | 1.40 | ✓ | 品类季节spike |
 
 ## 4. 假设空白区（人工审阅重点）
 
@@ -86,7 +86,7 @@
 
 **4B 被纪念对象（词典外，按词数）：** for(56), gifts(43), 50th(15), of(13), baby(12), hat(10), decorations(10), 250th(10), gift(9), card(9), cards(9), wedding(8), the(8), sleep(8), 25th(7), blanket(7), dog(7), loss(7), book(6), ps5(6), 30th(6), happy(6), shirt(5), princess(5), pet(5)
 
-**4C 已验证场景的裸变体产出 top（种子 → 裸场景词数，供优先跟进）：** awareness(52), prayer(52), saint(39), faith(36), ashes(34), divorce*(31), firefighter(28), retirement(25), friendship(19), police officer(16), quincea*(15), baptism(14), mental health(14), graduate(12), sweet 16(9), matching couple*(8), long distance(7), sympathy(6), purity(5), evil eye(4)
+**4C 已验证场景的裸变体产出 top（种子 → 裸场景词数，供优先跟进）：** awareness(52), prayer(52), bogg bag(41), saint(39), faith(36), ashes(34), shamrock(33), divorce*(31), firefighter(28), retirement(25), initial(19), friendship(19), police officer(16), quincea*(15), bible verse(14), belly button(14), baptism(14), mental health(14), fantasy football(13), graduate(12)
 
 ### 4.1 空白区 × 品类共现（优先级排序）
 
@@ -117,10 +117,10 @@
 
 ### 4.2 Phase 4C 族上限档位对照
 
-- 默认档 族上限=60：裸场景词 **437**（`04c_bare_scenario_terms.csv`）
-- 对照档 族上限=150：裸场景词 **858**（`04c_bare_scenario_terms_cap150.csv`），比默认档多 421 词
-- 放宽到 150 才纳入的场景种子：anxiety, best friend*, communion, engagement, memorial, military, nurse, recovery
-- 对照档新增裸词 best_rank top 10：nurse jackie(3299); nurse costume(3830); thunder shirt for dogs anxiety(4124); gas masks survival nuclear and chemical military grade(6285); nurse essentials(7376); nurse costume woman(8213); nurse accessories for work(8407); byoma hydrating recovery oil(8439); anxiety relief items(8617); communion cups and wafer set(9465)
+- 默认档 族上限=60：裸场景词 **589**（`04c_bare_scenario_terms.csv`）
+- 对照档 族上限=150：裸场景词 **1466**（`04c_bare_scenario_terms_cap150.csv`），比默认档多 877 词
+- 放宽到 150 才纳入的场景种子：anxiety, best friend*, communion, engagement, goth, gothic, memorial, mermaid, military, mosquito repellent, nurse, recovery, y2k
+- 对照档新增裸词 best_rank top 10：mosquito repellent outdoor patio(250); mosquito repellent(430); mermaid costume women(1953); mosquito repellent stickers(2278); y2k tops(2821); nurse jackie(3299); nurse costume(3830); thunder shirt for dogs anxiety(4124); y2k(4326); mermaid costume for girls(5578)
 
 ## 5. 候选主题解读
 
@@ -188,6 +188,54 @@
 
 - 承诺戒指/守贞/订婚/重申誓言。
 - 在榜高峰月：2025-02(50), 2025-12(49), 2025-01(47)
+- 建议验证：挑 best_rank 靠前且 is_category=True 的组合词做小额广告测试，观察是否可低成本承接该场景需求。
+
+### 功能康复珠宝（命中 241，品类 30）
+
+- 
+- 在榜高峰月：2025-06(130), 2025-12(127), 2025-11(125)
+- 建议验证：挑 best_rank 靠前且 is_category=True 的组合词做小额广告测试，观察是否可低成本承接该场景需求。
+
+### 身体珠宝穿孔（命中 143，品类 115）
+
+- 
+- 在榜高峰月：2025-04(104), 2025-06(99), 2025-07(98)
+- 建议验证：挑 best_rank 靠前且 is_category=True 的组合词做小额广告测试，观察是否可低成本承接该场景需求。
+
+### charm潮流（命中 78，品类 37）
+
+- 
+- 在榜高峰月：2025-06(59), 2025-05(58), 2025-07(54)
+- 建议验证：挑 best_rank 靠前且 is_category=True 的组合词做小额广告测试，观察是否可低成本承接该场景需求。
+
+### 个性化定制（命中 90，品类 70）
+
+- 
+- 在榜高峰月：2025-12(69), 2025-11(42), 2025-02(34)
+- 建议验证：挑 best_rank 靠前且 is_category=True 的组合词做小额广告测试，观察是否可低成本承接该场景需求。
+
+### 运动兴趣（命中 2352，品类 60）
+
+- 
+- 在榜高峰月：2025-03(1171), 2025-04(1115), 2025-09(1079)
+- 建议验证：挑 best_rank 靠前且 is_category=True 的组合词做小额广告测试，观察是否可低成本承接该场景需求。
+
+### 风格审美（命中 1154，品类 60）
+
+- 
+- 在榜高峰月：2025-10(671), 2025-07(598), 2025-08(590)
+- 建议验证：挑 best_rank 靠前且 is_category=True 的组合词做小额广告测试，观察是否可低成本承接该场景需求。
+
+### 宗教扩展（命中 681，品类 132）
+
+- 
+- 在榜高峰月：2025-12(355), 2025-09(341), 2025-04(304)
+- 建议验证：挑 best_rank 靠前且 is_category=True 的组合词做小额广告测试，观察是否可低成本承接该场景需求。
+
+### 节日场合扩展（命中 1488，品类 49）
+
+- 
+- 在榜高峰月：2025-11(828), 2025-02(407), 2025-03(372)
 - 建议验证：挑 best_rank 靠前且 is_category=True 的组合词做小额广告测试，观察是否可低成本承接该场景需求。
 
 

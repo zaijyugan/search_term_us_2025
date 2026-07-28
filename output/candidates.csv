@@ -1,13 +1,18 @@
 ﻿term,best_rank,months_present,trend_ratio,first_month,last_month,is_category,reasons
+bogg bag,196.0,12,1.035022354694486,2025-01,2025-12,False,裸场景词×优质词族
 divorced sister,363.0,7,61.69214437367304,2025-06,2025-12,False,裸场景词×优质词族
+bogg bag accessories,487.0,12,2.081763122476447,2025-01,2025-12,False,裸场景词×优质词族
 graduation gifts for her,983.0,12,0.5457412167952014,2025-01,2025-12,False,Phase5命中×趋势向好
 tiffany & co jewelry,1001.0,10,1.0461333388873846,2025-01,2025-10,True,品类季节spike
+cross necklace for women,1003.0,12,0.7584605175846052,2025-01,2025-12,True,Phase5命中×品类
 christmas earrings,1210.0,6,0.01975273665903314,2025-07,2025-12,True,品类季节spike；品类新入榜
+belly button ring,1357.0,12,1.8255208333333333,2025-01,2025-12,True,Phase5命中×品类
 ankle bracelets for women,1439.0,12,1.6707132018209407,2025-01,2025-12,True,品类季节spike
 divorce in the black tyler perry,1469.0,12,8.339251439539348,2025-01,2025-12,False,裸场景词×优质词族
 breast cancer awareness accessories,1589.0,12,0.7871142209449691,2025-01,2025-12,False,裸场景词×优质词族
 gold necklace,1893.0,12,0.3322843656129309,2025-01,2025-12,True,品类季节spike
 christmas earrings for women,1900.0,4,,2025-09,2025-12,True,品类新入榜
+fantasy football draft board 2025,2004.0,2,,2025-07,2025-08,False,裸场景词×优质词族
 the perfect divorce jeneva rose,2026.0,9,2.021170175642666,2025-01,2025-09,False,裸场景词×优质词族
 friendship,2115.0,9,5.443640871990908,2025-02,2025-12,False,裸场景词×优质词族
 women's jewelry,2259.0,12,2.3468445356593124,2025-01,2025-12,True,品类季节spike
@@ -15,10 +20,12 @@ breast cancer awareness shirt,2297.0,3,,2025-08,2025-10,False,裸场景词×优�
 autism awareness shirt,2443.0,6,44.13924777490669,2025-02,2025-09,False,裸场景词×优质词族
 lucky charms marshmallows only,2586.0,12,3.75047854971287,2025-01,2025-12,True,品类季节spike
 travel jewelry case,2592.0,12,0.5009034589571503,2025-01,2025-12,True,品类季节spike
+cross necklace for men,2657.0,12,0.8098057354301572,2025-01,2025-12,True,Phase5命中×品类
 pandora bracelets for women,2779.0,12,1.0119447555057857,2025-01,2025-12,True,品类季节spike
 engagement rings for women,3137.0,12,1.9170305676855894,2025-01,2025-12,True,Phase5命中×品类
 the perfect divorce,3197.0,12,0.37988461601320545,2025-01,2025-12,False,Phase5命中×趋势向好；裸场景词×优质词族
-mosquito repellent bracelets,3316.0,12,1.4026190036169708,2025-01,2025-12,True,品类季节spike
+mosquito repellent bracelets,3316.0,12,1.4026190036169708,2025-01,2025-12,True,Phase5命中×品类；品类季节spike
+cross necklace,3358.0,12,0.6768916155419223,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好
 the divorce insurance,3445.0,6,3.8807928400730987,2025-03,2025-08,False,裸场景词×优质词族
 best friend gifts,3471.0,12,0.651012339762789,2025-01,2025-12,False,Phase5命中×趋势向好
 anklets for women,3567.0,12,1.9190898708600546,2025-01,2025-12,True,品类季节spike
@@ -32,39 +39,53 @@ pandora bracelet,4207.0,12,0.5876270279907292,2025-01,2025-12,True,品类季节s
 copper bracelets for women,4241.0,12,0.0847586926844937,2025-01,2025-12,True,品类季节spike
 toe rings for women,4481.0,12,2.3185453708498764,2025-01,2025-12,True,品类季节spike
 kendra scott bracelet,4525.0,12,0.35119047619047616,2025-01,2025-12,True,品类季节spike
+septum rings,4976.0,12,1.2426778242677825,2025-01,2025-12,True,Phase5命中×品类
+fidget ring,4995.0,12,0.9327340359578425,2025-01,2025-12,True,Phase5命中×品类
 jewelry boxes for women,5167.0,12,0.5017291540868419,2025-01,2025-12,True,品类季节spike
 friendship gifts for women,5178.0,12,0.6373952423090937,2025-01,2025-12,False,Phase5命中×趋势向好
 rain chain,5219.0,12,0.7532830523513754,2025-01,2025-12,True,品类季节spike
 the saint,5311.0,12,1.9973753743174212,2025-01,2025-12,False,裸场景词×优质词族
+phone charm,5345.0,12,0.9941118743866536,2025-01,2025-12,True,Phase5命中×品类
 anklet,5479.0,12,1.142318810654553,2025-01,2025-12,True,品类季节spike
-bogg bag charms,5549.0,12,2.114658831211231,2025-01,2025-12,True,品类季节spike
+bogg bag charms,5549.0,12,2.114658831211231,2025-01,2025-12,True,Phase5命中×品类；品类季节spike
 bracelet,5651.0,12,0.6038712581589016,2025-01,2025-12,True,品类季节spike
 kendra scott earrings,5838.0,12,0.4373785359533578,2025-01,2025-12,True,品类季节spike
+fake nose ring,5882.0,12,1.629351990671331,2025-01,2025-12,True,Phase5命中×品类
 jewelry box for girls,5895.0,12,0.17667227325656618,2025-01,2025-12,True,品类季节spike
+initial necklaces for women,5937.0,12,1.1859767529058867,2025-01,2025-12,True,Phase5命中×品类
+bible verse jar,5953.0,12,0.592626509293176,2025-01,2025-12,False,裸场景词×优质词族
 graduation balloons,5986.0,6,0.16349190485708576,2025-02,2025-07,False,Phase5命中×趋势向好
+nose ring,6092.0,12,1.1092578226015,2025-01,2025-12,True,Phase5命中×品类
+fantasy football trophy,6178.0,9,0.6099766966366372,2025-01,2025-12,False,裸场景词×优质词族
 heart earrings,6187.0,12,5.369422284562111,2025-01,2025-12,True,品类季节spike
 friendship bracelet kit,6443.0,12,0.8101312971412609,2025-01,2025-12,True,Phase5命中×品类
 couples bracelets,6532.0,12,2.348111502235753,2025-01,2025-12,True,品类季节spike
 gold bracelets,6605.0,12,0.46960969911789585,2025-01,2025-12,True,品类季节spike
+cartilage earrings for women,6616.0,12,2.0895588890539134,2025-01,2025-12,True,Phase5命中×品类
 nose studs,6659.0,12,1.0072598443489371,2025-01,2025-12,True,品类季节spike
 firefighter costume women,6783.0,2,,2025-09,2025-10,False,裸场景词×优质词族
 saint patricks day shirt,6800.0,2,,2025-02,2025-03,False,裸场景词×优质词族
 graduation banner,6807.0,6,0.21287698479210665,2025-02,2025-07,False,Phase5命中×趋势向好
 jewelry making kit,6937.0,12,0.3526365348399247,2025-01,2025-12,True,品类季节spike
 engagement gifts for couples,7014.0,12,0.5871546361926805,2025-01,2025-12,False,Phase5命中×趋势向好
+bag charm,7055.0,12,0.7626445906101157,2025-01,2025-12,True,Phase5命中×品类
 black choker,7065.0,12,1.1261865567162572,2025-01,2025-12,True,品类季节spike
 earring organizer,7075.0,12,0.5267316145895212,2025-01,2025-12,True,品类季节spike
 silver necklace,7088.0,12,0.4703,2025-01,2025-12,True,品类季节spike
 nurse essentials,7376.0,12,0.07216926470038504,2025-01,2025-12,False,Phase5命中×趋势向好
 silicone ring,7382.0,12,1.4342386328959413,2025-01,2025-12,True,品类季节spike
+name necklace,7453.0,12,0.9426194356291278,2025-01,2025-12,True,Phase5命中×品类
 bracelet making kit for girls 8-12,7506.0,12,0.3522460463762492,2025-01,2025-12,True,品类季节spike
-baseball necklaces for boys,7558.0,12,1.0411455358373876,2025-01,2025-12,True,品类季节spike
+baseball necklaces for boys,7558.0,12,1.0411455358373876,2025-01,2025-12,True,Phase5命中×品类；品类季节spike
 christmas necklace,7597.0,3,,2025-10,2025-12,True,品类新入榜
+arm cuff,7655.0,12,0.9145098211539306,2025-01,2025-12,True,Phase5命中×品类
+italian charm bracelet,7666.0,12,0.9953146962361393,2025-01,2025-12,True,Phase5命中×品类
 promise rings for her,7677.0,12,1.433806146572104,2025-01,2025-12,True,Phase5命中×品类
-initial necklace,8037.0,12,0.6454986295593507,2025-01,2025-12,True,品类季节spike
+mardi gras earrings,7904.0,3,,2025-01,2025-03,True,Phase5命中×品类
+initial necklace,8037.0,12,0.6454986295593507,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
 prayer journal for woman,8336.0,12,1.2732438339057135,2025-01,2025-12,False,裸场景词×优质词族
 hair jewelry,8341.0,12,1.0453502401173382,2025-01,2025-12,True,品类季节spike
-gold arm cuff,8386.0,12,1.5609300213115327,2025-01,2025-12,True,品类季节spike
+gold arm cuff,8386.0,12,1.5609300213115327,2025-01,2025-12,True,Phase5命中×品类；品类季节spike
 rose in chains,8560.0,11,0.19650680682968236,2025-01,2025-12,True,品类季节spike
 the christmas ring,8560.0,3,,2025-10,2025-12,True,品类新入榜
 firefighter costume men,8710.0,2,,2025-09,2025-10,False,裸场景词×优质词族
@@ -75,6 +96,7 @@ starfish earrings,9127.0,10,0.8628783094071659,2025-01,2025-10,True,品类季节
 police officer costume for boys,9405.0,8,0.6786848304824337,2025-01,2025-12,False,Phase5命中×趋势向好；裸场景词×优质词族
 saint patricks day decorations,9460.0,3,,2025-01,2025-03,False,裸场景词×优质词族
 copper bracelet for men,9625.0,12,0.22889308795274466,2025-01,2025-12,True,品类季节spike
+prom jewelry,9641.0,5,,2025-01,2025-05,True,Phase5命中×品类
 earrings for girls,9650.0,12,0.4011108767489278,2025-01,2025-12,True,品类季节spike
 mens jewelry,9748.0,12,0.6023654305154786,2025-01,2025-12,True,品类季节spike
 lucky charms,9784.0,12,1.4289327457367311,2025-01,2025-12,True,品类季节spike
@@ -85,6 +107,7 @@ christmas light necklace,10312.0,3,,2025-10,2025-12,True,品类新入榜
 gold anklets for women,10347.0,12,1.5876403815964255,2025-01,2025-12,True,品类季节spike
 engagement ring,10449.0,12,0.38975536129803157,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好
 jewelry set,10548.0,12,0.23722999291784702,2025-01,2025-12,True,品类季节spike
+waist chain,10573.0,12,1.0418018810846488,2025-01,2025-12,True,Phase5命中×品类
 matching bracelets for couples,10654.0,12,1.5666430761972163,2025-01,2025-12,True,品类季节spike
 urns for human ashes,10751.0,12,0.13304084134460287,2025-01,2025-12,False,Phase5命中×趋势向好；裸场景词×优质词族
 bracelet maker,10769.0,12,0.08007440706867153,2025-01,2025-12,True,品类季节spike
@@ -93,18 +116,20 @@ evil eye bracelets,10872.0,12,1.2014332340002838,2025-01,2025-12,True,Phase5命�
 pandora rings,10962.0,12,1.3939438161255016,2025-01,2025-12,True,品类季节spike
 snow chains,10995.0,7,1.1398325473967856,2025-01,2025-12,True,品类季节spike
 gold hair cuffs,11019.0,11,0.3046469598826182,2025-01,2025-11,True,品类季节spike
-essence nose ring diffuser,11024.0,7,1.0814721438162835,2025-04,2025-12,True,品类季节spike
+essence nose ring diffuser,11024.0,7,1.0814721438162835,2025-04,2025-12,True,Phase5命中×品类；品类季节spike
+gold cross necklaces for women,11036.0,12,0.9597855227882037,2025-01,2025-12,True,Phase5命中×品类
+western jewelry for women,11102.0,12,1.2712031558185404,2025-01,2025-12,True,Phase5命中×品类
 gold chain belt,11158.0,12,1.0157774432736801,2025-01,2025-12,True,品类季节spike
 graduation party favors,11405.0,6,0.3671872147230303,2025-02,2025-07,False,Phase5命中×趋势向好
-birthstone necklace for women,11476.0,12,0.6377438773783333,2025-01,2025-12,True,品类季节spike
+birthstone necklace for women,11476.0,12,0.6377438773783333,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
 graduation backdrop,11749.0,6,0.3609313525251005,2025-02,2025-07,False,Phase5命中×趋势向好
 anxiety ring,11764.0,12,0.7014589582765203,2025-01,2025-12,True,Phase5命中×品类
 diamond earrings for women,11780.0,12,0.7841508228151461,2025-01,2025-12,True,品类季节spike
 heart earrings for women,11813.0,12,11.162661865521779,2025-01,2025-12,True,品类季节spike
 breast cancer awareness,11833.0,3,,2025-08,2025-10,False,裸场景词×优质词族
-silver arm cuff,11866.0,9,0.44225891901031394,2025-02,2025-10,True,品类季节spike
+silver arm cuff,11866.0,9,0.44225891901031394,2025-02,2025-10,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
 necklace extender,12103.0,12,0.3578312056032984,2025-01,2025-12,True,品类季节spike
-calmi ring,12424.0,12,0.7885033894489332,2025-01,2025-12,True,品类季节spike
+calmi ring,12424.0,12,0.7885033894489332,2025-01,2025-12,True,Phase5命中×品类；品类季节spike
 graduation party decorations,12555.0,7,0.2705112389252928,2025-01,2025-07,False,Phase5命中×趋势向好
 heart necklace,12599.0,12,1.3944025834230356,2025-01,2025-12,True,品类季节spike
 hole puncher 3 ring,12609.0,12,1.3534997798880573,2025-01,2025-12,True,品类季节spike
@@ -115,16 +140,19 @@ charm city kings (2021),12902.0,12,5.615760745963157,2025-01,2025-12,True,品类
 earring backs for droopy ears,12920.0,12,0.5710163686864601,2025-01,2025-12,True,品类季节spike
 urn for ashes adult male,12945.0,12,2.917166173178306,2025-01,2025-12,False,裸场景词×优质词族
 firefighter hat,12949.0,2,,2025-09,2025-10,False,裸场景词×优质词族
-permanent bracelet kit,13006.0,12,6.512918754298065,2025-01,2025-12,True,品类季节spike
+permanent bracelet kit,13006.0,12,6.512918754298065,2025-01,2025-12,True,Phase5命中×品类；品类季节spike
 light up christmas necklace,13128.0,2,,2025-11,2025-12,True,品类新入榜
 precision rings ps5,13386.0,8,11.902162058125361,2025-03,2025-11,True,品类季节spike
 southern charm,13458.0,8,2.9400532164658006,2025-01,2025-12,True,品类季节spike
-gold waist chain,13475.0,12,1.322218778432098,2025-01,2025-12,True,品类季节spike
-mens cross necklaces,13605.0,12,0.6875350016211277,2025-01,2025-12,True,品类季节spike
+gold waist chain,13475.0,12,1.322218778432098,2025-01,2025-12,True,Phase5命中×品类；品类季节spike
+mens cross necklaces,13605.0,12,0.6875350016211277,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
 snow chains for car tires,13720.0,6,1.0558068459657701,2025-01,2025-12,True,品类季节spike
+fidget ring women,13820.0,12,0.6882912430305018,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好
 shoe charms for sneakers,13956.0,12,2.0382457084877728,2025-01,2025-12,True,品类季节spike
 kendra scott jewelry,13973.0,11,0.10041763239602922,2025-02,2025-12,True,品类季节spike
+gold nose ring,13995.0,12,1.388189469291229,2025-01,2025-12,True,Phase5命中×品类
 breast cancer awareness decorations,14106.0,2,,2025-09,2025-10,False,裸场景词×优质词族
+wwjd bracelets,14109.0,12,1.1062014711892112,2025-01,2025-12,True,Phase5命中×品类
 womens earrings,14202.0,12,0.747923427312513,2025-01,2025-12,True,品类季节spike
 promise ring,14243.0,12,1.1781081561333886,2025-01,2025-12,True,Phase5命中×品类
 girls jewelry box,14308.0,12,0.23426225603519538,2025-01,2025-12,True,品类季节spike
@@ -134,16 +162,20 @@ pandora charms for women,14342.0,12,1.4358779912369397,2025-01,2025-12,True,品�
 mini travel jewelry bag,14471.0,6,0.3973733298629186,2025-07,2025-12,True,品类季节spike；品类新入榜
 pavoi rings,14479.0,12,2.0528645346300105,2025-01,2025-12,True,品类季节spike
 fahlo animal tracking bracelet,14528.0,12,0.3631704698916167,2025-01,2025-12,True,品类季节spike
+shamrock decorations,14582.0,2,,2025-02,2025-03,False,裸场景词×优质词族
 best selling purse charms,14584.0,6,2.3956673470731547,2025-06,2025-11,True,品类季节spike
 jewelry sets for women,14599.0,12,0.3793491842804597,2025-01,2025-12,True,品类季节spike
 grinch earrings,14635.0,2,,2025-11,2025-12,True,品类新入榜
 nurse gifts for women,14643.0,12,0.6651502504173623,2025-01,2025-12,False,Phase5命中×趋势向好
 locket necklace,14671.0,12,0.2231573504911817,2025-01,2025-12,True,品类季节spike
+ear cuff,14690.0,12,0.9690097045734813,2025-01,2025-12,True,Phase5命中×品类
 saint patricks day accessories,14823.0,2,,2025-02,2025-03,False,裸场景词×优质词族
 charm bracelets for women,14833.0,12,0.6072555558042209,2025-01,2025-12,True,品类季节spike
+belly button piercing,14892.0,12,1.0548400286210773,2025-01,2025-12,False,裸场景词×优质词族
 police officer costume for girls,14975.0,2,,2025-09,2025-10,False,裸场景词×优质词族
 copper bracelet,15207.0,12,2.4152939471523114,2025-01,2025-12,True,品类季节spike
 clip on earrings for girls,15231.0,12,0.4861957309019641,2025-01,2025-12,True,品类季节spike
+gold cross necklace,15259.0,12,0.6530422796703143,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好
 bug repellent bracelets,15357.0,9,0.7230862973520056,2025-02,2025-10,True,品类季节spike
 costume jewelry,15374.0,5,,2025-08,2025-12,True,品类新入榜
 women's necklaces,15390.0,10,0.1646331434381495,2025-01,2025-12,True,品类季节spike
@@ -161,37 +193,47 @@ crochet ring,16112.0,12,2.0619447427511473,2025-01,2025-12,True,品类季节spik
 christmas jewelry for women,16168.0,3,,2025-10,2025-12,True,品类新入榜
 faith over fear hoodie,16186.0,12,0.859424683871922,2025-01,2025-12,False,裸场景词×优质词族
 ring conn,16200.0,12,0.10325099164389982,2025-01,2025-12,True,品类季节spike
-football earrings,16216.0,7,0.5565568676196395,2025-01,2025-11,True,品类季节spike
+football earrings,16216.0,7,0.5565568676196395,2025-01,2025-11,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
 christmas jewelry,16232.0,3,,2025-10,2025-12,True,品类新入榜
 charm bracelet making kit,16250.0,12,1.8224676877526618,2025-01,2025-12,True,品类季节spike
+gold belly button ring,16295.0,12,1.631899623070171,2025-01,2025-12,True,Phase5命中×品类
 urn for ashes for women,16332.0,12,6.12808246483285,2025-01,2025-12,False,裸场景词×优质词族
 pandora necklace,16532.0,12,0.8173002206819383,2025-01,2025-12,True,品类季节spike
 rolling pin with thickness rings,16584.0,12,0.5809857727696486,2025-01,2025-12,True,品类季节spike
 prayer journal,16597.0,12,1.1180188861052225,2025-01,2025-12,False,裸场景词×优质词族
-cross necklace for boys,16639.0,12,0.4499971661754704,2025-01,2025-12,True,品类季节spike
+cross necklace for boys,16639.0,12,0.4499971661754704,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
 tyler perry's divorce in the black,16681.0,12,4.908939692855209,2025-01,2025-12,False,裸场景词×优质词族
+baseball necklace,16802.0,12,0.7050148287948234,2025-01,2025-12,True,Phase5命中×品类
+shamrock earrings,16808.0,2,,2025-02,2025-03,True,Phase5命中×品类
 rain chains for gutters,16885.0,12,1.0642052946546303,2025-01,2025-12,True,品类季节spike
 black choker necklace,16995.0,5,,2025-08,2025-12,True,品类新入榜
 anklets for women waterproof,17008.0,12,1.6879341124229286,2025-01,2025-12,True,品类季节spike
+septum jewelry,17284.0,12,0.6348314606741573,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好
+horseshoe nose ring,17429.0,12,0.6442743843049952,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好
 small jewelry box,17519.0,12,0.7831276901004304,2025-01,2025-12,True,品类季节spike
 shell necklace,17582.0,12,3.252267375440069,2025-01,2025-12,True,品类季节spike
 mens jewelry box,17739.0,12,0.7266817945445091,2025-01,2025-12,True,品类季节spike
 gold napkin rings,17853.0,12,0.5387684634567428,2025-01,2025-12,True,品类季节spike
 jewelry boxes,17917.0,12,0.4147510340439071,2025-01,2025-12,True,品类季节spike
+fidget rings,17929.0,12,0.5892109500805153,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好
 christmas light necklace light up,18010.0,2,,2025-11,2025-12,True,品类新入榜
 silver bracelets,18014.0,12,0.5461501312969727,2025-01,2025-12,True,品类季节spike
 love and friendship,18101.0,7,1.0733539294690373,2025-01,2025-08,False,裸场景词×优质词族
+shamrock cookie cutter,18107.0,2,,2025-02,2025-03,False,裸场景词×优质词族
 jewelry making kit for girls 8-12,18153.0,12,0.2022935002854329,2025-01,2025-12,True,品类季节spike
 jewelry gift box,18185.0,12,0.4601316014873185,2025-01,2025-12,True,品类季节spike
 firefighter costume,18193.0,2,,2025-09,2025-10,False,裸场景词×优质词族
 bad faith,18254.0,10,4.077500341110657,2025-01,2025-10,False,裸场景词×优质词族
+initial d,18333.0,12,2.3724794162599223,2025-01,2025-12,False,裸场景词×优质词族
 king of ashes,18419.0,8,2.0736459147937847,2025-05,2025-12,False,裸场景词×优质词族
 mirror jewelry cabinet standing,18935.0,12,1.5431225465428116,2025-01,2025-12,True,品类季节spike
 girls bracelet making kit,18995.0,3,,2025-10,2025-12,True,品类新入榜
+medical alert bracelets for women,19260.0,12,1.8406142693628387,2025-01,2025-12,True,Phase5命中×品类
 urn necklaces for ashes,19290.0,12,1.7603401429002716,2025-01,2025-12,True,Phase5命中×品类
 charms for pandora bracelets,19354.0,12,1.0285153424940594,2025-01,2025-12,True,品类季节spike
-bubble letter necklace gold,19405.0,12,2.645960053492084,2025-01,2025-12,True,品类季节spike
+bubble letter necklace gold,19405.0,12,2.645960053492084,2025-01,2025-12,True,Phase5命中×品类；品类季节spike
 spinelli ring,19531.0,12,2.7755520207058315,2025-01,2025-12,True,品类季节spike
+st patricks day earrings,19542.0,3,,2025-01,2025-03,True,Phase5命中×品类
 divorced sistas,19636.0,3,,2025-06,2025-08,False,裸场景词×优质词族
 teacher earrings,19763.0,12,1.0202184672784325,2025-01,2025-12,True,品类季节spike
 earring lifters,19822.0,12,0.5058906151464772,2025-01,2025-12,True,品类季节spike
@@ -200,7 +242,7 @@ firefighter gifts,19863.0,9,0.5187037290254527,2025-04,2025-12,False,Phase5命�
 christmas nail charms,19902.0,3,,2025-10,2025-12,True,品类新入榜
 girls jewelry,19951.0,12,0.25161215552851385,2025-01,2025-12,True,品类季节spike
 evil eye necklace,20053.0,12,1.2408718883847165,2025-01,2025-12,True,Phase5命中×品类
-cross necklace for women silver,20068.0,12,0.5827199811276245,2025-01,2025-12,True,品类季节spike
+cross necklace for women silver,20068.0,12,0.5827199811276245,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
 men's bracelets,20146.0,12,0.4286209745697877,2025-01,2025-12,True,品类季节spike
 saint patricks day outfit women,20189.0,2,,2025-02,2025-03,False,裸场景词×优质词族
 anklets,20213.0,12,1.393336218087408,2025-01,2025-12,True,品类季节spike
@@ -211,46 +253,60 @@ elden ring ps5,20703.0,12,0.699116544141014,2025-01,2025-12,True,品类季节spi
 down syndrome awareness shirts,20710.0,2,,2025-03,2025-10,False,裸场景词×优质词族
 you are enough hoodie,20931.0,12,0.49778044391121773,2025-01,2025-12,False,Phase5命中×趋势向好
 seashell necklace,20994.0,12,2.6970550457295843,2025-01,2025-12,True,品类季节spike
+bible verse bracelets,21081.0,12,1.262248743718593,2025-01,2025-12,True,Phase5命中×品类
 jewelry cleaner solution,21115.0,12,0.42413448930465586,2025-01,2025-12,True,品类季节spike
 wine glass charms,21159.0,12,0.407325004278624,2025-01,2025-12,True,品类季节spike
 diamond necklaces for women,21214.0,12,1.166782897913202,2025-01,2025-12,True,品类季节spike
 yves saint laurent cologne for men,21247.0,12,0.6608044409350848,2025-01,2025-12,False,Phase5命中×趋势向好；裸场景词×优质词族
 elden ring nightreign,21617.0,8,1.0196506898476752,2025-02,2025-12,True,品类季节spike
+castor oil belly button patch,21655.0,12,3.2810026385224274,2025-01,2025-12,False,裸场景词×优质词族
 kids jewelry,21697.0,12,0.2549113268833267,2025-01,2025-12,True,品类季节spike
 chewy necklace sensory,21822.0,12,0.9181358596371978,2025-01,2025-12,True,品类季节spike
+body chain,21827.0,12,1.988018860632295,2025-01,2025-12,True,Phase5命中×品类
+tennis bracelet,21973.0,12,0.6651610634787548,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好
 christmas necklaces for women,21993.0,2,,2025-11,2025-12,True,品类新入榜
+toe ring,22065.0,12,1.5018141026764587,2025-01,2025-12,True,Phase5命中×品类
 autism awareness,22145.0,3,,2025-02,2025-04,False,裸场景词×优质词族
 mental health awareness items,22197.0,3,,2025-03,2025-05,False,裸场景词×优质词族
+birthstone rings for women,22252.0,12,0.9084085778781038,2025-01,2025-12,True,Phase5命中×品类
+arm cuff jewelry for women,22294.0,9,0.38092961550873083,2025-01,2025-09,True,Phase5命中×品类；Phase5命中×趋势向好
 crown of light and ashes,22371.0,6,0.40350452281414867,2025-06,2025-12,False,Phase5命中×趋势向好；裸场景词×优质词族
 sterling silver jewelry,22489.0,12,0.3035411582810201,2025-01,2025-12,True,品类季节spike
-gothic jewelry,22651.0,12,0.5783486806469086,2025-01,2025-12,True,品类季节spike
+vampire necklace,22542.0,2,,2025-09,2025-10,True,Phase5命中×品类
+gothic jewelry,22651.0,12,0.5783486806469086,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
 napkin rings set of 12,22686.0,12,0.33935411956794775,2025-01,2025-12,True,品类季节spike
 candy necklace,22775.0,12,0.8059223569274394,2025-01,2025-12,True,品类季节spike
 suicide awareness shirt,22810.0,4,,2025-03,2025-10,False,裸场景词×优质词族
+cross bracelet,22902.0,12,0.7993143459915611,2025-01,2025-12,True,Phase5命中×品类
 mother daughter bracelets,22969.0,12,0.6437182597003807,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
-backpack charms,23282.0,7,4.9058182584354215,2025-06,2025-12,True,品类季节spike；品类新入榜
 sunchill float ring,23282.0,6,0.21752877197420006,2025-03,2025-08,True,品类季节spike
-jewelry advent calendar 2025,23299.0,3,,2025-10,2025-12,True,品类新入榜
+backpack charms,23282.0,7,4.9058182584354215,2025-06,2025-12,True,品类季节spike；品类新入榜
+jewelry advent calendar 2025,23299.0,3,,2025-10,2025-12,True,Phase5命中×品类；品类新入榜
 oracle ring,23408.0,4,,2025-09,2025-12,True,品类新入榜
 precision rings xbox,23700.0,6,2.0477231199168786,2025-03,2025-08,True,品类季节spike
+cross bracelet for women,23739.0,12,0.7436789565724279,2025-01,2025-12,True,Phase5命中×品类
 mama necklace,23903.0,12,1.039616311805661,2025-01,2025-12,True,品类季节spike
+septum nose rings for women,23988.0,7,1.1389422095160302,2025-01,2025-07,True,Phase5命中×品类
+st patricks day necklaces,24007.0,2,,2025-02,2025-03,True,Phase5命中×品类
 kindle charms,24021.0,12,0.3297402202632871,2025-01,2025-12,True,品类季节spike
 beaded necklaces for women,24142.0,12,1.3330018965548989,2025-01,2025-12,True,品类季节spike
-fantasy football ring,24216.0,6,2.5154495579749283,2025-01,2025-12,True,品类季节spike
+fantasy football ring,24216.0,6,2.5154495579749283,2025-01,2025-12,True,Phase5命中×品类；品类季节spike
 make it real bracelet maker,24355.0,5,,2025-08,2025-12,True,品类新入榜
-pavoi tennis bracelet,24412.0,12,0.7210225222903675,2025-01,2025-12,True,品类季节spike
-cross necklace for girls,24511.0,12,0.42371304004774574,2025-01,2025-12,True,品类季节spike
+pavoi tennis bracelet,24412.0,12,0.7210225222903675,2025-01,2025-12,True,Phase5命中×品类；品类季节spike
+cross necklace for girls,24511.0,12,0.42371304004774574,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
 kate spade jewelry,24622.0,12,0.4152807905519402,2025-01,2025-12,True,品类季节spike
 men's necklaces,24648.0,12,0.7383259575766824,2025-01,2025-12,True,品类季节spike
-kendra scott cross necklace,24793.0,12,0.196748050732164,2025-01,2025-12,True,品类季节spike
+kendra scott cross necklace,24793.0,12,0.196748050732164,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
 silver anklets for women,24861.0,12,2.10923830631051,2025-01,2025-12,True,品类季节spike
 kids jewelry box,24898.0,12,0.29021695074343495,2025-01,2025-12,True,品类季节spike
 scrolling ring,24978.0,12,0.3791951536131545,2025-01,2025-12,True,品类季节spike
-coach bag charm,25302.0,12,0.39406232134886016,2025-01,2025-12,True,品类季节spike
-boho jewelry,25436.0,12,0.6340233295125076,2025-01,2025-12,True,品类季节spike
+bogg bag large,25279.0,12,0.7450596311191235,2025-01,2025-12,False,裸场景词×优质词族
+coach bag charm,25302.0,12,0.39406232134886016,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
+boho jewelry,25436.0,12,0.6340233295125076,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
 pandora charm,25448.0,12,0.8170906321401371,2025-01,2025-12,True,品类季节spike
 mom necklace,25520.0,8,0.7366716780386261,2025-01,2025-12,True,品类季节spike
 friendship gifts,25525.0,12,0.4407842388363729,2025-01,2025-12,False,Phase5命中×趋势向好
+bogg bag cup holder,25709.0,11,1.7713852913736545,2025-01,2025-12,False,裸场景词×优质词族
 emf protection,25863.0,12,0.5330947517682608,2025-01,2025-12,False,Phase5命中×趋势向好
 travel jewelry box,25923.0,12,0.6379914294350896,2025-01,2025-12,True,品类季节spike
 necklace for girls,26104.0,12,0.4096367959756548,2025-01,2025-12,True,品类季节spike
@@ -260,41 +316,53 @@ bracelets for girls,26231.0,12,0.46881933479871624,2025-01,2025-12,True,品类�
 christmas lights necklace,26290.0,2,,2025-11,2025-12,True,品类新入榜
 alex and ani bracelets for women,26334.0,12,1.2402021512988417,2025-01,2025-12,True,品类季节spike
 christmas charms,26447.0,4,,2025-09,2025-12,True,品类新入榜
-birthstone necklace,26448.0,12,0.3912175315181339,2025-01,2025-12,True,品类季节spike
+birthstone necklace,26448.0,12,0.3912175315181339,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
+silver cross necklaces for women,26473.0,12,0.9193532163154453,2025-01,2025-12,True,Phase5命中×品类
 gold belt chain,26543.0,11,1.0417741728017675,2025-02,2025-12,True,品类季节spike
 pandora charms clearance,26581.0,12,0.5902338285257478,2025-01,2025-12,True,品类季节spike
 graduation 2025,26612.0,6,0.2927409734607344,2025-01,2025-06,False,Phase5命中×趋势向好
 girls earrings,26642.0,12,0.45731525180715693,2025-01,2025-12,True,品类季节spike
 divorced,26662.0,3,,2025-06,2025-08,False,裸场景词×优质词族
 bow necklace,26714.0,12,0.8545902339725063,2025-01,2025-12,True,品类季节spike
-jewelry advent calendar,26758.0,4,,2025-09,2025-12,True,品类新入榜
+jewelry advent calendar,26758.0,4,,2025-09,2025-12,True,Phase5命中×品类；品类新入榜
 swarovski necklace,26853.0,12,0.39848940208794686,2025-01,2025-12,True,品类季节spike
 choker necklace,26900.0,12,0.7431758398137102,2025-01,2025-12,True,品类季节spike
 custom necklace,26903.0,12,0.7145020825444908,2025-01,2025-12,True,品类季节spike
 yves saint laurent,27033.0,12,1.8666839244110796,2025-01,2025-12,False,裸场景词×优质词族
 sun protection clothing women,27175.0,9,0.613092321031402,2025-01,2025-09,False,Phase5命中×趋势向好
-birthstone bracelets for women,27178.0,12,0.6521326308342487,2025-01,2025-12,True,品类季节spike
-arm cuff gold,27215.0,9,1.7395834656975488,2025-04,2025-12,True,品类季节spike；品类新入榜
+birthstone bracelets for women,27178.0,12,0.6521326308342487,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
+arm cuff gold,27215.0,9,1.7395834656975488,2025-04,2025-12,True,Phase5命中×品类；品类季节spike；品类新入榜
 statement earrings,27266.0,12,0.5080726839439976,2025-01,2025-12,True,品类季节spike
 christmas bracelets,27409.0,3,,2025-10,2025-12,True,品类新入榜
 the saint val kilmer,27463.0,1,,2025-04,2025-04,False,裸场景词×优质词族
+st patricks day earrings for women,27511.0,2,,2025-02,2025-03,True,Phase5命中×品类
 white dresses for graduation,27639.0,6,0.2105428243427202,2025-01,2025-06,False,Phase5命中×趋势向好
 kids police officer costume,27651.0,6,0.3469893165715301,2025-02,2025-10,False,Phase5命中×趋势向好；裸场景词×优质词族
 david yurman bracelet,28033.0,10,0.25472883387275136,2025-01,2025-12,True,品类季节spike
+purse charm,28041.0,12,0.8130159049728206,2025-01,2025-12,True,Phase5命中×品类
 anxiety rings for women,28127.0,12,1.8639659520807061,2025-01,2025-12,True,Phase5命中×品类
 necklace gift box,28170.0,11,0.4816816427158011,2025-01,2025-12,True,品类季节spike
 mint and lily jewelry,28492.0,4,,2025-09,2025-12,True,品类新入榜
+shamrock sweater,28530.0,3,,2025-01,2025-03,False,裸场景词×优质词族
+initial stockings christmas,28588.0,2,,2025-11,2025-12,False,裸场景词×优质词族
 holiday earrings,28729.0,3,,2025-10,2025-12,True,品类新入榜
+cross chain,28733.0,12,1.0137579832878485,2025-01,2025-12,True,Phase5命中×品类
 ours ring gen 4,28735.0,12,0.6701191370612858,2025-01,2025-12,True,品类季节spike
 rose in chains julie soto,28862.0,6,2.784651360544218,2025-07,2025-12,True,品类季节spike；品类新入榜
 wedding ring box,28996.0,12,1.1829518757664859,2025-01,2025-12,True,品类季节spike
+bogg bag phone holder,29278.0,9,0.8084486880142318,2025-01,2025-12,False,裸场景词×优质词族
+custom name necklace,29381.0,12,1.0993078468828301,2025-01,2025-12,True,Phase5命中×品类
 rinfit silicone rings for women,29471.0,12,2.4850693294212296,2025-01,2025-12,True,品类季节spike
 statement necklace,29783.0,12,0.6015411816407248,2025-01,2025-12,True,品类季节spike
 gifts for best friend,29984.0,9,0.6205454907425841,2025-01,2025-12,False,Phase5命中×趋势向好
+fantasy football magazine 2025,30127.0,3,,2025-06,2025-08,False,裸场景词×优质词族
+shamrock stickers,30132.0,2,,2025-02,2025-03,False,裸场景词×优质词族
+shamrock glasses,30236.0,2,,2025-02,2025-03,False,裸场景词×优质词族
 urns for human ashes adult man,30274.0,12,4.658482960791499,2025-01,2025-12,False,裸场景词×优质词族
 chain belts for women,30489.0,9,0.38899763130646925,2025-04,2025-12,True,品类季节spike；品类新入榜
 rain chains for outside,30519.0,11,1.5116001281889426,2025-02,2025-12,True,品类季节spike
 index cards with ring,30553.0,11,1.0195628144534228,2025-01,2025-11,True,品类季节spike
+2025 fantasy football draft board,30572.0,2,,2025-07,2025-08,False,裸场景词×优质词族
 breast cancer bracelets,30576.0,6,0.2384753057044133,2025-03,2025-10,True,品类季节spike
 baptism decorations,30732.0,12,1.8942782055419798,2025-01,2025-12,False,裸场景词×优质词族
 pants chain,30736.0,12,0.6625339725776407,2025-01,2025-12,True,品类季节spike
@@ -302,14 +370,16 @@ prayer board supplies,31207.0,6,0.9981711857724823,2025-01,2025-12,False,裸场�
 christmas necklace light up,31323.0,2,,2025-11,2025-12,True,品类新入榜
 divorced sisters tyler perry,31342.0,3,,2025-07,2025-09,False,裸场景词×优质词族
 killing faith,31350.0,3,,2025-10,2025-12,False,裸场景词×优质词族
+jesus loves you bracelets,31423.0,4,,2025-04,2025-11,True,Phase5命中×品类
 ankle resistance bands with cuffs,31493.0,9,4.110119278635929,2025-01,2025-09,True,品类季节spike
 glow necklaces,31636.0,11,0.5036884387006636,2025-01,2025-11,True,品类季节spike
 necklace box,31655.0,12,0.8042972821293995,2025-01,2025-12,True,品类季节spike
-silver cross necklace,31784.0,12,0.4137616461266862,2025-01,2025-12,True,品类季节spike
+silver cross necklace,31784.0,12,0.4137616461266862,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
 earrings for girls 8-12,31840.0,12,0.33833540185791117,2025-01,2025-12,True,品类季节spike
 jewelry for girls,31874.0,10,0.2544741427752456,2025-02,2025-12,True,品类季节spike
 vintage jewelry box,31902.0,12,0.5391583217407002,2025-01,2025-12,True,品类季节spike
 faith based,32004.0,12,2.5820960698689954,2025-01,2025-12,False,裸场景词×优质词族
+jesus bracelets,32081.0,12,0.7126829559710854,2025-01,2025-12,True,Phase5命中×品类
 prayer board supplies for women,32157.0,3,,2025-01,2025-03,False,裸场景词×优质词族
 kate spade earrings,32255.0,12,0.9231491038753871,2025-01,2025-12,True,品类季节spike
 cremation jewelry for ashes,32319.0,12,1.6190737689913968,2025-01,2025-12,True,Phase5命中×品类
@@ -324,37 +394,50 @@ warrior cats graphic novel,33227.0,12,0.4096299978694695,2025-01,2025-12,False,P
 police officer costume,33386.0,2,,2025-09,2025-10,False,裸场景词×优质词族
 girls bracelets,33515.0,12,0.46246387785693316,2025-01,2025-12,True,品类季节spike
 kendra scott ring,33519.0,12,0.5540985077304943,2025-01,2025-12,True,品类季节spike
+body chain jewelry for women,33548.0,12,3.2152981632139563,2025-01,2025-12,True,Phase5命中×品类
 nurse hat,33643.0,7,0.4275908514000052,2025-02,2025-10,False,Phase5命中×趋势向好
 evil eye,33856.0,12,1.3407997298590202,2025-01,2025-12,False,裸场景词×优质词族
 hula hoops for adults weight loss,33957.0,10,3.8408525652148766,2025-01,2025-10,True,品类季节spike
+vampire jewelry,34026.0,2,,2025-09,2025-10,True,Phase5命中×品类
 jewelry gift boxes,34066.0,7,0.4561846618294314,2025-01,2025-12,True,品类季节spike
 friendship necklace,34142.0,12,1.6510757194747137,2025-01,2025-12,True,Phase5命中×品类
 aquamarine necklace,34221.0,8,2.883763752704507,2025-01,2025-12,True,品类季节spike
-yappy bracelets bible verse,34410.0,12,2.539948769350707,2025-01,2025-12,True,品类季节spike
+football earrings for women,34283.0,5,,2025-01,2025-10,True,Phase5命中×品类
+yappy bracelets bible verse,34410.0,12,2.539948769350707,2025-01,2025-12,True,Phase5命中×品类；品类季节spike
 ring conn gen 2,34429.0,12,0.31938572690560324,2025-01,2025-12,True,品类季节spike
 jewelry cabinet,34596.0,12,0.6368111672836804,2025-01,2025-12,True,品类季节spike
 glow bracelets,34657.0,11,0.5181871286705515,2025-01,2025-11,True,品类季节spike
 mother daughter matching dresses,34718.0,8,3.427531129931001,2025-02,2025-09,False,裸场景词×优质词族
 mosquito bracelets,34823.0,7,1.6895773346130603,2025-04,2025-10,True,品类季节spike
-bag charm kit,34957.0,8,0.5095620463967121,2025-02,2025-12,True,品类季节spike
+bag charm kit,34957.0,8,0.5095620463967121,2025-02,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
 autism awareness stuff,35087.0,3,,2025-03,2025-05,False,裸场景词×优质词族
+gold prom jewelry,35186.0,4,,2025-02,2025-05,True,Phase5命中×品类
 faith over fear shirt,35269.0,12,0.6336316788717115,2025-01,2025-12,False,Phase5命中×趋势向好；裸场景词×优质词族
 elden ring merch,35357.0,11,0.5445781109262171,2025-01,2025-12,True,品类季节spike
 dont let the hard days win bracelet,35624.0,5,,2025-08,2025-12,True,品类新入榜
+silver prom jewelry,35681.0,3,,2025-03,2025-05,True,Phase5命中×品类
 grinch earrings for women,35934.0,2,,2025-11,2025-12,True,品类新入榜
 uv protection shirts for women,35957.0,7,0.5833463800854376,2025-02,2025-08,False,Phase5命中×趋势向好
 toddler jewelry,36030.0,11,0.22503102286828577,2025-02,2025-12,True,品类季节spike
+mini bogg bag,36066.0,12,0.8297692615480372,2025-01,2025-12,False,裸场景词×优质词族
 divorce sistas tyler perry,36080.0,2,,2025-06,2025-07,False,裸场景词×优质词族
 matching couples pajamas,36110.0,5,,2025-02,2025-12,False,裸场景词×优质词族
+boho earrings for women,36138.0,12,1.5990671263435408,2025-01,2025-12,True,Phase5命中×品类
 cat earrings,36213.0,12,0.6419871449954508,2025-01,2025-12,True,品类季节spike
+gold cross necklace for men,36357.0,12,0.9170640030626805,2025-01,2025-12,True,Phase5命中×品类
 gold necklace for women non tarnish,36375.0,10,2.765978549186945,2025-01,2025-10,True,品类季节spike
 alice in chains vinyl,36468.0,12,0.553775777150958,2025-01,2025-12,True,品类季节spike
+initial bracelet,36651.0,12,0.8971423588619264,2025-01,2025-12,True,Phase5命中×品类
 hula hoops for adults,36652.0,12,0.795867985643001,2025-01,2025-12,True,品类季节spike
 candy cane earrings,36668.0,2,,2025-11,2025-12,True,品类新入榜
 bracelets for teen girls,36687.0,9,0.8790174945140211,2025-01,2025-12,True,品类季节spike
-womens cross necklace,36835.0,12,0.5856097317472142,2025-01,2025-12,True,品类季节spike
+womens cross necklace,36835.0,12,0.5856097317472142,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
 faith shirts for women,36864.0,11,0.6518642480749883,2025-02,2025-12,False,Phase5命中×趋势向好；裸场景词×优质词族
 scarf necklace,37233.0,7,1.333583702500115,2025-06,2025-12,True,品类新入榜
+dangle belly button rings,37338.0,12,1.68913585039956,2025-01,2025-12,True,Phase5命中×品类
+fantasy football,37389.0,8,1.3908803556852325,2025-01,2025-12,False,裸场景词×优质词族
+cross earrings,37483.0,12,0.8675046250952225,2025-01,2025-12,True,Phase5命中×品类
+shamrock jersey,37609.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 faith based movies on prime,37702.0,3,,2025-01,2025-03,False,裸场景词×优质词族
 gold dangle earrings,37857.0,12,0.714106445846861,2025-01,2025-12,True,品类季节spike
 heart ring,38112.0,12,2.360715770304242,2025-01,2025-12,True,品类季节spike
@@ -365,50 +448,70 @@ green lantern ring,38325.0,12,0.6914551094029197,2025-01,2025-12,True,品类季�
 crochet ring for finger,38354.0,11,2.393570278853265,2025-01,2025-12,True,品类季节spike
 keeping faith,38379.0,2,,2025-09,2025-10,False,裸场景词×优质词族
 prayer board,38440.0,12,1.4064282418542553,2025-01,2025-12,False,裸场景词×优质词族
-mens cross necklace,38584.0,12,0.5160369730312495,2025-01,2025-12,True,品类季节spike
+fake septum,38471.0,12,1.3928571428571428,2025-01,2025-12,False,裸场景词×优质词族
+shamrock shirt,38511.0,2,,2025-02,2025-03,False,裸场景词×优质词族
+mens cross necklace,38584.0,12,0.5160369730312495,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
 brooches for women,38765.0,12,0.6606222876430728,2025-01,2025-12,True,品类季节spike
-zox bible verse bracelet,38909.0,5,,2025-08,2025-12,True,品类新入榜
+bogg bag small,38796.0,12,0.5269736842105263,2025-01,2025-12,False,裸场景词×优质词族
+essence nose ring,38821.0,1,,2025-04,2025-04,True,Phase5命中×品类
+zox bible verse bracelet,38909.0,5,,2025-08,2025-12,True,Phase5命中×品类；品类新入榜
 clear earrings for sports,38994.0,12,2.300339688586071,2025-01,2025-12,True,品类季节spike
 the christmas ring karen kingsbury,39070.0,3,,2025-10,2025-12,True,品类新入榜
 pandora bracelet charms,39224.0,12,0.6094660029798185,2025-01,2025-12,True,品类季节spike
 the saint penelope sky,39268.0,3,,2025-03,2025-05,False,裸场景词×优质词族
 opal necklace,39335.0,12,0.4714347489415622,2025-01,2025-12,True,品类季节spike
 bead bracelet making kit,39507.0,7,0.4172171995589857,2025-06,2025-12,True,品类季节spike；品类新入榜
+cross ring,39739.0,12,0.924934426912028,2025-01,2025-12,True,Phase5命中×品类
 breast cancer awareness socks,39754.0,2,,2025-09,2025-10,False,裸场景词×优质词族
 cubic zirconia earrings studs,40100.0,12,4.221131724509276,2025-01,2025-12,True,品类季节spike
 saint,40130.0,12,1.43763413359428,2025-01,2025-12,False,裸场景词×优质词族
+boho jewelry for women,40232.0,12,1.4497595064399644,2025-01,2025-12,True,Phase5命中×品类
+gold septum ring,40399.0,12,1.5108680040216402,2025-01,2025-12,True,Phase5命中×品类
 amethyst necklace,40484.0,12,1.5979027099279155,2025-01,2025-12,True,品类季节spike
 christmas candle rings,40629.0,3,,2025-10,2025-12,True,品类新入榜
 wine charms,40670.0,12,0.43196132677988053,2025-01,2025-12,True,品类季节spike
 christmas tree earrings,40714.0,2,,2025-11,2025-12,True,品类新入榜
+shamrock garland,41058.0,2,,2025-02,2025-03,False,裸场景词×优质词族
 little girl jewelry,41126.0,12,0.36144362751949904,2025-01,2025-12,True,品类季节spike
-floating belly button rings,41246.0,10,1.023054485120959,2025-01,2025-10,True,品类季节spike
+floating belly button rings,41246.0,10,1.023054485120959,2025-01,2025-10,True,Phase5命中×品类；品类季节spike
 to my daughter necklace,41248.0,3,,2025-10,2025-12,True,品类新入榜
-cross necklace for women gold,41354.0,12,0.42974773204021033,2025-01,2025-12,True,品类季节spike
+cross necklace for women gold,41354.0,12,0.42974773204021033,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
 mom necklace for women,41364.0,8,0.6752221932988732,2025-01,2025-12,True,品类季节spike
 women jewelry,41574.0,12,0.6719536327383404,2025-01,2025-12,True,品类季节spike
+shamrock ornaments,41602.0,2,,2025-01,2025-02,False,裸场景词×优质词族
 girls police officer costume,41644.0,2,,2025-09,2025-10,False,裸场景词×优质词族
+cross earrings for women,41671.0,12,1.0363194917931917,2025-01,2025-12,True,Phase5命中×品类
+titanium nose ring,41762.0,12,1.5491257285595337,2025-01,2025-12,True,Phase5命中×品类
 ora ring,41766.0,12,0.3917925135986258,2025-01,2025-12,True,品类季节spike
 jewelry for teen girls,41792.0,2,,2025-11,2025-12,True,品类新入榜
-daily bible verse bracelet,41799.0,6,2.6469998119004328,2025-01,2025-12,True,品类季节spike
+daily bible verse bracelet,41799.0,6,2.6469998119004328,2025-01,2025-12,True,Phase5命中×品类；品类季节spike
 jewelry box for men,41817.0,12,0.7539500440404084,2025-01,2025-12,True,品类季节spike
-baseball earrings,41836.0,8,2.814932634730539,2025-02,2025-09,True,品类季节spike
+baseball earrings,41836.0,8,2.814932634730539,2025-02,2025-09,True,Phase5命中×品类；品类季节spike
 alex and ani bracelets,41874.0,11,0.5381144296081104,2025-01,2025-12,True,品类季节spike
 gold earrings hoops,42096.0,12,0.3103477363718359,2025-01,2025-12,True,品类季节spike
 morse code bracelets for women,42336.0,12,1.2569407890297066,2025-01,2025-12,True,品类季节spike
+cross bracelet for men,42366.0,12,0.7655026690391459,2025-01,2025-12,True,Phase5命中×品类
 best friend necklace,42396.0,12,1.2828766130201537,2025-01,2025-12,True,Phase5命中×品类
 small jewelry travel case,42537.0,12,0.4072047662530126,2025-01,2025-12,True,品类季节spike
+march birthstone necklace,42545.0,2,,2025-02,2025-03,True,Phase5命中×品类
 urns for human ashes adult female,42602.0,12,1.9101140488412551,2025-01,2025-12,False,裸场景词×优质词族
+belly button piercing kit,42653.0,12,1.792505811678597,2025-01,2025-12,False,裸场景词×优质词族
 finding faith,42782.0,3,,2025-08,2025-10,False,裸场景词×优质词族
-gothic necklace,43093.0,11,0.667900299233113,2025-02,2025-12,True,品类季节spike
+prom earrings,42939.0,4,,2025-02,2025-05,True,Phase5命中×品类
+double hoop nose ring,42980.0,12,2.050938578020698,2025-01,2025-12,True,Phase5命中×品类
+gothic necklace,43093.0,11,0.667900299233113,2025-02,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
 prayer rug,43158.0,12,2.665308798052161,2025-01,2025-12,False,裸场景词×优质词族
+bogg bag divider,43210.0,7,0.28931219717056234,2025-01,2025-08,False,裸场景词×优质词族
+boho earrings,43232.0,12,0.8847799392490144,2025-01,2025-12,True,Phase5命中×品类
+initial makeup bag,43304.0,12,0.4669399865448419,2025-01,2025-12,False,裸场景词×优质词族
 saint patricks day,43306.0,2,,2025-02,2025-03,False,裸场景词×优质词族
 promise rings for couples,43702.0,12,1.105526549535302,2025-01,2025-12,True,Phase5命中×品类
+western jewelry,43702.0,12,0.6498112624160988,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好
 hematite bracelet men,43970.0,5,,2025-08,2025-12,True,品类新入榜
 pandora earrings,44066.0,12,0.4538442380380322,2025-01,2025-12,True,品类季节spike
 engagement ring box,44155.0,12,0.9379222902520812,2025-01,2025-12,True,Phase5命中×品类
-necklaces for teen girls,44166.0,8,0.8970903202214909,2025-01,2025-12,True,品类季节spike
 bag extender chain,44166.0,11,1.120460507601378,2025-02,2025-12,True,品类季节spike
+necklaces for teen girls,44166.0,8,0.8970903202214909,2025-01,2025-12,True,品类季节spike
 promise rings,44176.0,12,1.2428094673516885,2025-01,2025-12,True,Phase5命中×品类
 snowflake necklace,44287.0,2,,2025-11,2025-12,True,品类新入榜
 childhood cancer awareness shirts,44587.0,1,,2025-09,2025-09,False,裸场景词×优质词族
@@ -419,19 +522,26 @@ red necklace,44808.0,12,0.7184435504148856,2025-01,2025-12,True,品类季节spik
 coach charms,44992.0,11,0.46672990849152524,2025-02,2025-12,True,品类季节spike
 personalized necklaces for women,45135.0,12,0.7919768839769683,2025-01,2025-12,True,品类季节spike
 14k gold earrings,45153.0,12,0.46052999605550976,2025-01,2025-12,True,品类季节spike
+bogg bag xl,45172.0,5,,2025-04,2025-08,False,裸场景词×优质词族
 crochet tension ring,45379.0,11,2.0915319865319866,2025-01,2025-12,True,品类季节spike
+cartilage earring,45386.0,12,0.882624025280529,2025-01,2025-12,True,Phase5命中×品类
 jewelry making kit for girls 4-6,45422.0,10,0.28526734019610966,2025-01,2025-12,True,品类季节spike
 amethyst bracelet,45467.0,12,1.915356158528497,2025-01,2025-12,True,品类季节spike
+fantasy football belt,45584.0,4,,2025-01,2025-12,False,裸场景词×优质词族
+silver cross necklaces for men,45707.0,12,1.0400291120815137,2025-01,2025-12,True,Phase5命中×品类
 enewton bracelets,45807.0,11,0.3973580402231615,2025-02,2025-12,True,品类季节spike
+surgical steel belly button rings,45990.0,12,2.2770434565745994,2025-01,2025-12,True,Phase5命中×品类
 police officer costume women sexy,46114.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 kids jewelry for girls,46528.0,12,0.4287875557878377,2025-01,2025-12,True,品类季节spike
 christmas brooch,46742.0,2,,2025-11,2025-12,True,品类新入榜
 sterling silver wedding ring set,46879.0,11,1.4348464886014294,2025-01,2025-12,True,品类季节spike
+cherry bag charm,46889.0,12,0.8318921399075283,2025-01,2025-12,True,Phase5命中×品类
 waterproof jewelry,46902.0,12,1.2259122149448554,2025-01,2025-12,True,品类季节spike
 matching couples stuff,46927.0,12,1.6619292796051233,2025-01,2025-12,False,裸场景词×优质词族
-birthstone bracelet,46969.0,8,0.5532291746389251,2025-05,2025-12,True,品类季节spike；品类新入榜
+birthstone bracelet,46969.0,8,0.5532291746389251,2025-05,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike；品类新入榜
 the seven rings nora roberts book 3,47008.0,3,,2025-10,2025-12,True,品类新入榜
 bag charms for tote bags,47172.0,10,1.022755174047115,2025-03,2025-12,True,品类季节spike
+jellycat bag charm,47208.0,12,0.9427202331699004,2025-01,2025-12,True,Phase5命中×品类
 new years earrings,47237.0,1,,2025-12,2025-12,True,品类新入榜
 wooden jewelry box,47317.0,12,0.625837299963385,2025-01,2025-12,True,品类季节spike
 faith,47401.0,12,1.7081086124848373,2025-01,2025-12,False,裸场景词×优质词族
@@ -441,6 +551,8 @@ mini jewelry travel case,47550.0,12,0.5377268958352064,2025-01,2025-12,True,品�
 girls earrings ages 8-12 hypoallergenic,47603.0,12,0.44615102974828375,2025-01,2025-12,True,品类季节spike
 breast cancer awareness pins,47803.0,2,,2025-09,2025-10,False,裸场景词×优质词族
 breast cancer awareness bracelets,48065.0,2,,2025-09,2025-10,True,Phase5命中×品类
+initial necklaces for girls,48113.0,5,,2025-01,2025-12,True,Phase5命中×品类
+boho necklaces for women,48349.0,12,1.9072612470402526,2025-01,2025-12,True,Phase5命中×品类
 pavoi necklace gold,48363.0,9,0.4063599731363331,2025-04,2025-12,True,品类新入榜
 hand cuffs,48468.0,12,1.080144812328203,2025-01,2025-12,True,品类季节spike
 baby rattles & plush rings,48509.0,5,,2025-08,2025-12,True,品类新入榜
@@ -448,8 +560,10 @@ gold plated necklace,48683.0,12,0.4033886465184326,2025-01,2025-12,True,品类�
 songmics jewelry organizer,48880.0,10,1.377897392460632,2025-01,2025-12,True,品类季节spike
 sterling silver chain for men,48902.0,12,0.6476680197019045,2025-01,2025-12,True,品类季节spike
 m necklace,49053.0,12,0.7549839972236146,2025-01,2025-12,True,品类季节spike
+cartilage hoop earrings for women,49106.0,9,1.4863072984769516,2025-01,2025-09,True,Phase5命中×品类
 king of ashes s.a. cosby,49341.0,6,1.6786770187932232,2025-05,2025-12,False,裸场景词×优质词族
 gold earrings for women dangle,49362.0,9,0.8373743768299439,2025-01,2025-09,True,品类季节spike
+sterling silver cross necklaces for women,49370.0,12,0.7573874067920039,2025-01,2025-12,True,Phase5命中×品类
 brighton jewelry for women,49467.0,12,0.7901321218214411,2025-01,2025-12,True,品类季节spike
 dog surgery recovery suit,49515.0,6,0.2846931493147067,2025-01,2025-12,False,Phase5命中×趋势向好
 ana luisa jewelry,49567.0,12,0.482465588578305,2025-01,2025-12,True,品类季节spike
@@ -457,14 +571,23 @@ green earrings for women,49580.0,12,1.5850183061398921,2025-01,2025-12,True,品�
 rose gold necklaces for women,49656.0,11,3.315933962618931,2025-01,2025-12,True,品类季节spike
 snake necklace,49776.0,12,1.681142857142857,2025-01,2025-12,True,品类季节spike
 hello kitty jewelry,50000.0,12,0.7722429729590168,2025-01,2025-12,True,品类季节spike
+bible verse stickers,50081.0,12,1.0859245759147624,2025-01,2025-12,False,裸场景词×优质词族
+nasal diffuser nose ring,50192.0,4,,2025-03,2025-11,True,Phase5命中×品类
+cross rings for women,50215.0,12,1.0762598776964225,2025-01,2025-12,True,Phase5命中×品类
+mardi gras earrings for women,50229.0,2,,2025-01,2025-02,True,Phase5命中×品类
 stick on earrings,50234.0,12,0.5275471416163107,2025-01,2025-12,True,品类季节spike
 perfect divorce,50313.0,5,,2025-04,2025-08,False,裸场景词×优质词族
 earring backs for studs,50451.0,12,2.626529423188969,2025-01,2025-12,True,品类季节spike
+gold body chain,50624.0,10,0.5954645544069974,2025-01,2025-10,True,Phase5命中×品类；Phase5命中×趋势向好
 bow nail charms,50684.0,12,1.755641217070681,2025-01,2025-12,True,品类季节spike
 moissanite engagement rings for women,50706.0,12,1.5410568309755739,2025-01,2025-12,True,Phase5命中×品类
 yves saint laurent perfume for women,50744.0,12,0.7754320869185085,2025-01,2025-12,False,裸场景词×优质词族
 pandora charm bracelet,51007.0,12,0.6868167145226588,2025-01,2025-12,True,品类季节spike
+surgical steel nose ring,51068.0,12,1.5625774473358116,2025-01,2025-12,True,Phase5命中×品类
+titanium belly button rings,51217.0,12,1.3703241029911861,2025-01,2025-12,True,Phase5命中×品类
+prom jewelry set for women,51300.0,4,,2025-02,2025-05,True,Phase5命中×品类
 necklace for boys,51304.0,12,0.49909158477165744,2025-01,2025-12,True,品类季节spike
+boys cross necklace,51377.0,5,,2025-04,2025-12,True,Phase5命中×品类
 divorced siestas,51539.0,2,,2025-06,2025-07,False,裸场景词×优质词族
 pocket watch with chain,51596.0,11,0.9230868105207346,2025-01,2025-12,True,品类季节spike
 snake earrings,51728.0,12,1.5511990955668342,2025-01,2025-12,True,品类季节spike
@@ -480,7 +603,11 @@ jewelry case,52277.0,12,0.5081924740722131,2025-01,2025-12,True,品类季节spik
 long distance walkie talkies,52282.0,12,1.0943643935562324,2025-01,2025-12,False,裸场景词×优质词族
 awareness anthony de mello,52340.0,4,,2025-05,2025-12,False,裸场景词×优质词族
 necklace with picture inside,52361.0,11,0.8775637960266053,2025-01,2025-12,True,品类季节spike
-gothic earrings,52506.0,12,0.6908371583623544,2025-01,2025-12,True,品类季节spike
+initial keychain,52488.0,12,0.8592630592064531,2025-01,2025-12,False,裸场景词×优质词族
+gothic earrings,52506.0,12,0.6908371583623544,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
+cross pendant,52516.0,12,0.8380508612096345,2025-01,2025-12,True,Phase5命中×品类
+mini hoops basketball,52608.0,10,1.4125307528292603,2025-01,2025-12,True,Phase5命中×品类
+cross necklace gold,52626.0,12,0.556922819936385,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好
 jingle bell necklace,52652.0,2,,2025-11,2025-12,True,品类新入榜
 cancer awareness shirts,52666.0,2,,2025-09,2025-10,False,裸场景词×优质词族
 coach bracelet,52963.0,6,0.7587937273823884,2025-02,2025-12,True,品类季节spike
@@ -488,18 +615,25 @@ jewelry organizer hanging,53105.0,9,1.679379281049222,2025-04,2025-12,True,品�
 pearl jewelry set for women,53109.0,9,1.2720019672668652,2025-01,2025-09,True,品类季节spike
 bracelet maker machine,53174.0,7,0.7551352276617597,2025-06,2025-12,True,品类新入榜
 holiday earrings for women,53251.0,3,,2025-10,2025-12,True,品类新入榜
-sterling silver cross necklace,53338.0,12,0.49056900987730667,2025-01,2025-12,True,品类季节spike
+sterling silver cross necklace,53338.0,12,0.49056900987730667,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
+boho bracelets for women,53482.0,12,1.1741424802110818,2025-01,2025-12,True,Phase5命中×品类
 nurse sweatshirt,53589.0,12,0.48690754246309803,2025-01,2025-12,False,Phase5命中×趋势向好
 military toys,53657.0,12,0.35098409073986747,2025-01,2025-12,False,Phase5命中×趋势向好
+gold initial necklace for women,53741.0,11,1.8271744517408004,2025-01,2025-12,True,Phase5命中×品类
 graduation tassel photo charm,53972.0,2,,2025-04,2025-05,True,Phase5命中×品类
+bogg bag topper tray,53988.0,3,,2025-05,2025-07,False,裸场景词×优质词族
 earring box,54010.0,12,0.7318056971099863,2025-01,2025-12,True,品类季节spike
 cat necklace,54078.0,12,0.7210599510233697,2025-01,2025-12,True,品类季节spike
+birthstone rings,54141.0,12,0.8219161857179774,2025-01,2025-12,True,Phase5命中×品类
 floating navel piercing jewelry,54246.0,11,1.6385918372986266,2025-02,2025-12,True,品类季节spike
+belly button ring gold,54500.0,12,1.4273264199930158,2025-01,2025-12,True,Phase5命中×品类
 baptism outfits for boys,54554.0,12,1.906742841503883,2025-01,2025-12,False,裸场景词×优质词族
 nurse gift,54555.0,8,0.6706587438763717,2025-02,2025-12,False,Phase5命中×趋势向好
+small bogg bag,54566.0,12,1.029798080252234,2025-01,2025-12,False,裸场景词×优质词族
 taylor swift ring engagement,54639.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 peace sign necklace,54702.0,10,0.6680020849495734,2025-01,2025-10,True,品类季节spike
 teen jewelry,54835.0,2,,2025-11,2025-12,True,品类新入榜
+fake belly button piercing for women swarovski,55069.0,3,,2025-01,2025-07,False,裸场景词×优质词族
 promise rings for him,55114.0,12,1.584443764836093,2025-01,2025-12,True,Phase5命中×品类
 snowflake earrings for women,55250.0,2,,2025-11,2025-12,True,品类新入榜
 dog urns for ashes,55279.0,12,2.287736725626341,2025-01,2025-12,False,裸场景词×优质词族
@@ -508,25 +642,33 @@ lacoste bracelet for men,55541.0,11,0.9148621839517116,2025-01,2025-12,True,品�
 friendship lamp,55570.0,4,,2025-01,2025-12,False,裸场景词×优质词族
 christmas charms for jewelry making,55659.0,4,,2025-09,2025-12,True,品类新入榜
 necklace for ashes,55688.0,12,1.2801089641636494,2025-01,2025-12,True,Phase5命中×品类
+shamrock,55689.0,2,,2025-02,2025-03,False,裸场景词×优质词族
 jewelry for teens,55733.0,10,0.3337313307777708,2025-01,2025-12,True,品类季节spike
+bitty bogg bag,55896.0,12,0.9378713705973325,2025-01,2025-12,False,裸场景词×优质词族
 wicked earrings,55959.0,3,,2025-10,2025-12,True,品类新入榜
 suicide prevention awareness,56067.0,2,,2025-08,2025-09,False,裸场景词×优质词族
 amethyst earrings,56266.0,11,1.9583741103202847,2025-01,2025-12,True,品类季节spike
 toddler police officer costume,56403.0,2,,2025-09,2025-10,False,裸场景词×优质词族
+vampire earrings,56483.0,1,,2025-10,2025-10,True,Phase5命中×品类
 nipple clamps with chain necklace,56512.0,6,1.5283328,2025-01,2025-06,True,品类季节spike
+belly button patch,56617.0,7,1.5373536622988617,2025-01,2025-07,False,裸场景词×优质词族
 christmas bracelets for women,56784.0,2,,2025-11,2025-12,True,品类新入榜
 bracelet kit for kids 4-6,56869.0,3,,2025-10,2025-12,True,品类新入榜
 womens necklace,57130.0,12,0.5070555736627538,2025-01,2025-12,True,品类季节spike
 christmas lights necklace light up,57174.0,2,,2025-11,2025-12,True,品类新入榜
 hair charms for braids,57338.0,6,0.6335707566187341,2025-03,2025-08,True,品类季节spike
+initial ring,57338.0,12,1.3899380112474438,2025-01,2025-12,True,Phase5命中×品类
 gold belly chain,57419.0,8,0.7678972646507122,2025-03,2025-10,True,品类季节spike
 touch bracelets for couples,57453.0,11,2.483488429547888,2025-01,2025-12,True,品类季节spike
 ring tray,57672.0,12,1.07860633664683,2025-01,2025-12,True,品类季节spike
 rose gold rings for women,57739.0,12,2.4996188965109587,2025-01,2025-12,True,品类季节spike
 firefighter pants,57908.0,1,,2025-10,2025-10,False,裸场景词×优质词族
+medium bogg bag,57939.0,9,1.6284362285512117,2025-03,2025-12,False,裸场景词×优质词族
 an ember in the ashes,58084.0,12,1.6406875363281574,2025-01,2025-12,False,裸场景词×优质词族
 teacher earrings for women,58122.0,6,1.5250750284590706,2025-04,2025-12,True,品类季节spike
+belly button rings,58124.0,12,1.369104097909791,2025-01,2025-12,True,Phase5命中×品类
 prayer cards,58171.0,12,0.9533031344054966,2025-01,2025-12,False,裸场景词×优质词族
+gold arm cuff for women,58252.0,8,1.5198456037462036,2025-03,2025-10,True,Phase5命中×品类
 mirror jewelry cabinet,58266.0,12,0.36478717204227684,2025-01,2025-12,True,品类季节spike
 legacy of ashes,58342.0,1,,2025-07,2025-07,False,裸场景词×优质词族
 best friend bracelet,58494.0,12,1.6844602935125497,2025-01,2025-12,True,Phase5命中×品类
@@ -534,6 +676,7 @@ matching couples swimsuits,58503.0,5,,2025-03,2025-07,False,裸场景词×优质
 kendra scott necklace silver,58591.0,10,0.37749918610119215,2025-01,2025-12,True,品类季节spike
 saint maud,58828.0,10,1.4739292067448524,2025-01,2025-11,False,裸场景词×优质词族
 i dont have enough faith to be an atheist,58921.0,4,,2025-09,2025-12,False,裸场景词×优质词族
+western necklaces for women,58991.0,12,1.5701886512914218,2025-01,2025-12,True,Phase5命中×品类
 jewelry box for women,59070.0,7,0.5361129731915814,2025-01,2025-12,True,品类季节spike
 aquamarine earrings,59079.0,11,2.284756203870518,2025-01,2025-12,True,品类季节spike
 rings for girls,59189.0,4,,2025-09,2025-12,True,品类新入榜
@@ -550,36 +693,49 @@ to my son bracelet from mom,60623.0,7,0.7553465524471336,2025-02,2025-12,True,�
 bracelet helper tool,60689.0,12,0.8495494274679857,2025-01,2025-12,True,品类季节spike
 personalized necklace,60689.0,11,0.61958493738661,2025-01,2025-12,True,品类季节spike
 graduation bracelet 2025,60830.0,2,,2025-04,2025-05,True,Phase5命中×品类
+bogg bag medium,61058.0,10,0.7954100573742828,2025-03,2025-12,False,裸场景词×优质词族
+mermaid jewelry,61063.0,2,,2025-09,2025-10,True,Phase5命中×品类
 coach jewelry,61076.0,6,0.6592943513929242,2025-01,2025-12,True,品类季节spike
 dog memorial gifts,61128.0,10,0.644558684610435,2025-01,2025-12,False,Phase5命中×趋势向好
+fantasy football draft board,61147.0,1,,2025-08,2025-08,False,裸场景词×优质词族
 get lost in prayer before you start overthinking,61203.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 eyeglass chain,61236.0,12,0.43279080281599175,2025-01,2025-12,True,品类季节spike
+baseball earrings for women,61422.0,7,2.2536453916231225,2025-02,2025-09,True,Phase5命中×品类
+western earrings,61664.0,12,1.0650725443607503,2025-01,2025-12,True,Phase5命中×品类
 mens firefighter costume,61694.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 american ninja warrior,61848.0,8,0.6676493562123618,2025-01,2025-08,False,Phase5命中×趋势向好
 divorce insurance,61903.0,2,,2025-03,2025-04,False,裸场景词×优质词族
+cross chain for men,61935.0,12,1.0867655657234543,2025-01,2025-12,True,Phase5命中×品类
 firefighter swipe tool,61987.0,2,,2025-08,2025-09,False,裸场景词×优质词族
 emerald necklace,62190.0,10,0.4831185985693818,2025-02,2025-12,True,品类季节spike
+christian bracelets,62290.0,10,1.0183088047155597,2025-03,2025-12,True,Phase5命中×品类
 copper magnetic bracelet for men,62476.0,5,,2025-08,2025-12,True,品类新入榜
+deviated septum corrector,62535.0,12,2.926624396314183,2025-01,2025-12,False,裸场景词×优质词族
 catholic prayer book,62561.0,12,0.9826877967847131,2025-01,2025-12,False,裸场景词×优质词族
-dainty cross necklace for women,62591.0,12,0.7359070616261766,2025-01,2025-12,True,品类季节spike
+dainty cross necklace for women,62591.0,12,0.7359070616261766,2025-01,2025-12,True,Phase5命中×品类；品类季节spike
 weighted stuffed animals for anxiety,62621.0,7,0.37330106742690444,2025-02,2025-12,False,Phase5命中×趋势向好
 evil eye ring,62853.0,12,1.5067923901053235,2025-01,2025-12,True,Phase5命中×品类
 gold choker necklace,63016.0,8,0.6821270922826248,2025-05,2025-12,True,品类季节spike；品类新入榜
+septum ring,63048.0,12,1.1932411200269346,2025-01,2025-12,True,Phase5命中×品类
 christmas bow earrings,63115.0,2,,2025-11,2025-12,True,品类新入榜
-volleyball necklace,63322.0,5,,2025-08,2025-12,True,品类新入榜
+volleyball necklace,63322.0,5,,2025-08,2025-12,True,Phase5命中×品类；品类新入榜
 earrings dangle,63602.0,5,,2025-08,2025-12,True,品类新入榜
 christmas necklaces,63759.0,2,,2025-11,2025-12,True,品类新入榜
 coach cherry charm,63946.0,7,0.9227161222096729,2025-01,2025-12,True,品类季节spike
 womens jewelry trendy 2025,64298.0,8,0.9162285861333725,2025-05,2025-12,True,品类新入榜
 firefighter tools,64298.0,12,1.186265560165975,2025-01,2025-12,False,裸场景词×优质词族
 cuban link chain,64321.0,12,0.4424673846057428,2025-01,2025-12,True,品类季节spike
+mermaid necklace,64529.0,1,,2025-10,2025-10,True,Phase5命中×品类
 rose gold earrings for women,64558.0,12,1.551002475481396,2025-01,2025-12,True,品类季节spike
-december birthstone necklace,64691.0,2,,2025-11,2025-12,True,品类新入榜
+cross bracelet for kids,64594.0,2,,2025-03,2025-04,True,Phase5命中×品类
+december birthstone necklace,64691.0,2,,2025-11,2025-12,True,Phase5命中×品类；品类新入榜
 friendship bracelet beads,64806.0,11,0.792859160583399,2025-01,2025-11,True,Phase5命中×品类
+dangle nose ring,64980.0,12,1.6854508981210665,2025-01,2025-12,True,Phase5命中×品类
 garnet necklace,64995.0,6,0.9219692884472177,2025-01,2025-12,True,品类季节spike
 covered and armed prayer book,64999.0,3,,2025-08,2025-10,False,裸场景词×优质词族
 pearl jewelry set,65170.0,7,0.7929205332388054,2025-04,2025-12,True,品类季节spike
 prayer bowl,65232.0,2,,2025-11,2025-12,False,裸场景词×优质词族
+gothic choker,65272.0,2,,2025-09,2025-10,True,Phase5命中×品类
 coach bag charms,65366.0,8,0.7048054664621392,2025-01,2025-12,True,品类季节spike
 kendra scott bow necklace,65517.0,2,,2025-11,2025-12,True,品类新入榜
 ashes necklace for women,65567.0,12,1.5856441299090518,2025-01,2025-12,True,Phase5命中×品类
@@ -591,20 +747,35 @@ pearl stud earrings,65973.0,8,0.8468764044943821,2025-05,2025-12,True,品类新�
 daughter necklace,66032.0,2,,2025-11,2025-12,True,品类新入榜
 survivor board game,66164.0,6,0.6561705240416104,2025-01,2025-12,False,Phase5命中×趋势向好
 ring bearer proposal,66191.0,7,2.1454890834479987,2025-01,2025-07,True,品类季节spike
+fantasy football ring 2025,66243.0,2,,2025-08,2025-12,True,Phase5命中×品类
+initial ornaments,66439.0,2,,2025-11,2025-12,False,裸场景词×优质词族
 wicked bracelets,66514.0,2,,2025-11,2025-12,True,品类新入榜
 christmas beads for jewelry making,66573.0,3,,2025-10,2025-12,True,品类新入榜
+four leaf clover,66577.0,2,,2025-02,2025-03,False,裸场景词×优质词族
+belly button rings for women,66579.0,1,,2025-01,2025-01,True,Phase5命中×品类
+pearl cross necklace,66601.0,12,0.9512959684207472,2025-01,2025-12,True,Phase5命中×品类
+western earrings for women,66763.0,12,1.7346551445646907,2025-01,2025-12,True,Phase5命中×品类
+baby bogg bag,67072.0,11,1.0943585094528492,2025-01,2025-12,False,裸场景词×优质词族
 gingerbread earrings,67374.0,2,,2025-11,2025-12,True,品类新入榜
 magnetic screw ring,67392.0,1,,2025-12,2025-12,True,品类新入榜
 fake engagement ring,67403.0,12,0.9268913662907228,2025-01,2025-12,True,Phase5命中×品类
+shamrock lights,67477.0,1,,2025-02,2025-02,False,裸场景词×优质词族
+clip on belly button rings,67540.0,10,1.437796002146751,2025-01,2025-10,True,Phase5命中×品类
 a carpenters prayer,67600.0,2,,2025-03,2025-04,False,裸场景词×优质词族
+gold toe ring,67664.0,8,0.7233558139170982,2025-02,2025-09,True,Phase5命中×品类
 evil eye bracelet,67775.0,12,1.169632016214614,2025-01,2025-12,True,Phase5命中×品类
 mother daughter rings,67785.0,4,,2025-01,2025-12,True,Phase5命中×品类
+septum stretching kit,68017.0,12,1.2739653392124577,2025-01,2025-12,False,裸场景词×优质词族
 broken saint,68183.0,1,,2025-01,2025-01,False,裸场景词×优质词族
 christmas ring,68307.0,2,,2025-11,2025-12,True,品类新入榜
+gold prom earrings,68317.0,2,,2025-03,2025-04,True,Phase5命中×品类
 chain for pants,68335.0,9,0.9380341638460928,2025-04,2025-12,True,品类新入榜
+cliganic mosquito repellent bracelet,68338.0,4,,2025-05,2025-08,True,Phase5命中×品类
+shamrock pillow,68379.0,1,,2025-02,2025-02,False,裸场景词×优质词族
 spiked bracelets,68749.0,7,0.9292370394307308,2025-06,2025-12,True,品类季节spike；品类新入榜
 bonus daughter necklace,68980.0,2,,2025-11,2025-12,True,品类新入榜
 to my wife necklace from husband,69039.0,2,,2025-11,2025-12,True,品类新入榜
+shamrock necklace,69091.0,2,,2025-02,2025-03,True,Phase5命中×品类
 locket necklace for girls,69351.0,10,0.6848617556703053,2025-01,2025-12,True,品类季节spike
 light up rings,69379.0,11,0.7119303839511093,2025-01,2025-11,True,品类季节spike
 graduation bracelet,69495.0,2,,2025-04,2025-05,True,Phase5命中×品类
@@ -612,32 +783,47 @@ cremation urns for human ashes,69573.0,11,2.0056849913364743,2025-01,2025-11,Fal
 clover earrings,69833.0,6,1.4118668972179602,2025-02,2025-12,True,品类季节spike
 nutcracker earrings,69962.0,2,,2025-11,2025-12,True,品类新入榜
 her saint harmony west,70061.0,1,,2025-04,2025-04,False,裸场景词×优质词族
+ear cuff earrings for women,70065.0,12,1.363794247631419,2025-01,2025-12,True,Phase5命中×品类
+large bogg bag,70093.0,6,0.5906051900092655,2025-03,2025-08,False,裸场景词×优质词族
 triangle chain strategy board game,70130.0,5,,2025-08,2025-12,True,品类新入榜
 ring size adjuster for loose rings,70375.0,11,2.0237519572625957,2025-01,2025-12,True,品类季节spike
 friendship bracelet,70672.0,12,1.0414113371359346,2025-01,2025-12,True,Phase5命中×品类
+fake belly button piercing,70732.0,11,1.0915358133979696,2025-01,2025-12,False,裸场景词×优质词族
 cremation urns,70789.0,10,0.6393321028754765,2025-03,2025-12,False,Phase5命中×趋势向好；裸场景词×优质词族
 the great divorce cs lewis,70877.0,12,0.8660925209625918,2025-01,2025-12,False,裸场景词×优质词族
-saint costume kids,70910.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 breast cancer awareness shirt men,70910.0,1,,2025-10,2025-10,False,裸场景词×优质词族
+saint costume kids,70910.0,1,,2025-10,2025-10,False,裸场景词×优质词族
+gold cross necklace for women,70975.0,5,,2025-04,2025-12,True,Phase5命中×品类
+20g nose ring,71189.0,12,1.3847661408020016,2025-01,2025-12,True,Phase5命中×品类
+bogg bag organizer,71265.0,5,,2025-03,2025-07,False,裸场景词×优质词族
 hematite bracelet,71300.0,8,0.6937740067648913,2025-05,2025-12,True,品类新入榜
 necklace with initials,71308.0,9,0.7044369231103553,2025-02,2025-12,True,品类季节spike
 mens bracelet leather,71325.0,12,0.9145568685812826,2025-01,2025-12,True,品类季节spike
 handbag charms,71466.0,11,1.1556311146752205,2025-01,2025-12,True,品类季节spike
+snake arm cuff,71544.0,1,,2025-10,2025-10,True,Phase5命中×品类
+fidget rings for women,71877.0,12,1.1250950570342206,2025-01,2025-12,True,Phase5命中×品类
 graduation necklace,71925.0,1,,2025-05,2025-05,True,Phase5命中×品类
 sapphire necklace,72143.0,11,0.8282778026546374,2025-01,2025-12,True,品类季节spike
 jump rings for jewelry,72236.0,6,1.3636363636363635,2025-07,2025-12,True,品类新入榜
 long distance vibrator,72320.0,9,1.1381329336268677,2025-01,2025-09,False,裸场景词×优质词族
 ardant earrings,72406.0,2,,2025-11,2025-12,True,品类新入榜
 mens jewelry organizer,72430.0,9,0.6312791460309755,2025-04,2025-12,True,品类季节spike；品类新入榜
+bible verse cards,72492.0,12,0.7152216090911382,2025-01,2025-12,False,裸场景词×优质词族
+wwjd bracelets for kids,72551.0,2,,2025-03,2025-04,True,Phase5命中×品类
+bogg bag cooler,72645.0,4,,2025-04,2025-07,False,裸场景词×优质词族
+nose ring hoop,73088.0,12,1.2913771178276452,2025-01,2025-12,True,Phase5命中×品类
 jewelry making kit for adults,73145.0,4,,2025-09,2025-12,True,品类新入榜
+waist chain belt,73369.0,7,0.5969253843269592,2025-05,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好
 my little pony:friendship is magic,73428.0,6,1.073373115700384,2025-01,2025-08,False,裸场景词×优质词族
 baptism favors,73463.0,11,0.545941224247935,2025-01,2025-11,False,Phase5命中×趋势向好；裸场景词×优质词族
-break every chain,73539.0,9,1.8804015905446076,2025-01,2025-09,True,品类季节spike
 heart charms,73539.0,7,2.006638673940587,2025-01,2025-09,True,品类季节spike
+break every chain,73539.0,9,1.8804015905446076,2025-01,2025-09,True,品类季节spike
 christmas brooches for women,73555.0,2,,2025-11,2025-12,True,品类新入榜
+baseball bracelets for boys,73569.0,4,,2025-03,2025-06,True,Phase5命中×品类
 paper chain garland,73705.0,2,,2025-11,2025-12,True,品类新入榜
 little girl jewelry box,73790.0,4,,2025-09,2025-12,True,品类新入榜
 bracelet box,73954.0,9,0.6673318925849714,2025-01,2025-12,True,品类季节spike
+septum rings 16g,73973.0,12,0.967611454987072,2025-01,2025-12,True,Phase5命中×品类
 breast cancer awareness sweatshirt,74157.0,2,,2025-09,2025-10,False,裸场景词×优质词族
 awareness,74379.0,6,0.9114910495738594,2025-06,2025-12,False,裸场景词×优质词族
 ring pro,74415.0,12,0.6862990729855263,2025-01,2025-12,True,品类季节spike
@@ -646,56 +832,97 @@ stanley charms,74794.0,11,1.2983399899082333,2025-01,2025-12,True,品类季节sp
 purity ring,74796.0,12,1.6335393605009836,2025-01,2025-12,True,Phase5命中×品类
 travel jewelry case small,74914.0,4,,2025-09,2025-12,True,品类新入榜
 heart rings for women,74928.0,6,2.014352832399772,2025-01,2025-12,True,品类季节spike
-name necklace for girls,75037.0,2,,2025-11,2025-12,True,品类新入榜
+bogg bag accessories charm,75007.0,8,0.7505348392253106,2025-01,2025-08,True,Phase5命中×品类
+name necklace for girls,75037.0,2,,2025-11,2025-12,True,Phase5命中×品类；品类新入榜
 anointing oil for prayer,75052.0,12,1.3514960229374768,2025-01,2025-12,False,裸场景词×优质词族
+bubble letter necklace,75174.0,12,0.8596178366666369,2025-01,2025-12,True,Phase5命中×品类
+birthstone ring,75219.0,8,0.7653863187187266,2025-01,2025-12,True,Phase5命中×品类
+vampire choker,75321.0,1,,2025-10,2025-10,True,Phase5命中×品类
+fidget ring men,75590.0,12,0.9634433760866223,2025-01,2025-12,True,Phase5命中×品类
+2025 fantasy football ring,75611.0,2,,2025-08,2025-12,True,Phase5命中×品类
 napkin rings set of 6,75641.0,7,0.6588975024455339,2025-01,2025-12,True,品类季节spike
+italian charm bracelet charms,75664.0,9,1.0910931667927106,2025-01,2025-12,True,Phase5命中×品类
 firefighter,75687.0,12,0.7374733915119905,2025-01,2025-12,False,裸场景词×优质词族
+shamrock wreath,75758.0,2,,2025-02,2025-03,False,裸场景词×优质词族
+ryan and rose jesus bracelet,75896.0,10,1.0552558918240182,2025-03,2025-12,True,Phase5命中×品类
 hoop earrings for girls,76016.0,6,0.6792779196656605,2025-04,2025-12,True,品类季节spike
+christian jewelry for women,76196.0,12,0.7069491298228369,2025-01,2025-12,True,Phase5命中×品类
 prayer book,76271.0,12,1.1455398064844677,2025-01,2025-12,False,裸场景词×优质词族
+silver nose ring,76281.0,12,1.0825555454379894,2025-01,2025-12,True,Phase5命中×品类
 friendship bracelet making kit,76331.0,7,0.6123424644377808,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好；品类季节spike
-cancer awareness items,76604.0,2,,2025-09,2025-10,False,裸场景词×优质词族
+boho necklace,76487.0,11,1.0828065449313518,2025-02,2025-12,True,Phase5命中×品类
 domestic violence awareness shirt,76604.0,1,,2025-10,2025-10,False,裸场景词×优质词族
+cancer awareness items,76604.0,2,,2025-09,2025-10,False,裸场景词×优质词族
 charm bracelets for girls,76674.0,2,,2025-11,2025-12,True,品类新入榜
 gold engagement rings for women,76700.0,12,1.4801185974345767,2025-01,2025-12,True,Phase5命中×品类
 taylor swift friendship bracelets,76707.0,2,,2025-09,2025-10,True,Phase5命中×品类
+bogg bag sale,76850.0,3,,2025-07,2025-09,False,裸场景词×优质词族
 ring tightener,76871.0,11,0.4416917639242126,2025-01,2025-12,True,品类季节spike
 cooper bracelet for women,76879.0,9,0.5381627432112094,2025-04,2025-12,True,品类新入榜
+belly button patch cover for castor oil,76891.0,3,,2025-03,2025-08,False,裸场景词×优质词族
 muslim prayer rug,76945.0,2,,2025-02,2025-03,False,裸场景词×优质词族
 taylor swift engagement ring,77098.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
+italian charm bracelet gold,77283.0,11,0.9593888497179693,2025-01,2025-12,True,Phase5命中×品类
+initial stockings,77285.0,2,,2025-11,2025-12,False,裸场景词×优质词族
 prayer journal for men,77552.0,9,1.0347751578813749,2025-01,2025-12,False,裸场景词×优质词族
 wrestling ring,77661.0,2,,2025-11,2025-12,True,品类新入榜
-initial bracelets for women,77726.0,9,0.9044998720305265,2025-01,2025-12,True,品类季节spike
+initial bracelets for women,77726.0,9,0.9044998720305265,2025-01,2025-12,True,Phase5命中×品类；品类季节spike
 christmas earrings for girls,78160.0,2,,2025-11,2025-12,True,品类新入榜
 earring gift box,78179.0,2,,2025-11,2025-12,True,品类新入榜
 prayer shawl,78213.0,9,0.5218015881916297,2025-01,2025-12,False,Phase5命中×趋势向好；裸场景词×优质词族
+shamrock sweater women,78627.0,2,,2025-02,2025-03,False,裸场景词×优质词族
 ring resizer,78698.0,12,0.5347855923504024,2025-01,2025-12,True,品类季节spike
+goth jewelry,79096.0,12,0.5952311272767814,2025-01,2025-12,True,Phase5命中×品类；Phase5命中×趋势向好
+prom necklace,79152.0,2,,2025-04,2025-05,True,Phase5命中×品类
 make it real purr-fect wash 'n bead bracelets,79177.0,3,,2025-10,2025-12,True,品类新入榜
 gold earrings dangle,79250.0,4,,2025-09,2025-12,True,品类新入榜
 hand chain bracelet gold,79388.0,7,1.9938454912272747,2025-06,2025-12,True,品类新入榜
+baseball necklace for boys 8-12,79585.0,4,,2025-03,2025-06,True,Phase5命中×品类
 birthstones chart,79669.0,2,,2025-11,2025-12,True,品类新入榜
+moissanite tennis bracelet,79730.0,12,0.8450605296864026,2025-01,2025-12,True,Phase5命中×品类
 the seven rings,79761.0,2,,2025-11,2025-12,True,品类新入榜
 cat ring holder,79966.0,2,,2025-11,2025-12,True,品类新入榜
+gold jewelry for prom,80006.0,2,,2025-04,2025-05,True,Phase5命中×品类
 star of david necklace,80131.0,4,,2025-09,2025-12,True,品类新入榜
-birthstone jewelry,80361.0,2,,2025-11,2025-12,True,品类新入榜
+goth earrings,80262.0,12,0.859642638060934,2025-01,2025-12,True,Phase5命中×品类
+shamrock shirts for women,80289.0,2,,2025-02,2025-03,False,裸场景词×优质词族
+birthstone jewelry,80361.0,2,,2025-11,2025-12,True,Phase5命中×品类；品类新入榜
 musical jewelry box for girls,80486.0,3,,2025-10,2025-12,True,品类新入榜
 emerald cut engagement ring,80500.0,12,1.4750747636503956,2025-01,2025-12,True,Phase5命中×品类
+stocking with initial,80713.0,2,,2025-11,2025-12,False,裸场景词×优质词族
+baseball ring holder,80804.0,7,1.2426434486596183,2025-04,2025-12,True,Phase5命中×品类
 kids bracelet making kit,80835.0,6,0.46864737165497805,2025-06,2025-12,True,品类季节spike
 inserts for rings that are too big,80856.0,3,,2025-10,2025-12,True,品类新入榜
+silver jewelry for prom,80994.0,2,,2025-04,2025-05,True,Phase5命中×品类
 usa faith wear,81115.0,2,,2025-11,2025-12,False,裸场景词×优质词族
 baptism dress for women,81164.0,10,0.9512853799285531,2025-01,2025-10,False,裸场景词×优质词族
 morse code bracelets,81218.0,6,0.9705735803671144,2025-01,2025-12,True,品类季节spike
 925 sterling silver bracelet,81236.0,5,,2025-08,2025-12,True,品类新入榜
 walker ear protection,81243.0,6,0.44188668459274627,2025-02,2025-12,False,Phase5命中×趋势向好
+y2k jewelry,81363.0,12,0.8376995301071426,2025-01,2025-12,True,Phase5命中×品类
 prayer quilt with cross inside,81469.0,10,1.1765980938704454,2025-01,2025-12,False,裸场景词×优质词族
 cool maker stack'd heishi bracelet studio,81654.0,3,,2025-10,2025-12,True,品类新入榜
 black stud earrings,81672.0,11,0.6373985290436399,2025-01,2025-12,True,品类季节spike
 purity coffee beans,81769.0,2,,2025-10,2025-12,False,裸场景词×优质词族
 christmas tree earrings for women,81806.0,2,,2025-11,2025-12,True,品类新入榜
+belly button ring dangle,81888.0,12,1.5544653714413017,2025-01,2025-12,True,Phase5命中×品类
+prom jewelry gold,81960.0,3,,2025-03,2025-05,True,Phase5命中×品类
+in ground basketball hoops outdoor,82020.0,3,,2025-03,2025-05,True,Phase5命中×品类
 pandora charms gold,82057.0,6,0.7483624044512581,2025-01,2025-12,True,品类季节spike
+chunky cross necklace for women,82157.0,11,0.7742749754673546,2025-02,2025-12,True,Phase5命中×品类
+four leaf clover necklace,82311.0,9,1.5640554325858917,2025-01,2025-09,True,Phase5命中×品类
+black nose ring,82622.0,12,1.4347686707617215,2025-01,2025-12,True,Phase5命中×品类
+pearl body chain,82646.0,1,,2025-10,2025-10,True,Phase5命中×品类
 firefighter accessories,82669.0,12,1.2172349145448205,2025-01,2025-12,False,裸场景词×优质词族
 friendship ornaments for women friends,82711.0,2,,2025-11,2025-12,False,裸场景词×优质词族
+bible verse box,82820.0,1,,2025-12,2025-12,False,裸场景词×优质词族
+baseball chain,82887.0,6,1.1916789782204642,2025-02,2025-07,True,Phase5命中×品类
+18 gauge nose ring,83410.0,12,1.2538849246175734,2025-01,2025-12,True,Phase5命中×品类
+diamond cross necklace for women,83546.0,10,0.8034825381210035,2025-01,2025-12,True,Phase5命中×品类
 long distance,83634.0,5,,2025-01,2025-12,False,裸场景词×优质词族
+arm cuff silver,83697.0,7,1.1615628851335826,2025-04,2025-10,True,Phase5命中×品类
 diary of an 8 bit warrior,83745.0,12,0.6312541235979767,2025-01,2025-12,False,Phase5命中×趋势向好
+wwjd,83767.0,12,1.2699699426177247,2025-01,2025-12,False,裸场景词×优质词族
 small urns for human ashes,83792.0,12,0.7876806915599556,2025-01,2025-12,False,裸场景词×优质词族
 earrings for teen girls,83899.0,2,,2025-11,2025-12,True,品类新入榜
 firefighter suspenders,84211.0,1,,2025-10,2025-10,False,裸场景词×优质词族
@@ -703,8 +930,12 @@ stranger things jewelry,84275.0,1,,2025-12,2025-12,True,品类新入榜
 hair tie bracelets,84357.0,2,,2025-11,2025-12,True,品类新入榜
 wwe ring playset,84500.0,6,0.6264426368247705,2025-02,2025-12,True,品类季节spike
 anxiety rings,84721.0,12,0.9902134107841899,2025-01,2025-12,True,Phase5命中×品类
+boys cross necklace ages 8-12,84760.0,4,,2025-03,2025-12,True,Phase5命中×品类
 divorce sistas,84843.0,2,,2025-06,2025-07,False,裸场景词×优质词族
+gothic rings,84899.0,12,0.7517142744082714,2025-01,2025-12,True,Phase5命中×品类
 light up necklace,85090.0,3,,2025-10,2025-12,True,品类新入榜
+silver waist chain,85252.0,8,0.7717624430417427,2025-03,2025-10,True,Phase5命中×品类
+fake belly button piercing for women pura vida,85307.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 mens breast cancer awareness shirt,85334.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 her saint,85335.0,4,,2025-01,2025-04,False,裸场景词×优质词族
 on a wing and a prayer movie,85338.0,9,1.5247017290146956,2025-01,2025-09,False,裸场景词×优质词族
@@ -712,34 +943,53 @@ police officer costume women,85639.0,1,,2025-10,2025-10,False,裸场景词×优�
 matching couples christmas pajamas,85841.0,2,,2025-11,2025-12,False,裸场景词×优质词族
 necklace sets for women,85858.0,10,0.5549526747343722,2025-03,2025-12,True,品类季节spike
 rosary in a year prayer guide ascension press,85883.0,2,,2025-01,2025-02,False,裸场景词×优质词族
+goth necklace,86046.0,11,0.7975002128384131,2025-02,2025-12,True,Phase5命中×品类
+advent calendar jewelry,86048.0,1,,2025-11,2025-11,True,Phase5命中×品类
+nail charm glue,86098.0,12,1.5212388392857144,2025-01,2025-12,True,Phase5命中×品类
 mother daughter jewelry,86437.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 new years earrings for women,86544.0,1,,2025-12,2025-12,True,品类新入榜
 gld chains men,86668.0,6,0.6959912722545902,2025-07,2025-12,True,品类新入榜
+birthstone earrings,87064.0,5,,2025-01,2025-12,True,Phase5命中×品类
 matching couple outfits,87141.0,7,1.0235554783213137,2025-03,2025-09,False,裸场景词×优质词族
 opal jewelry,87213.0,4,,2025-09,2025-12,True,品类新入榜
 granddaughter necklace,87308.0,2,,2025-11,2025-12,True,品类新入榜
 a prayer for owen meany by john irving,87371.0,9,0.963329887058146,2025-01,2025-12,False,裸场景词×优质词族
 the ashes and the star cursed king,87620.0,9,1.4089498457736316,2025-01,2025-09,False,裸场景词×优质词族
+mens cross bracelet,87880.0,4,,2025-04,2025-12,True,Phase5命中×品类
 faith over fear,87880.0,10,0.8205657539292731,2025-01,2025-12,False,裸场景词×优质词族
+gold initial necklace,87960.0,10,0.7071274014034836,2025-01,2025-12,True,Phase5命中×品类
 boys bracelets,88054.0,2,,2025-11,2025-12,True,品类新入榜
 hair jewelry for girls,88131.0,3,,2025-10,2025-12,True,品类新入榜
 divorced sisters,88301.0,2,,2025-06,2025-07,False,裸场景词×优质词族
+chew necklace,88309.0,12,1.0100669237749547,2025-01,2025-12,True,Phase5命中×品类
 breast cancer awareness shirts,88472.0,2,,2025-09,2025-10,False,裸场景词×优质词族
 christmas earrings studs,88555.0,2,,2025-11,2025-12,True,品类新入榜
+pearl waist chain,88696.0,1,,2025-10,2025-10,True,Phase5命中×品类
 christmas earrings bulk,88737.0,2,,2025-11,2025-12,True,品类新入榜
 white gold necklace,88855.0,4,,2025-09,2025-12,True,品类新入榜
 police officer costume for women,88877.0,1,,2025-10,2025-10,False,裸场景词×优质词族
+gold cross pendant,88964.0,12,0.952418780067708,2025-01,2025-12,True,Phase5命中×品类
 snowman earrings,88993.0,2,,2025-11,2025-12,True,品类新入榜
 wwe money in the bank ring,89053.0,3,,2025-10,2025-12,True,品类新入榜
 sister necklace,89083.0,1,,2025-12,2025-12,True,品类新入榜
-womens firefighter costume,89240.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 divorce sisters,89240.0,3,,2025-06,2025-08,False,裸场景词×优质词族
+septum,89240.0,12,1.0842650668121079,2025-01,2025-12,False,裸场景词×优质词族
+womens firefighter costume,89240.0,1,,2025-10,2025-10,False,裸场景词×优质词族
+castor oil patches belly button,89325.0,6,1.2333933609898002,2025-02,2025-07,False,裸场景词×优质词族
 anxiety pen,89369.0,8,0.6725649993969572,2025-01,2025-11,False,Phase5命中×趋势向好
 pink christmas earrings,89419.0,2,,2025-11,2025-12,True,品类新入榜
 wicked jewelry,89454.0,2,,2025-11,2025-12,True,品类新入榜
 mother daughter journal,89569.0,7,1.3043352107868238,2025-01,2025-12,False,裸场景词×优质词族
+football necklace,89580.0,3,,2025-08,2025-10,True,Phase5命中×品类
+bogg bag clearance,89631.0,3,,2025-05,2025-07,False,裸场景词×优质词族
+y2k necklace,89817.0,12,1.1308082584015673,2025-01,2025-12,True,Phase5命中×品类
 gold choker necklaces for women,89870.0,5,,2025-08,2025-12,True,品类新入榜
+western necklace,89901.0,11,0.9949705907424772,2025-02,2025-12,True,Phase5命中×品类
+softball necklace,89983.0,6,1.14623702792548,2025-02,2025-12,True,Phase5命中×品类
+cherry purse charm,89988.0,9,0.8590464958640339,2025-02,2025-12,True,Phase5命中×品类
+men's cross necklace,90008.0,7,0.7371234827121987,2025-02,2025-12,True,Phase5命中×品类
 rings of fate,90093.0,1,,2025-12,2025-12,True,品类新入榜
+cross earrings for men,90186.0,12,1.2794071518193224,2025-01,2025-12,True,Phase5命中×品类
 up faith and family,90513.0,9,1.1198466286607636,2025-01,2025-12,False,裸场景词×优质词族
 suicide prevention awareness shirt,90576.0,1,,2025-09,2025-09,False,裸场景词×优质词族
 witches knot ring,90662.0,1,,2025-12,2025-12,True,品类新入榜
@@ -747,60 +997,89 @@ napkin rings set of 8,90741.0,2,,2025-11,2025-12,True,品类新入榜
 kids firefighter costume,90902.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 fahlo bracelet,90942.0,2,,2025-11,2025-12,True,品类新入榜
 kendra scott necklaces,91091.0,4,,2025-09,2025-12,True,品类新入榜
+cross charms,91206.0,12,1.1052959393761137,2025-01,2025-12,True,Phase5命中×品类
+halloween nose ring,91584.0,3,,2025-08,2025-10,True,Phase5命中×品类
 necklace box gift,91611.0,2,,2025-11,2025-12,True,品类新入榜
+march birthstone jewelry,91824.0,1,,2025-03,2025-03,True,Phase5命中×品类
 myself yves saint laurent men,91827.0,7,0.7745220331079505,2025-05,2025-12,False,裸场景词×优质词族
+nail charm,91842.0,12,1.4760649262245573,2025-01,2025-12,True,Phase5命中×品类
+shamrock sunglasses,92020.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 kendra scott elisa pendant necklace,92154.0,2,,2025-11,2025-12,True,品类新入榜
+cross nail charms,92275.0,12,1.6070856763511403,2025-01,2025-12,True,Phase5命中×品类
+mardi gras beads necklaces,92375.0,1,,2025-02,2025-02,True,Phase5命中×品类
 girls' charm bracelets,92549.0,2,,2025-11,2025-12,True,品类新入榜
 snowflake necklace for women,92660.0,2,,2025-11,2025-12,True,品类新入榜
 boys police officer costume,92843.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 the case for faith,92877.0,1,,2025-09,2025-09,False,裸场景词×优质词族
+bogg bag duoop,93011.0,4,,2025-04,2025-07,False,裸场景词×优质词族
 vera or faith,93159.0,1,,2025-07,2025-07,False,裸场景词×优质词族
 matching couple costumes,93362.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 chunky bracelets,93637.0,9,1.2115329148868959,2025-04,2025-12,True,品类新入榜
+bogg bag strap,93660.0,4,,2025-03,2025-07,False,裸场景词×优质词族
 kindle charm,93721.0,7,1.2518526177920242,2025-06,2025-12,True,品类新入榜
 vayro ring original magnetic wellness ring,93836.0,4,,2025-09,2025-12,True,品类新入榜
+faux nose ring,93907.0,6,1.3137605697986463,2025-01,2025-07,True,Phase5命中×品类
 domestic violence awareness items,94032.0,2,,2025-09,2025-10,False,裸场景词×优质词族
 women's body piercing jewelry,94133.0,4,,2025-09,2025-12,True,品类新入榜
 necklaces for girls,94240.0,2,,2025-11,2025-12,True,品类新入榜
+baseball bogg bag,94341.0,4,,2025-02,2025-05,False,裸场景词×优质词族
 suicide awareness items,94423.0,1,,2025-09,2025-09,False,裸场景词×优质词族
 grandson bracelet,94489.0,2,,2025-11,2025-12,True,品类新入榜
 evil eye decor,94595.0,12,1.362803218784015,2025-01,2025-12,False,裸场景词×优质词族
+cartilage piercing jewelry,94767.0,11,0.987954555261714,2025-01,2025-12,True,Phase5命中×品类
+st patricks day necklace,94886.0,2,,2025-02,2025-03,True,Phase5命中×品类
+medical alert bracelets for men,95021.0,12,1.4686323713927227,2025-01,2025-12,True,Phase5命中×品类
 sexy police officer costumes for women,95092.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 lynsie charm bookmark pen holder,95207.0,3,,2025-10,2025-12,True,品类新入榜
+gold hoop nose ring,95629.0,12,1.5442342268715266,2025-01,2025-12,True,Phase5命中×品类
 locket ring,95683.0,6,1.2845672028917525,2025-07,2025-12,True,品类新入榜
+pirate waist chain,95703.0,1,,2025-10,2025-10,True,Phase5命中×品类
+initial bag,95838.0,3,,2025-05,2025-12,False,裸场景词×优质词族
 christmas bracelet,95838.0,2,,2025-11,2025-12,True,品类新入榜
 baptism card,95994.0,11,0.6316434834942938,2025-01,2025-11,False,Phase5命中×趋势向好；裸场景词×优质词族
 surviving an unwanted divorce,96098.0,1,,2025-11,2025-11,False,裸场景词×优质词族
 heartland on up faith and family channel,96391.0,3,,2025-05,2025-07,False,裸场景词×优质词族
 christmas slap bracelets,96502.0,2,,2025-11,2025-12,True,品类新入榜
 christmas croc charms,96605.0,2,,2025-11,2025-12,True,品类新入榜
+basketball necklace,96691.0,4,,2025-01,2025-12,True,Phase5命中×品类
 women's link bracelets,96754.0,5,,2025-08,2025-12,True,品类新入榜
 hug ring for granddaughter,96770.0,3,,2025-10,2025-12,True,品类新入榜
 mini jewelry travel pouch,96834.0,2,,2025-11,2025-12,True,品类新入榜
+fidget bracelet,96857.0,12,0.8084435573898041,2025-01,2025-12,True,Phase5命中×品类
 prayer jar,97105.0,3,,2025-01,2025-12,False,裸场景词×优质词族
 the friendship bench,97156.0,1,,2025-02,2025-02,False,裸场景词×优质词族
 morning recovery,97212.0,12,0.6591692338941738,2025-01,2025-12,False,Phase5命中×趋势向好
 faith over fear sweatshirt,97242.0,1,,2025-01,2025-01,False,裸场景词×优质词族
+mardi gras jewelry for women,97397.0,1,,2025-02,2025-02,True,Phase5命中×品类
 mistletoe belly ring,97616.0,2,,2025-11,2025-12,True,品类新入榜
 kids jewelry making kit,97662.0,2,,2025-11,2025-12,True,品类新入榜
+cross pendant for men,97851.0,12,1.136405564513105,2025-01,2025-12,True,Phase5命中×品类
+italian charm bracelets,97879.0,9,0.9623260530057575,2025-01,2025-11,True,Phase5命中×品类
 necklace layering clasp,97931.0,5,,2025-08,2025-12,True,品类新入榜
 ash necklace for human ashes,97960.0,11,1.7558595733289024,2025-01,2025-12,True,Phase5命中×品类
 gold earrings studs,98045.0,6,0.8549330666945244,2025-07,2025-12,True,品类新入榜
 boot cuffs,98047.0,3,,2025-10,2025-12,True,品类新入榜
-toddler jewelry box,98081.0,2,,2025-11,2025-12,True,品类新入榜
 totwoo couple bracelet long distance,98081.0,8,1.0369889725658956,2025-01,2025-12,True,Phase5命中×品类
+toddler jewelry box,98081.0,2,,2025-11,2025-12,True,品类新入榜
+st patricks day bracelets,98111.0,1,,2025-03,2025-03,True,Phase5命中×品类
 saint patricks day shirt men,98224.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 bow necklace gold,98284.0,2,,2025-11,2025-12,True,品类新入榜
 christmas pins and brooches,98338.0,2,,2025-11,2025-12,True,品类新入榜
+nail charms y2k,98753.0,11,1.5229331128895995,2025-01,2025-12,True,Phase5命中×品类
 zox bracelets,98882.0,1,,2025-12,2025-12,True,品类新入榜
 ring stopper for loose rings,98962.0,3,,2025-10,2025-12,True,品类新入榜
 st christopher necklace,98995.0,5,,2025-08,2025-12,True,品类新入榜
 hidden helix jewelry,99028.0,6,1.0485453831726785,2025-07,2025-12,True,品类新入榜
+girls cross necklace,99236.0,3,,2025-04,2025-12,True,Phase5命中×品类
 gorjana jewelry,99236.0,2,,2025-11,2025-12,True,品类新入榜
 urns for ashes,99296.0,11,1.1920676402767103,2025-01,2025-11,False,裸场景词×优质词族
+phone charm wrist strap,99582.0,11,0.9394080354128371,2025-02,2025-12,True,Phase5命中×品类
+august birthstone jewelry,99619.0,2,,2025-08,2025-12,True,Phase5命中×品类
 huggie hoop earrings,99715.0,6,0.5985215565000248,2025-07,2025-12,True,品类新入榜
+padme arm cuff,99772.0,1,,2025-10,2025-10,True,Phase5命中×品类
 cooper bracelet for man,99989.0,5,,2025-08,2025-12,True,品类新入榜
 chain necklaces for women,100021.0,5,,2025-08,2025-12,True,品类新入榜
+january birthstone necklace,100104.0,2,,2025-01,2025-12,True,Phase5命中×品类
 guardian angel light,100209.0,11,0.6372573143285821,2025-01,2025-12,False,Phase5命中×趋势向好
 athan clock for prayer with sound,100284.0,3,,2025-01,2025-03,False,裸场景词×优质词族
 jewelry pack,100488.0,5,,2025-08,2025-12,True,品类新入榜
@@ -808,7 +1087,12 @@ coach charm,100691.0,1,,2025-12,2025-12,True,品类新入榜
 firefighter helmet,100973.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 urn for ashes,100974.0,12,1.2487307032590051,2025-01,2025-12,False,裸场景词×优质词族
 candy cane earrings for women,101171.0,1,,2025-12,2025-12,True,品类新入榜
+best selling boho jewelry,101242.0,2,,2025-06,2025-07,True,Phase5命中×品类
+bogg bag topper,101300.0,3,,2025-05,2025-07,False,裸场景词×优质词族
+bible verse wall art,101384.0,5,,2025-08,2025-12,False,裸场景词×优质词族
 purse chain charm,101448.0,4,,2025-09,2025-12,True,品类新入榜
+stainless steel cross necklace for men,101561.0,8,0.7368031816136656,2025-02,2025-12,True,Phase5命中×品类
+simply southern bogg bag,101664.0,3,,2025-05,2025-07,False,裸场景词×优质词族
 fur cuffs for arms,101708.0,2,,2025-11,2025-12,True,品类新入榜
 the dangers of a shallow faith,101714.0,1,,2025-09,2025-09,False,裸场景词×优质词族
 little girls jewelry box,101862.0,2,,2025-11,2025-12,True,品类新入榜
@@ -817,27 +1101,41 @@ pandora graduation charm 2025,102061.0,1,,2025-05,2025-05,True,Phase5命中×品
 gold bow necklace,102156.0,2,,2025-11,2025-12,True,品类新入榜
 purity face wash,102259.0,12,1.2024915101531637,2025-01,2025-12,False,裸场景词×优质词族
 graduation jewelry,102680.0,2,,2025-04,2025-05,True,Phase5命中×品类
+christian bracelets for women,102706.0,11,1.0036406874402413,2025-02,2025-12,True,Phase5命中×品类
+shamrock sprinkles,102849.0,2,,2025-02,2025-03,False,裸场景词×优质词族
 gold beaded bracelets,103062.0,9,0.6538982813211979,2025-04,2025-12,True,品类新入榜
+gold prom jewelry sets,103112.0,2,,2025-04,2025-05,True,Phase5命中×品类
 stacking rings baby toy,103233.0,4,,2025-09,2025-12,True,品类新入榜
-kendra scott volleyball necklace,103344.0,2,,2025-11,2025-12,True,品类新入榜
+kendra scott volleyball necklace,103344.0,2,,2025-11,2025-12,True,Phase5命中×品类；品类新入榜
 orthodox prayer book,103482.0,12,0.8046859780311999,2025-01,2025-12,False,裸场景词×优质词族
+16g septum ring,103537.0,12,1.3761231061124337,2025-01,2025-12,True,Phase5命中×品类
 friendship ornament,103791.0,1,,2025-12,2025-12,False,裸场景词×优质词族
 dainty earrings,103821.0,6,1.1173883823004738,2025-07,2025-12,True,品类新入榜
 girls rings,103940.0,2,,2025-11,2025-12,True,品类新入榜
 ours ring gen 4 cover,104004.0,2,,2025-11,2025-12,True,品类新入榜
+gothic cross necklace,104088.0,3,,2025-08,2025-10,True,Phase5命中×品类
 emo bracelets,104393.0,8,0.8667698031198777,2025-05,2025-12,True,品类新入榜
 divorce insurance kdrama,104517.0,1,,2025-04,2025-04,False,裸场景词×优质词族
+bogg bag cooler insert,104548.0,3,,2025-05,2025-07,False,裸场景词×优质词族
+silver prom earrings,104728.0,2,,2025-03,2025-04,True,Phase5命中×品类
 daughter bracelet,104732.0,1,,2025-12,2025-12,True,品类新入榜
 friendship lamps,104794.0,2,,2025-11,2025-12,False,裸场景词×优质词族
 new years eve earrings,104994.0,1,,2025-12,2025-12,True,品类新入榜
 cat earrings for women,105445.0,2,,2025-11,2025-12,True,品类新入榜
 firefighter costume adult,105627.0,1,,2025-10,2025-10,False,裸场景词×优质词族
+gold ear cuff,105785.0,12,1.4215524872390943,2025-01,2025-12,True,Phase5命中×品类
 christmas necklace lights,106142.0,1,,2025-12,2025-12,True,品类新入榜
+xl bogg bag,106259.0,3,,2025-05,2025-07,False,裸场景词×优质词族
 backless earrings,106284.0,2,,2025-11,2025-12,True,品类新入榜
 baby boy baptism outfit,106443.0,10,0.9905521442769655,2025-01,2025-10,False,裸场景词×优质词族
+septum piercing,106490.0,12,1.210668064492806,2025-01,2025-12,False,裸场景词×优质词族
+initial christmas stockings,106498.0,2,,2025-11,2025-12,False,裸场景词×优质词族
+fidget spinner ring,106520.0,11,0.8147745227549408,2025-02,2025-12,True,Phase5命中×品类
 book of common prayer,106557.0,12,1.115448003818547,2025-01,2025-12,False,裸场景词×优质词族
+boho bracelets,107162.0,6,0.9371989571211831,2025-04,2025-09,True,Phase5命中×品类
 prayer box,107307.0,12,0.9748132071689741,2025-01,2025-12,False,裸场景词×优质词族
 mini embroidery hoops,107363.0,2,,2025-11,2025-12,True,品类新入榜
+st patricks earrings,107381.0,1,,2025-03,2025-03,True,Phase5命中×品类
 matching couple bracelets,107570.0,4,,2025-01,2025-12,True,Phase5命中×品类
 saint patricks day hat,107658.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 real gold earrings,107868.0,5,,2025-08,2025-12,True,品类新入榜
@@ -845,19 +1143,28 @@ necklace for ashes of loved one,107897.0,10,1.7219850586979724,2025-01,2025-10,T
 faith of angels movie 2024,107954.0,3,,2025-03,2025-06,False,裸场景词×优质词族
 gold plated bracelet,108030.0,5,,2025-08,2025-12,True,品类新入榜
 christmas stud earrings,108414.0,2,,2025-11,2025-12,True,品类新入榜
+medical alert bracelet,108436.0,12,1.0265259481806743,2025-01,2025-12,True,Phase5命中×品类
 bracelet kit for kids ages 8-12,108670.0,2,,2025-11,2025-12,True,品类新入榜
+belt buckle necklace with initial,108776.0,7,1.2033787732579475,2025-01,2025-12,True,Phase5命中×品类
 cremation necklace for ashes,108776.0,7,1.363845857354907,2025-01,2025-07,True,Phase5命中×品类
 firefighter shirt,108885.0,1,,2025-10,2025-10,False,裸场景词×优质词族
+mini bogg bag for girls,108953.0,5,,2025-03,2025-07,False,裸场景词×优质词族
+silver prom jewelry set,108963.0,1,,2025-03,2025-03,True,Phase5命中×品类
 montana silversmith jewelry,108997.0,1,,2025-12,2025-12,True,品类新入榜
 paperclip necklace,109139.0,8,0.8812218908175364,2025-05,2025-12,True,品类新入榜
+septum piercing kit,109175.0,12,1.0963271552457066,2025-01,2025-12,False,裸场景词×优质词族
+mardi gras bracelets,109203.0,1,,2025-02,2025-02,True,Phase5命中×品类
 a question of faith,109211.0,2,,2025-01,2025-02,False,裸场景词×优质词族
 jewelry jar,109213.0,2,,2025-11,2025-12,True,品类新入榜
 hope rings for granddaughter,109272.0,3,,2025-10,2025-12,True,品类新入榜
+cartilage revive plus,109292.0,3,,2025-07,2025-09,False,裸场景词×优质词族
 lip gloss charms,109492.0,2,,2025-11,2025-12,True,品类新入榜
+sterling silver cross necklace for men,109492.0,2,,2025-09,2025-12,True,Phase5命中×品类
 gold stackable rings,109531.0,5,,2025-08,2025-12,True,品类新入榜
 black bracelet,109757.0,9,0.9694940165950882,2025-04,2025-12,True,品类新入榜
 evil eye anklet,109857.0,4,,2025-05,2025-08,True,Phase5命中×品类
 alzheimers awareness shirts,109923.0,2,,2025-09,2025-10,False,裸场景词×优质词族
+prom jewelry silver,110073.0,1,,2025-04,2025-04,True,Phase5命中×品类
 down syndrome awareness,110139.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 christmas necklaces bulk,110175.0,2,,2025-11,2025-12,True,品类新入榜
 prayer journal for teen girls,110175.0,1,,2025-12,2025-12,False,裸场景词×优质词族
@@ -865,120 +1172,186 @@ silver cleaner jewelry,110181.0,8,0.825637755855074,2025-05,2025-12,True,品类�
 lip balm ring,110279.0,4,,2025-09,2025-12,True,品类新入榜
 divorce in black,110314.0,2,,2025-02,2025-03,False,裸场景词×优质词族
 pavoi jewelry for women,110339.0,4,,2025-09,2025-12,True,品类新入榜
-fidget ring for kids,110371.0,5,,2025-08,2025-12,True,品类新入榜
+fidget ring for kids,110371.0,5,,2025-08,2025-12,True,Phase5命中×品类；品类新入榜
 prayer plant,110550.0,6,1.2100232707580778,2025-03,2025-09,False,裸场景词×优质词族
+silver initial necklaces for women,110576.0,12,0.8591093950536388,2025-01,2025-12,True,Phase5命中×品类
 faking it with the firefighter,110658.0,1,,2025-06,2025-06,False,裸场景词×优质词族
 ring sizers for measuring,110753.0,7,0.8425934508691595,2025-06,2025-12,True,品类新入榜
+softball necklace for girls,110850.0,7,1.3282465171955438,2025-03,2025-12,True,Phase5命中×品类
 jewelry dish tray,111133.0,2,,2025-11,2025-12,True,品类新入榜
 ziella necklace for my wife love letter,111490.0,2,,2025-11,2025-12,True,品类新入榜
 gold plated jewelry,111530.0,6,0.9813801271661887,2025-07,2025-12,True,品类新入榜
+christian bracelet for men,111656.0,12,1.0258102418486243,2025-01,2025-12,True,Phase5命中×品类
 tiffany necklace,111922.0,4,,2025-09,2025-12,True,品类新入榜
 wedding rings for couples,111968.0,4,,2025-09,2025-12,True,品类新入榜
 walking by faith tripping constantly t shirt,112065.0,1,,2025-06,2025-06,False,裸场景词×优质词族
 app controlled vibrator long distance,112099.0,2,,2025-11,2025-12,False,裸场景词×优质词族
+black cross necklace for men,112139.0,5,,2025-04,2025-12,True,Phase5命中×品类
 divorce in the black,112208.0,2,,2025-02,2025-03,False,裸场景词×优质词族
-free luma christian bracelet,112698.0,1,,2025-12,2025-12,True,品类新入榜
+kids cross necklace,112491.0,3,,2025-04,2025-12,True,Phase5命中×品类
+free luma christian bracelet,112698.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 faith wardrobe,112709.0,1,,2025-09,2025-09,False,裸场景词×优质词族
+mermaid earrings,112713.0,1,,2025-10,2025-10,True,Phase5命中×品类
 urn necklaces for ashes for women,112832.0,9,1.293820289473251,2025-01,2025-09,True,Phase5命中×品类
+baseball croc charms,112988.0,2,,2025-03,2025-04,True,Phase5命中×品类
 tiffany bracelet,113168.0,4,,2025-09,2025-12,True,品类新入榜
 coach earrings for women,113332.0,1,,2025-12,2025-12,True,品类新入榜
+silver cross necklace for women,113348.0,2,,2025-09,2025-12,True,Phase5命中×品类
+bible verse mapping journal,113360.0,1,,2025-06,2025-06,False,裸场景词×优质词族
 friendship necklace for 2,113371.0,10,0.7457998964158729,2025-03,2025-12,True,Phase5命中×品类
 mental health awareness,113455.0,2,,2025-04,2025-05,False,裸场景词×优质词族
 engagement ring holder,113731.0,8,0.9013122251940394,2025-05,2025-12,True,Phase5命中×品类；品类新入榜
+pavoi cross necklace,114115.0,1,,2025-09,2025-09,True,Phase5命中×品类
 steering wheel charm,114334.0,1,,2025-12,2025-12,True,品类新入榜
 helix hoop earring,114566.0,5,,2025-08,2025-12,True,品类新入榜
 friendship bracelets bulk,114597.0,9,0.966145849680793,2025-01,2025-10,True,Phase5命中×品类
 breast cancer awareness stickers,114617.0,2,,2025-09,2025-10,False,裸场景词×优质词族
+cartilage hoop,114631.0,12,0.8368714056727891,2025-01,2025-12,False,裸场景词×优质词族
+shamrock headband,114700.0,1,,2025-03,2025-03,False,裸场景词×优质词族
+goth choker,114751.0,2,,2025-09,2025-10,True,Phase5命中×品类
 christmas nose rings,114808.0,2,,2025-11,2025-12,True,品类新入榜
+medical alert systems for seniors,114826.0,10,1.4891249925746146,2025-01,2025-10,False,裸场景词×优质词族
 breast cancer awareness earrings,114842.0,1,,2025-10,2025-10,True,Phase5命中×品类
 faith sweatshirts for women,115015.0,4,,2025-09,2025-12,False,裸场景词×优质词族
+magnetic nose ring,115272.0,11,1.2632830011087448,2025-01,2025-12,True,Phase5命中×品类
 gold hoops non tarnish,115347.0,9,1.1400394201601969,2025-04,2025-12,True,品类新入榜
+basketball hoops,115431.0,7,1.2046058344024986,2025-02,2025-12,True,Phase5命中×品类
 kindle page turner ring,115463.0,2,,2025-11,2025-12,True,品类新入榜
+upper arm cuff jewelry,115597.0,5,,2025-04,2025-08,True,Phase5命中×品类
+charm bracelet advent calendar,115613.0,1,,2025-11,2025-11,True,Phase5命中×品类
 girl jewelry,115678.0,2,,2025-11,2025-12,True,品类新入榜
 customized necklace,115846.0,2,,2025-11,2025-12,True,品类新入榜
 daughter bracelets from mom,115846.0,1,,2025-12,2025-12,True,品类新入榜
+baseball rings,115907.0,2,,2025-05,2025-06,True,Phase5命中×品类
 earrings for teens,116044.0,2,,2025-11,2025-12,True,品类新入榜
 moissanite stud earrings,116164.0,2,,2025-11,2025-12,True,品类新入榜
-67 chain,116438.0,3,,2025-10,2025-12,True,品类新入榜
 baublebar earrings,116438.0,2,,2025-11,2025-12,True,品类新入榜
+67 chain,116438.0,3,,2025-10,2025-12,True,品类新入榜
 prayer journal for women,116609.0,3,,2025-01,2025-12,False,裸场景词×优质词族
 "shoe, jewelry & watch accessories",116674.0,1,,2025-12,2025-12,True,品类新入榜
+chunky cross necklace,116958.0,3,,2025-08,2025-10,True,Phase5命中×品类
 ashes for ash wednesday,117057.0,1,,2025-02,2025-02,False,裸场景词×优质词族
 loopdedoo bracelet maker,117379.0,2,,2025-11,2025-12,True,品类新入榜
 prayer quilt,117488.0,3,,2025-09,2025-12,False,裸场景词×优质词族
-calmi ring magnetic,117675.0,1,,2025-12,2025-12,True,品类新入榜
+june birthstone necklace,117542.0,3,,2025-05,2025-12,True,Phase5命中×品类
+initial bracelet for men,117563.0,3,,2025-01,2025-12,True,Phase5命中×品类
+cartilage earrings,117575.0,12,1.352901057954621,2025-01,2025-12,True,Phase5命中×品类
+calmi ring magnetic,117675.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 coach charms for purse,117675.0,1,,2025-12,2025-12,True,品类新入榜
 lovense bluetooth viboators women long distance,117781.0,5,,2025-08,2025-12,False,裸场景词×优质词族
+fantasy football decorations,118035.0,1,,2025-08,2025-08,False,裸场景词×优质词族
 friendship blu ray,118035.0,1,,2025-08,2025-08,False,裸场景词×优质词族
-name necklace gold,118145.0,4,,2025-09,2025-12,True,品类新入榜
+name necklace gold,118145.0,4,,2025-09,2025-12,True,Phase5命中×品类；品类新入榜
 emo jewelry,118153.0,8,0.7192210695993553,2025-05,2025-12,True,品类新入榜
 a very merry christmas prayer,118172.0,2,,2025-10,2025-11,False,裸场景词×优质词族
+softball earrings,118256.0,4,,2025-03,2025-06,True,Phase5命中×品类
 stranger things bracelet,118305.0,1,,2025-12,2025-12,True,品类新入榜
 permanent jewelry welder,118407.0,9,0.96170855502184,2025-04,2025-12,True,品类新入榜
 breaking4: faith kipyegon vs. the 4-minute mile,118473.0,1,,2025-06,2025-06,False,裸场景词×优质词族
 protection bracelet,118644.0,11,0.97645351356035,2025-01,2025-12,True,Phase5命中×品类
 hug from heaven ring,118656.0,1,,2025-12,2025-12,True,品类新入榜
+shamrock decor,119009.0,1,,2025-02,2025-02,False,裸场景词×优质词族
+shamrock st johns jersey,119150.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 christmas bracelets bulk,119283.0,2,,2025-11,2025-12,True,品类新入榜
+20 gauge nose ring,119326.0,12,1.355486898893894,2025-01,2025-12,True,Phase5命中×品类
 evil eye bracelet for women,119349.0,2,,2025-01,2025-02,True,Phase5命中×品类
 oval engagement rings for women,119381.0,9,1.2458075690375214,2025-01,2025-09,True,Phase5命中×品类
 67 necklace,119429.0,2,,2025-11,2025-12,True,品类新入榜
+fantasy football ring 2024,119471.0,1,,2025-01,2025-01,True,Phase5命中×品类
 mens engagement rings,119711.0,12,1.1903961053330383,2025-01,2025-12,True,Phase5命中×品类
 santa earrings,119762.0,1,,2025-12,2025-12,True,品类新入榜
 sterling silver earrings for girls,120048.0,2,,2025-11,2025-12,True,品类新入榜
 knot bracelets for women,120134.0,1,,2025-12,2025-12,True,品类新入榜
+football bracelets,120159.0,2,,2025-08,2025-09,True,Phase5命中×品类
+shamrock face stickers,120215.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 how to be a saint,120402.0,1,,2025-09,2025-09,False,裸场景词×优质词族
 ballerina jewelry box,120469.0,2,,2025-11,2025-12,True,品类新入榜
+cross necklace silver,120688.0,5,,2025-07,2025-11,True,Phase5命中×品类
 evil eye keychain,120726.0,11,0.7922912549605565,2025-01,2025-12,False,裸场景词×优质词族
+gold prom necklace,120737.0,1,,2025-04,2025-04,True,Phase5命中×品类
 daughter necklace from mom,120745.0,1,,2025-12,2025-12,True,品类新入榜
+double nose ring,120745.0,12,0.8188376977666199,2025-01,2025-12,True,Phase5命中×品类
 nana necklace,120783.0,1,,2025-12,2025-12,True,品类新入榜
 brighton jewelry,120871.0,1,,2025-12,2025-12,True,品类新入榜
+calmi,120966.0,3,,2025-04,2025-12,False,裸场景词×优质词族
+fake septum ring,120997.0,11,0.9525638434067785,2025-01,2025-12,True,Phase5命中×品类
 moissanite engagement ring,120997.0,6,0.9858388781698734,2025-01,2025-12,True,Phase5命中×品类
+shamrock cutouts,121015.0,2,,2025-02,2025-03,False,裸场景词×优质词族
 jewelry for girls 4-6,121158.0,1,,2025-12,2025-12,True,品类新入榜
+what would jesus do bracelets,121200.0,12,1.3099682671081678,2025-01,2025-12,True,Phase5命中×品类
 solid gold earrings,121252.0,6,0.9093269758123188,2025-07,2025-12,True,品类新入榜
+sterling silver belly button ring,121325.0,9,1.2880038580557007,2025-01,2025-09,True,Phase5命中×品类
 mini travel jewelry case,121424.0,2,,2025-11,2025-12,True,品类新入榜
 saint germain bakery,121462.0,2,,2025-01,2025-02,False,裸场景词×优质词族
+shamrock earrings for women,121481.0,2,,2025-02,2025-03,True,Phase5命中×品类
+poolside basketball hoops,121666.0,2,,2025-06,2025-07,True,Phase5命中×品类
 baptism candle,122279.0,2,,2025-04,2025-05,False,裸场景词×优质词族
+boys baseball necklace,122279.0,4,,2025-04,2025-12,True,Phase5命中×品类
 reindeer earrings,122614.0,1,,2025-12,2025-12,True,品类新入榜
 jewelry rings,122697.0,6,0.798927099070494,2025-07,2025-12,True,品类新入榜
-november birthstone necklace,122757.0,2,,2025-11,2025-12,True,品类新入榜
+november birthstone necklace,122757.0,2,,2025-11,2025-12,True,Phase5命中×品类；品类新入榜
+christmas stocking with initial,122870.0,2,,2025-11,2025-12,False,裸场景词×优质词族
 cat necklace for women,122922.0,1,,2025-12,2025-12,True,品类新入榜
 mint and lily bracelets,122978.0,1,,2025-12,2025-12,True,品类新入榜
 hug ring for daughter,123170.0,4,,2025-09,2025-12,True,品类新入榜
 a 30-day devotional for women: from fear & anxiety to faith and lasting peace in just 10 minutes a d,123180.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 turquoise bracelet,123282.0,9,0.9368736716853175,2025-04,2025-12,True,品类新入榜
+mardi gras earrings for women dangle,123334.0,1,,2025-02,2025-02,True,Phase5命中×品类
 evil eye beads,123405.0,10,0.8270562329760965,2025-01,2025-10,False,裸场景词×优质词族
-friendship bracelets for women,123432.0,5,,2025-01,2025-12,True,Phase5命中×品类
 apple watch bracelet band,123432.0,5,,2025-08,2025-12,True,品类新入榜
+friendship bracelets for women,123432.0,5,,2025-01,2025-12,True,Phase5命中×品类
 breast cancer awareness shirts for women,123437.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 gold dainty necklace,123497.0,9,1.283428261459181,2025-04,2025-12,True,品类新入榜
+belly button ring surgical steel,123556.0,9,1.2561650338113877,2025-01,2025-09,True,Phase5命中×品类
 snoopy necklace,123684.0,1,,2025-12,2025-12,True,品类新入榜
 christmas earrings dangle,123732.0,1,,2025-12,2025-12,True,品类新入榜
+fidget necklace,123782.0,10,0.8018218776829453,2025-01,2025-12,True,Phase5命中×品类
 gold earrings pack,123864.0,3,,2025-10,2025-12,True,品类新入榜
+silicone cross bracelet,123890.0,4,,2025-04,2025-10,True,Phase5命中×品类
 swift clicks bracelet maker,123920.0,2,,2025-11,2025-12,True,品类新入榜
-bag charm chain,124106.0,8,0.9685568936280287,2025-05,2025-12,True,品类新入榜
+bag charm chain,124106.0,8,0.9685568936280287,2025-05,2025-12,True,Phase5命中×品类；品类新入榜
 lego chain reactions,124237.0,2,,2025-11,2025-12,True,品类新入榜
 travel jewelry pouch,124342.0,2,,2025-11,2025-12,True,品类新入榜
 kendra scott necklace gold,124760.0,2,,2025-11,2025-12,True,品类新入榜
+14g septum ring,124867.0,11,1.4064455096865485,2025-01,2025-12,True,Phase5命中×品类
 ring canera,124883.0,8,0.881930501110155,2025-05,2025-12,True,品类新入榜
 gold pandora bracelet,125186.0,2,,2025-11,2025-12,True,品类新入榜
+fake septum piercing,125394.0,12,1.155678613895023,2025-01,2025-12,False,裸场景词×优质词族
 xmas earrings for women,125694.0,1,,2025-12,2025-12,True,品类新入榜
 letter a necklace,125739.0,1,,2025-12,2025-12,True,品类新入榜
 sister bracelets for women,125837.0,1,,2025-12,2025-12,True,品类新入榜
 ashes necklace,125874.0,11,1.3729623994783742,2025-01,2025-12,True,Phase5命中×品类
+kendra scott softball necklace gold,125884.0,2,,2025-03,2025-04,True,Phase5命中×品类
+personalized name necklace,125927.0,3,,2025-02,2025-12,True,Phase5命中×品类
+dangly belly button piercing,126032.0,8,1.0427122263747999,2025-01,2025-09,False,裸场景词×优质词族
 billie eilish necklace,126054.0,3,,2025-10,2025-12,True,品类新入榜
 graduation memorial tassel charm,126153.0,2,,2025-04,2025-05,True,Phase5命中×品类
+god is above bible verse jar,126248.0,1,,2025-12,2025-12,False,裸场景词×优质词族
 womens jewelry box,126248.0,2,,2025-11,2025-12,True,品类新入榜
 fidget rings for anxiety,126300.0,7,1.0383378910158074,2025-03,2025-09,True,Phase5命中×品类
 bracelets silver,126353.0,6,1.1553120431155577,2025-07,2025-12,True,品类新入榜
-christmas light earrings,126618.0,1,,2025-12,2025-12,True,品类新入榜
 small gift boxes for jewelry,126618.0,1,,2025-12,2025-12,True,品类新入榜
+christmas light earrings,126618.0,1,,2025-12,2025-12,True,品类新入榜
+name necklace personalized,126772.0,4,,2025-02,2025-05,True,Phase5命中×品类
 scroll ring,126946.0,2,,2025-11,2025-12,True,品类新入榜
+football charms,126958.0,2,,2025-08,2025-09,True,Phase5命中×品类
+gold bag charm,127001.0,4,,2025-07,2025-12,True,Phase5命中×品类
 spiderman necklace,127130.0,1,,2025-12,2025-12,True,品类新入榜
 wood jewelry box,127179.0,2,,2025-11,2025-12,True,品类新入榜
+mardi gras necklace,127309.0,1,,2025-02,2025-02,True,Phase5命中×品类
 elden ring sword,127394.0,1,,2025-12,2025-12,True,品类新入榜
+bogg bag insert,127418.0,3,,2025-05,2025-07,False,裸场景词×优质词族
 jewelry box modern,127427.0,1,,2025-12,2025-12,True,品类新入榜
+four leaf clover bracelet,127660.0,9,1.118949132838585,2025-01,2025-09,True,Phase5命中×品类
+italian charm bracelet apple watch band,127870.0,2,,2025-05,2025-06,True,Phase5命中×品类
 prayer,128257.0,9,1.3550088819507993,2025-01,2025-12,False,裸场景词×优质词族
-calmi rings for women,128482.0,2,,2025-11,2025-12,True,品类新入榜
+mosquito repellent bracelet,128275.0,3,,2025-05,2025-07,True,Phase5命中×品类
+permanent bracelet,128323.0,9,0.9923470641512613,2025-01,2025-12,True,Phase5命中×品类
+20g nose ring hoop,128379.0,9,1.373285881952069,2025-01,2025-09,True,Phase5命中×品类
+fake belly button piercing for women magenergy,128408.0,1,,2025-04,2025-04,False,裸场景词×优质词族
+belly button cleaner,128442.0,1,,2025-12,2025-12,False,裸场景词×优质词族
+calmi rings for women,128482.0,2,,2025-11,2025-12,True,Phase5命中×品类；品类新入榜
+halloween bag charm,128663.0,3,,2025-08,2025-10,True,Phase5命中×品类
 christmas jewelry set,128687.0,1,,2025-12,2025-12,True,品类新入榜
 large jewelry organizer,128976.0,6,0.8280458162305946,2025-07,2025-12,True,品类新入榜
 firefighter costume accessories,128978.0,1,,2025-10,2025-10,False,裸场景词×优质词族
@@ -989,51 +1362,78 @@ ember in the ashes,129514.0,8,1.385648697914697,2025-01,2025-08,False,裸场景�
 saint seiya,129744.0,12,1.1338262260828906,2025-01,2025-12,False,裸场景词×优质词族
 red prayer book,129947.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 boys chain,130074.0,1,,2025-12,2025-12,True,品类新入榜
+vampire necklace for women,130139.0,1,,2025-10,2025-10,True,Phase5命中×品类
 leather bracelet,130139.0,9,0.9157587015801569,2025-04,2025-12,True,品类新入榜
+22 gauge nose ring,130146.0,12,1.3695278746551456,2025-01,2025-12,True,Phase5命中×品类
 down syndrome awareness socks,130282.0,1,,2025-03,2025-03,False,裸场景词×优质词族
-men cross necklace,130565.0,1,,2025-12,2025-12,True,品类新入榜
+small cross necklace for women,130368.0,3,,2025-04,2025-12,True,Phase5命中×品类
+men cross necklace,130565.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
+medical alert necklace,130941.0,10,1.034008091742136,2025-01,2025-10,True,Phase5命中×品类
 christmas earrings for women dangling,131023.0,1,,2025-12,2025-12,True,品类新入榜
+gothic jewelry for women,131068.0,4,,2025-08,2025-12,True,Phase5命中×品类
 adult firefighter costume,131250.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 necklace with name,131271.0,1,,2025-12,2025-12,True,品类新入榜
+initial necklaces for women silver,131588.0,8,1.0846347346434646,2025-01,2025-08,True,Phase5命中×品类
 pandora jewelry,131612.0,1,,2025-12,2025-12,True,品类新入榜
 frog earrings,131663.0,2,,2025-11,2025-12,True,品类新入榜
 necklace magnetic clasp,131769.0,5,,2025-08,2025-12,True,品类新入榜
 teen girl jewelry,131819.0,2,,2025-11,2025-12,True,品类新入榜
+mistletoe belly button ring,131925.0,2,,2025-11,2025-12,True,Phase5命中×品类；品类新入榜
 grandson bracelet from grandma,131925.0,2,,2025-11,2025-12,True,品类新入榜
-mistletoe belly button ring,131925.0,2,,2025-11,2025-12,True,品类新入榜
+gold arm cuff upper arm,132062.0,3,,2025-04,2025-10,True,Phase5命中×品类
+gold cartilage earring,132219.0,9,1.3322318269169402,2025-01,2025-09,True,Phase5命中×品类
 prayer shawls for women,132232.0,7,1.006365098268774,2025-01,2025-07,False,裸场景词×优质词族
+basketball earrings,132378.0,5,,2025-01,2025-12,True,Phase5命中×品类
+cross necklace men,132872.0,3,,2025-09,2025-12,True,Phase5命中×品类
 the hunter's prayer,132965.0,2,,2025-04,2025-11,False,裸场景词×优质词族
+february birthstone necklace,133025.0,1,,2025-02,2025-02,True,Phase5命中×品类
 the prayer of freedom,133085.0,1,,2025-12,2025-12,False,裸场景词×优质词族
 perfect jewelry box,133230.0,1,,2025-12,2025-12,True,品类新入榜
-friendship lamps set of 2 long distance,133348.0,2,,2025-11,2025-12,False,裸场景词×优质词族
 earrings for women silver,133348.0,9,1.2391555437092927,2025-04,2025-12,True,品类新入榜
+friendship lamps set of 2 long distance,133348.0,2,,2025-11,2025-12,False,裸场景词×优质词族
+heart nose ring,133373.0,3,,2025-01,2025-03,True,Phase5命中×品类
 girls jewelry making kit,133444.0,1,,2025-12,2025-12,True,品类新入榜
+cross pendant paperclip chain necklace,133523.0,1,,2025-09,2025-09,True,Phase5命中×品类
 paper clip necklace,133672.0,4,,2025-09,2025-12,True,品类新入榜
 wrestling ring for action figures,134088.0,2,,2025-11,2025-12,True,品类新入榜
+bible verse pens,134246.0,2,,2025-03,2025-04,False,裸场景词×优质词族
 to my man bracelet,134273.0,1,,2025-12,2025-12,True,品类新入榜
+shamrock tattoos temporary,134344.0,1,,2025-03,2025-03,False,裸场景词×优质词族
+bible verse jar for kids,134372.0,1,,2025-12,2025-12,False,裸场景词×优质词族
 nye earrings,134372.0,1,,2025-12,2025-12,True,品类新入榜
+big cross necklace,134381.0,1,,2025-10,2025-10,True,Phase5命中×品类
 gingerbread earrings for women,134420.0,1,,2025-12,2025-12,True,品类新入榜
 friendship bracelet valentines kids,134534.0,2,,2025-01,2025-02,True,Phase5命中×品类
+baseball necklaces,134572.0,3,,2025-04,2025-06,True,Phase5命中×品类
 christmas clip on earrings,134580.0,2,,2025-11,2025-12,True,品类新入榜
+nose ring stud,134919.0,12,1.1330914242397883,2025-01,2025-12,True,Phase5命中×品类
+bible verse calendar 2026,135277.0,1,,2025-12,2025-12,False,裸场景词×优质词族
 14k gold chain for men,135370.0,8,1.207843164202078,2025-05,2025-12,True,品类新入榜
 womens bracelet,135431.0,1,,2025-12,2025-12,True,品类新入榜
 strong magnetic screw ring,135431.0,1,,2025-12,2025-12,True,品类新入榜
+christian bracelet,135570.0,3,,2025-01,2025-03,True,Phase5命中×品类
 womens necklaces gold,135761.0,2,,2025-11,2025-12,True,品类新入榜
 disrupting divorce book,135777.0,1,,2025-10,2025-10,False,裸场景词×优质词族
+wwjd bracelets bulk,135825.0,2,,2025-09,2025-10,True,Phase5命中×品类
 happy yappy slap bracelet,135844.0,2,,2025-11,2025-12,True,品类新入榜
-december birthstone,136455.0,1,,2025-12,2025-12,True,品类新入榜
+december birthstone,136455.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 earring jewelry box,136509.0,2,,2025-11,2025-12,True,品类新入榜
 prayer beads,136578.0,11,1.2123800959232613,2025-01,2025-12,False,裸场景词×优质词族
 mens promise rings,136666.0,3,,2025-01,2025-12,True,Phase5命中×品类
+goth rings,136710.0,6,0.7319465698353003,2025-02,2025-12,True,Phase5命中×品类
 white jewelry box,136728.0,2,,2025-11,2025-12,True,品类新入榜
+y2k earrings,137260.0,10,0.8886221133041904,2025-01,2025-10,True,Phase5命中×品类
 chunky hoop earrings,137283.0,6,1.0604773609878841,2025-07,2025-12,True,品类新入榜
 santa earrings for women,137300.0,1,,2025-12,2025-12,True,品类新入榜
 silver huggie hoop earrings,137513.0,5,,2025-08,2025-12,True,品类新入榜
 jewelry cleaner machine,137519.0,2,,2025-11,2025-12,True,品类新入榜
-gold name necklace,137570.0,2,,2025-11,2025-12,True,品类新入榜
+gold name necklace,137570.0,2,,2025-11,2025-12,True,Phase5命中×品类；品类新入榜
 suicide awareness,137605.0,4,,2025-02,2025-09,False,裸场景词×优质词族
+calmi rings for women magnetic weight loss,137682.0,1,,2025-04,2025-04,True,Phase5命中×品类
+cross necklaces,137821.0,5,,2025-04,2025-12,True,Phase5命中×品类
 willow tree friendship figurines,138006.0,1,,2025-12,2025-12,False,裸场景词×优质词族
 girls clip on earrings,138242.0,2,,2025-11,2025-12,True,品类新入榜
+portable basketball hoops,138410.0,4,,2025-06,2025-12,True,Phase5命中×品类
 earring holder for girls,138574.0,2,,2025-11,2025-12,True,品类新入榜
 saint joseph statue to sell home,138675.0,6,1.1719963814419667,2025-04,2025-09,False,裸场景词×优质词族
 christmas bracelet making kit,138735.0,2,,2025-11,2025-12,True,品类新入榜
@@ -1042,23 +1442,29 @@ red bow earrings for women,138799.0,1,,2025-12,2025-12,True,品类新入榜
 serenity prayer,138832.0,10,1.255029201817002,2025-01,2025-12,False,裸场景词×优质词族
 jewelry travel pouch,138868.0,2,,2025-11,2025-12,True,品类新入榜
 evil eye earrings,138931.0,9,1.2370722949416504,2025-01,2025-09,True,Phase5命中×品类
+october birthstone necklace,139150.0,1,,2025-10,2025-10,True,Phase5命中×品类
 magnetic jewelry clasps,139243.0,5,,2025-08,2025-12,True,品类新入榜
 yves saint laurent perfume for men,139316.0,2,,2025-05,2025-06,False,裸场景词×优质词族
 cookie rings,139532.0,4,,2025-09,2025-12,True,品类新入榜
 dachshund ring holder,139756.0,2,,2025-11,2025-12,True,品类新入榜
-women's engagement rings,140078.0,5,,2025-01,2025-12,True,Phase5命中×品类
 coach necklace,140078.0,1,,2025-12,2025-12,True,品类新入榜
+women's engagement rings,140078.0,5,,2025-01,2025-12,True,Phase5命中×品类
+mustache septum ring,140111.0,1,,2025-01,2025-01,True,Phase5命中×品类
 pandora promise ring,140138.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 christmas napkin rings set of 12,140345.0,1,,2025-12,2025-12,True,品类新入榜
 boys breast cancer awareness shirts,140361.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 42 pairs gold hoop earrings set for women,140519.0,2,,2025-11,2025-12,True,品类新入榜
+october birthstone,140561.0,1,,2025-10,2025-10,True,Phase5命中×品类
+shamrock farms protein drinks,140757.0,5,,2025-04,2025-08,False,裸场景词×优质词族
 princess cut engagement ring,140813.0,10,1.245418326693227,2025-01,2025-12,True,Phase5命中×品类
 girl jewelry box,140847.0,2,,2025-11,2025-12,True,品类新入榜
 cat urns for ashes,140878.0,8,1.2145718627276854,2025-01,2025-08,False,裸场景词×优质词族
 saint costume,140890.0,1,,2025-10,2025-10,False,裸场景词×优质词族
-mens gold cross necklace,140959.0,1,,2025-12,2025-12,True,品类新入榜
+mens gold cross necklace,140959.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
+fake belly button piercing for women secret,141006.0,1,,2025-05,2025-05,False,裸场景词×优质词族
 blind faith,141056.0,1,,2025-02,2025-02,False,裸场景词×优质词族
 earring box gift,141241.0,1,,2025-12,2025-12,True,品类新入榜
+football necklace for women,141339.0,2,,2025-08,2025-09,True,Phase5命中×品类
 light up christmas earrings,141360.0,1,,2025-12,2025-12,True,品类新入榜
 legacy of ashes the history of the cia,141603.0,1,,2025-07,2025-07,False,裸场景词×优质词族
 ashes and the star cursed king,141641.0,3,,2025-01,2025-03,False,裸场景词×优质词族
@@ -1066,66 +1472,105 @@ ring measuring tool,141663.0,4,,2025-09,2025-12,True,品类新入榜
 ring con,141801.0,2,,2025-11,2025-12,True,品类新入榜
 a prayer for owen meany,141801.0,1,,2025-11,2025-11,False,裸场景词×优质词族
 brooches,141962.0,4,,2025-09,2025-12,True,品类新入榜
+2024 fantasy football ring,141999.0,2,,2025-01,2025-08,True,Phase5命中×品类
 like a prayer,142257.0,2,,2025-01,2025-02,False,裸场景词×优质词族
 girl bracelets,142295.0,1,,2025-12,2025-12,True,品类新入榜
 bracelet sets for women,142349.0,1,,2025-12,2025-12,True,品类新入榜
+sterling silver cross pendant,142469.0,2,,2025-09,2025-12,True,Phase5命中×品类
 kids rings for girls,142617.0,2,,2025-11,2025-12,True,品类新入榜
 ring enhancer for engagement rings,142644.0,5,,2025-01,2025-05,True,Phase5命中×品类
+cross earrings for girls,142658.0,1,,2025-04,2025-04,True,Phase5命中×品类
 charms for crafts,142865.0,8,0.9070028673623223,2025-05,2025-12,True,品类新入榜
-december birthstone earrings,142926.0,1,,2025-12,2025-12,True,品类新入榜
+december birthstone earrings,142926.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 journal charms,143032.0,1,,2025-12,2025-12,True,品类新入榜
+soccer earrings,143046.0,1,,2025-09,2025-09,True,Phase5命中×品类
+prom necklace silver,143074.0,1,,2025-04,2025-04,True,Phase5命中×品类
+bubble initial necklaces for women,143074.0,7,1.126441881100266,2025-01,2025-07,True,Phase5命中×品类
 champagne earrings,143223.0,1,,2025-12,2025-12,True,品类新入榜
 luvlink friendship lamp,143284.0,1,,2025-12,2025-12,False,裸场景词×优质词族
 owala charms,143284.0,1,,2025-12,2025-12,True,品类新入榜
+silver necklace prom,143344.0,1,,2025-04,2025-04,True,Phase5命中×品类
 beaded bracelet making kit,143355.0,1,,2025-12,2025-12,True,品类新入榜
 the black divorce,143433.0,2,,2025-02,2025-03,False,裸场景词×优质词族
 snowman earrings for women,143446.0,1,,2025-12,2025-12,True,品类新入榜
+gingerbread bogg bag,143451.0,1,,2025-11,2025-11,False,裸场景词×优质词族
 money in the bank ring,143507.0,2,,2025-11,2025-12,True,品类新入榜
 radiant cut engagement rings,143514.0,10,0.97829384704562,2025-01,2025-10,True,Phase5命中×品类
-sterling silver initial necklace,143637.0,1,,2025-12,2025-12,True,品类新入榜
+sterling silver initial necklace,143637.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 cremation urn,143667.0,5,,2025-01,2025-05,False,裸场景词×优质词族
 red bow earrings,143973.0,1,,2025-12,2025-12,True,品类新入榜
+bogg bag medium size,144089.0,4,,2025-02,2025-06,False,裸场景词×优质词族
 urn for dog ashes,144334.0,11,1.161827449997692,2025-01,2025-11,False,裸场景词×优质词族
+stainless steel belly button rings,144334.0,8,1.0766100086766,2025-01,2025-08,True,Phase5命中×品类
 boys gold chain,144462.0,1,,2025-12,2025-12,True,品类新入榜
+august birthstone necklace,144482.0,1,,2025-08,2025-08,True,Phase5命中×品类
 christmas brooches,144788.0,2,,2025-11,2025-12,True,品类新入榜
 faith shirts for men,144914.0,3,,2025-06,2025-12,False,裸场景词×优质词族
+gold italian charm bracelet,145026.0,4,,2025-01,2025-06,True,Phase5命中×品类
 diamond engagement rings for women,145035.0,6,0.7544599482152576,2025-02,2025-10,True,Phase5命中×品类
+st patrick's day earrings,145086.0,1,,2025-03,2025-03,True,Phase5命中×品类
 bracelets for boys,145247.0,1,,2025-12,2025-12,True,品类新入榜
+baseball bracelet,145311.0,3,,2025-04,2025-06,True,Phase5命中×品类
 womens police officer costume outfit,145337.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 necklace gift box for women,145372.0,1,,2025-12,2025-12,True,品类新入榜
+thanos cross necklace,145602.0,1,,2025-07,2025-07,True,Phase5命中×品类
 e newton bracelets,145858.0,2,,2025-11,2025-12,True,品类新入榜
+14k gold cross necklace for women,145923.0,2,,2025-09,2025-12,True,Phase5命中×品类
+cross and crown necklace for women,145929.0,1,,2025-09,2025-09,True,Phase5命中×品类
+silver cross pendant,146011.0,2,,2025-09,2025-12,True,Phase5命中×品类
 rings set,146041.0,7,1.1686144907450593,2025-06,2025-12,True,品类新入榜
+charm bracelet advent calendar 2025,146131.0,1,,2025-11,2025-11,True,Phase5命中×品类
 women's brooches & pins,146254.0,4,,2025-09,2025-12,True,品类新入榜
+st patricks day jewelry,146330.0,1,,2025-03,2025-03,True,Phase5命中×品类
+vampire jewelry for women,146456.0,1,,2025-10,2025-10,True,Phase5命中×品类
+shamrock sweatshirt,146497.0,2,,2025-02,2025-03,False,裸场景词×优质词族
 custom bracelet for women,146602.0,1,,2025-12,2025-12,True,品类新入榜
 new year earrings,146790.0,1,,2025-12,2025-12,True,品类新入榜
 earrings sterling silver,146851.0,2,,2025-11,2025-12,True,品类新入榜
+volleyball earrings,146876.0,2,,2025-08,2025-09,True,Phase5命中×品类
+long belly button rings,146897.0,9,1.1471618824743175,2025-01,2025-09,True,Phase5命中×品类
 bracelet for girls,147111.0,1,,2025-12,2025-12,True,品类新入榜
 ridge ring,147158.0,3,,2025-10,2025-12,True,品类新入榜
 stranger things croc charms,147365.0,1,,2025-12,2025-12,True,品类新入榜
+beaded initial necklace,147441.0,2,,2025-06,2025-07,True,Phase5命中×品类
+wwjd bracelet,147572.0,6,0.974412642201741,2025-04,2025-12,True,Phase5命中×品类
 the captivating story of saint nicholas,147669.0,1,,2025-12,2025-12,False,裸场景词×优质词族
+shamrock hat,147675.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 christmas earring,148006.0,1,,2025-12,2025-12,True,品类新入榜
-hoop earrings set,148143.0,6,0.780312623144621,2025-07,2025-12,True,品类新入榜
 christmas wine glass charms,148143.0,1,,2025-12,2025-12,True,品类新入榜
-charms for purses,148282.0,1,,2025-12,2025-12,True,品类新入榜
+hoop earrings set,148143.0,6,0.780312623144621,2025-07,2025-12,True,品类新入榜
 snowflake nail charms,148282.0,1,,2025-12,2025-12,True,品类新入榜
+charms for purses,148282.0,1,,2025-12,2025-12,True,品类新入榜
 earring tree,148282.0,2,,2025-11,2025-12,True,品类新入榜
 funny saint patricks day shirt,148375.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 m necklace gold,148753.0,2,,2025-11,2025-12,True,品类新入榜
 mint and lily bracelets for women,149092.0,2,,2025-11,2025-12,True,品类新入榜
 divorce s,149126.0,1,,2025-06,2025-06,False,裸场景词×优质词族
 girls jewelry set,149207.0,1,,2025-12,2025-12,True,品类新入榜
-soccer necklace,149207.0,2,,2025-11,2025-12,True,品类新入榜
+soccer necklace,149207.0,2,,2025-11,2025-12,True,Phase5命中×品类；品类新入榜
 play jewelry for girls 4-6,149322.0,2,,2025-11,2025-12,True,品类新入榜
 snoopy earrings,149446.0,1,,2025-12,2025-12,True,品类新入榜
 christmas bow earrings for women,149823.0,1,,2025-12,2025-12,True,品类新入榜
-orthodox cross necklace,149842.0,4,,2025-09,2025-12,True,品类新入榜
+orthodox cross necklace,149842.0,4,,2025-09,2025-12,True,Phase5命中×品类；品类新入榜
+christian jewelry,149842.0,2,,2025-09,2025-12,True,Phase5命中×品类
+silver prom necklace,149846.0,1,,2025-04,2025-04,True,Phase5命中×品类
+deviated septum corrector magnet,150276.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 girls necklaces ages 6-8,150399.0,1,,2025-12,2025-12,True,品类新入榜
 girl earrings,150863.0,1,,2025-12,2025-12,True,品类新入榜
 divorced s,150867.0,1,,2025-06,2025-06,False,裸场景词×优质词族
+september birthstone necklace,150868.0,1,,2025-09,2025-09,True,Phase5命中×品类
 wallet with chain for men,150995.0,1,,2025-12,2025-12,True,品类新入榜
+sideways cross necklace for women,151214.0,3,,2025-04,2025-12,True,Phase5命中×品类
+16 gauge cartilage earrings,151230.0,8,1.0745525800130633,2025-01,2025-08,True,Phase5命中×品类
 jewelry earrings,151295.0,2,,2025-11,2025-12,True,品类新入榜
 autism awareness shirt men,151355.0,2,,2025-03,2025-04,False,裸场景词×优质词族
+christian necklace for women,151401.0,2,,2025-09,2025-12,True,Phase5命中×品类
+makeup bag with initial,151722.0,1,,2025-12,2025-12,False,裸场景词×优质词族
+western rings,151764.0,12,0.9255510333527142,2025-01,2025-12,True,Phase5命中×品类
+silver jewelry set for prom,151884.0,1,,2025-04,2025-04,True,Phase5命中×品类
 g necklace,151913.0,1,,2025-12,2025-12,True,品类新入榜
+faux septum piercings,151974.0,3,,2025-01,2025-04,False,裸场景词×优质词族
+large cross necklace,152071.0,1,,2025-10,2025-10,True,Phase5命中×品类
 son bracelet,152111.0,1,,2025-12,2025-12,True,品类新入榜
 tosy flying ring,152293.0,1,,2025-12,2025-12,True,品类新入榜
 saint cloud perfume,152309.0,1,,2025-05,2025-05,False,裸场景词×优质词族
@@ -1136,27 +1581,35 @@ snoopy jewelry,152724.0,1,,2025-12,2025-12,True,品类新入榜
 bird baptism brine,152786.0,1,,2025-11,2025-11,False,裸场景词×优质词族
 wildland firefighter gear,152837.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 play jewelry for girls 2-3,152918.0,2,,2025-11,2025-12,True,品类新入榜
-diamond tennis bracelet,152918.0,1,,2025-12,2025-12,True,品类新入榜
+diamond tennis bracelet,152918.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 the great divorce,152991.0,2,,2025-08,2025-09,False,裸场景词×优质词族
 saint michael pendant,153281.0,2,,2025-09,2025-12,True,Phase5命中×品类
 necklace for teen girls,153344.0,1,,2025-12,2025-12,True,品类新入榜
 necklace and earring set,153479.0,1,,2025-12,2025-12,True,品类新入榜
 to my son bracelet,153479.0,1,,2025-12,2025-12,True,品类新入榜
 alex and ani graduation bracelet 2025,153659.0,1,,2025-05,2025-05,True,Phase5命中×品类
+women's promise rings,153677.0,4,,2025-09,2025-12,True,Phase5命中×品类；品类新入榜
 boys jewelry,153677.0,1,,2025-12,2025-12,True,品类新入榜
 ring box with light,153677.0,1,,2025-12,2025-12,True,品类新入榜
-women's promise rings,153677.0,4,,2025-09,2025-12,True,Phase5命中×品类；品类新入榜
 women police officer costume,153753.0,1,,2025-10,2025-10,False,裸场景词×优质词族
+phone charm strap,153848.0,6,1.0108958505837258,2025-05,2025-12,True,Phase5命中×品类
 pear shaped engagement ring,153880.0,10,1.1984343284242742,2025-01,2025-10,True,Phase5命中×品类
 ardant stay close hoops,154025.0,2,,2025-11,2025-12,True,品类新入榜
+western bracelets for women,154103.0,5,,2025-03,2025-07,True,Phase5命中×品类
+silver body chain,154165.0,6,1.0384060009376466,2025-04,2025-10,True,Phase5命中×品类
 wooden jewelry box for women,154409.0,1,,2025-12,2025-12,True,品类新入榜
+bible verse,154409.0,1,,2025-12,2025-12,False,裸场景词×优质词族
 personalized graduation tassel photo charm with angel wings,154509.0,1,,2025-04,2025-04,True,Phase5命中×品类
 rotator cuff surgery must haves,154536.0,5,,2025-08,2025-12,True,品类新入榜
 cat jewelry for women,154562.0,1,,2025-12,2025-12,True,品类新入榜
 promise rings for women,154644.0,2,,2025-01,2025-12,True,Phase5命中×品类
 napkin rings christmas,154770.0,1,,2025-12,2025-12,True,品类新入榜
 jewelry towers,154989.0,2,,2025-11,2025-12,True,品类新入榜
-birthstone earrings for women,155275.0,1,,2025-12,2025-12,True,品类新入榜
+green necklaces for st patricks day,155010.0,1,,2025-03,2025-03,True,Phase5命中×品类
+james michelle chunky cross necklace,155053.0,3,,2025-08,2025-10,True,Phase5命中×品类
+initial tote bags for women,155110.0,1,,2025-05,2025-05,False,裸场景词×优质词族
+leather bag charm,155274.0,5,,2025-01,2025-08,True,Phase5命中×品类
+birthstone earrings for women,155275.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 grandma necklaces for women,155619.0,1,,2025-12,2025-12,True,品类新入榜
 black jewelry box,155757.0,1,,2025-12,2025-12,True,品类新入榜
 jaxxon chain,155806.0,1,,2025-12,2025-12,True,品类新入榜
@@ -1170,54 +1623,80 @@ graduation jewelry for women 2025,156697.0,1,,2025-05,2025-05,True,Phase5命中�
 prayer jar with scriptures for women,156943.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 suicide awareness bracelets,156976.0,1,,2025-09,2025-09,True,Phase5命中×品类
 cat jewelry,156995.0,1,,2025-12,2025-12,True,品类新入榜
+strawberry bag charm,157055.0,2,,2025-05,2025-06,True,Phase5命中×品类
 christmas light up necklaces,157057.0,1,,2025-12,2025-12,True,品类新入榜
 mom necklace with kids names,157122.0,1,,2025-12,2025-12,True,品类新入榜
 a little prayer,157149.0,1,,2025-10,2025-10,False,裸场景词×优质词族
-initial necklace silver,157352.0,1,,2025-12,2025-12,True,品类新入榜
+hoop belly button ring,157343.0,2,,2025-05,2025-06,True,Phase5命中×品类
+initial necklace silver,157352.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 women's necklace,157499.0,1,,2025-12,2025-12,True,品类新入榜
 velvet jewelry box,157499.0,1,,2025-12,2025-12,True,品类新入榜
+mermaid arm cuff,157648.0,1,,2025-10,2025-10,True,Phase5命中×品类
 jewelry plate,157660.0,2,,2025-11,2025-12,True,品类新入榜
-birthstone month chart,157743.0,1,,2025-12,2025-12,True,品类新入榜
+birthstone month chart,157743.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 ashes of us,157823.0,1,,2025-11,2025-11,False,裸场景词×优质词族
 pandora bracelet gold,157889.0,1,,2025-12,2025-12,True,品类新入榜
 jewelry holder dish,157965.0,1,,2025-12,2025-12,True,品类新入榜
+shamrock table runner,158193.0,1,,2025-02,2025-02,False,裸场景词×优质词族
+bull nose ring,158230.0,1,,2025-11,2025-11,True,Phase5命中×品类
+white gold cross necklace for women,158342.0,2,,2025-09,2025-12,True,Phase5命中×品类
 teen jewelry box,158425.0,1,,2025-12,2025-12,True,品类新入榜
 jewelry box large,158471.0,2,,2025-11,2025-12,True,品类新入榜
 mother daughter matching outfits,158654.0,4,,2025-02,2025-05,False,裸场景词×优质词族
 nutcracker earrings for women,158851.0,2,,2025-11,2025-12,True,品类新入榜
 graduation ring,158859.0,1,,2025-05,2025-05,True,Phase5命中×品类
+birthstone necklace for mom,158940.0,2,,2025-05,2025-12,True,Phase5命中×品类
 the four engagement rings of sybil rain,158950.0,2,,2025-06,2025-07,True,Phase5命中×品类
+mermaid ear cuffs,159096.0,1,,2025-10,2025-10,True,Phase5命中×品类
 draw the circle the 40 day prayer challenge,159111.0,1,,2025-01,2025-01,False,裸场景词×优质词族
 bracelet for son,159220.0,1,,2025-12,2025-12,True,品类新入榜
 travel engagement rings for women,159272.0,5,,2025-03,2025-07,True,Phase5命中×品类
+cross necklaces for women,159282.0,2,,2025-09,2025-12,True,Phase5命中×品类
 earring organizer box,159380.0,2,,2025-11,2025-12,True,品类新入榜
 cat ring,159380.0,1,,2025-12,2025-12,True,品类新入榜
 clay bead bracelet kit,159629.0,2,,2025-11,2025-12,True,品类新入榜
+shamrock balloons,159637.0,1,,2025-03,2025-03,False,裸场景词×优质词族
+mini portable jewelry box,159692.0,1,,2025-12,2025-12,True,品类新入榜
 girl necklace,159692.0,1,,2025-12,2025-12,True,品类新入榜
 14k gold ring,159692.0,1,,2025-12,2025-12,True,品类新入榜
-mini portable jewelry box,159692.0,1,,2025-12,2025-12,True,品类新入榜
 evil eye jewelry,159770.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 mens wallet with chain,159824.0,1,,2025-12,2025-12,True,品类新入榜
 burgundy earrings,159952.0,4,,2025-09,2025-12,True,品类新入榜
 vayro ring for women,160031.0,3,,2025-10,2025-12,True,品类新入榜
 breast cancer awareness banner,160215.0,1,,2025-10,2025-10,False,裸场景词×优质词族
+silver belly button rings,160255.0,6,1.0178814417849071,2025-02,2025-07,True,Phase5命中×品类
+dainty cross necklace,160302.0,1,,2025-09,2025-09,True,Phase5命中×品类
 happy new year earrings,160403.0,1,,2025-12,2025-12,True,品类新入榜
+croc charm bracelet,160463.0,1,,2025-07,2025-07,True,Phase5命中×品类
+cross bracelet for girls,160503.0,1,,2025-04,2025-04,True,Phase5命中×品类
+charms for bogg bag,160588.0,4,,2025-04,2025-07,True,Phase5命中×品类
 christmas wine charms,160638.0,1,,2025-12,2025-12,True,品类新入榜
+90 day bible verse jar,160713.0,1,,2025-12,2025-12,False,裸场景词×优质词族
 best friend rings,160713.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 kids jewelry box for girls,160856.0,1,,2025-12,2025-12,True,品类新入榜
-jewelry bracelets,161007.0,2,,2025-11,2025-12,True,品类新入榜
+bug bands mosquito repellent bracelet,160877.0,1,,2025-06,2025-06,True,Phase5命中×品类
+cross bracelets,160997.0,2,,2025-04,2025-09,True,Phase5命中×品类
 nogu bracelet,161007.0,1,,2025-12,2025-12,True,品类新入榜
+jewelry bracelets,161007.0,2,,2025-11,2025-12,True,品类新入榜
+hello kitty bag charm,161084.0,2,,2025-08,2025-12,True,Phase5命中×品类
 knot bracelet,161149.0,1,,2025-12,2025-12,True,品类新入榜
 kids necklace,161389.0,1,,2025-12,2025-12,True,品类新入榜
 jewelry kit for girls 8-12,161470.0,1,,2025-12,2025-12,True,品类新入榜
 silicone invisible ring size adjusters,161692.0,1,,2025-12,2025-12,True,品类新入榜
 girls jewelry boxes ages 8-12,161779.0,1,,2025-12,2025-12,True,品类新入榜
 bag charms silver,161925.0,1,,2025-12,2025-12,True,品类新入榜
+initial christmas ornaments,162122.0,2,,2025-11,2025-12,False,裸场景词×优质词族
 girls jewelry ages 6-8,162242.0,1,,2025-12,2025-12,True,品类新入榜
+croc charm,162387.0,6,1.0804064232082309,2025-03,2025-08,True,Phase5命中×品类
+gold necklace prom,162387.0,1,,2025-04,2025-04,True,Phase5命中×品类
+fantasy football championship belt,162432.0,1,,2025-08,2025-08,False,裸场景词×优质词族
+sterling silver cross necklace for women,162503.0,1,,2025-09,2025-09,True,Phase5命中×品类
 velvet jewelry pouches,162755.0,1,,2025-12,2025-12,True,品类新入榜
 10k gold earrings,163110.0,1,,2025-12,2025-12,True,品类新入榜
+soccer bracelets,163122.0,2,,2025-09,2025-10,True,Phase5命中×品类
 breast cancer awareness pin,163136.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 divorce party decorations for women,163228.0,7,0.9316147626290929,2025-02,2025-08,False,裸场景词×优质词族
+toe ring sandals,163260.0,3,,2025-05,2025-07,True,Phase5命中×品类
 jewelry cleaner pen,163366.0,1,,2025-12,2025-12,True,品类新入榜
 gold promise ring,163509.0,3,,2025-02,2025-12,True,Phase5命中×品类
 sticker earrings for girls,163590.0,1,,2025-12,2025-12,True,品类新入榜
@@ -1229,239 +1708,351 @@ candy cane necklace,164259.0,1,,2025-12,2025-12,True,品类新入榜
 human urns for ashes,164342.0,1,,2025-01,2025-01,False,裸场景词×优质词族
 jewelry box men,164417.0,1,,2025-12,2025-12,True,品类新入榜
 friendship necklaces,164426.0,3,,2025-01,2025-05,True,Phase5命中×品类
+cowgirl jewelry for women western,164534.0,2,,2025-04,2025-05,True,Phase5命中×品类
 wife necklace from husband,164637.0,1,,2025-12,2025-12,True,品类新入榜
+gothic earrings for women,164646.0,1,,2025-10,2025-10,True,Phase5命中×品类
 silicone engagement ring women,164702.0,3,,2025-01,2025-06,True,Phase5命中×品类
 james avery ring,164712.0,1,,2025-12,2025-12,True,品类新入榜
+cross jewelry women,164864.0,2,,2025-09,2025-12,True,Phase5命中×品类
+shamrock window clings,165336.0,1,,2025-02,2025-02,False,裸场景词×优质词族
 sterling silver rings for men,165391.0,1,,2025-12,2025-12,True,品类新入榜
-initial bag charm,165391.0,1,,2025-12,2025-12,True,品类新入榜
+birthstone charms,165391.0,2,,2025-05,2025-12,True,Phase5命中×品类
+initial bag charm,165391.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 lab grown diamond necklace,165815.0,1,,2025-12,2025-12,True,品类新入榜
 baptism favors for guests,165835.0,3,,2025-03,2025-05,False,裸场景词×优质词族
-portable basketball hoops adjustable height,165881.0,1,,2025-12,2025-12,True,品类新入榜
-bible verse bracelet,165957.0,1,,2025-12,2025-12,True,品类新入榜
+portable basketball hoops adjustable height,165881.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 chain for boys,165957.0,1,,2025-12,2025-12,True,品类新入榜
+bible verse bracelet,165957.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 ring conn sizing kit,166443.0,2,,2025-11,2025-12,True,品类新入榜
+shamrock confetti,166561.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 necklaces for ashes,166879.0,5,,2025-02,2025-06,True,Phase5命中×品类
+fake belly button ring,166982.0,2,,2025-04,2025-06,True,Phase5命中×品类
 oval engagement ring,167066.0,3,,2025-09,2025-12,True,Phase5命中×品类
 meat church bird baptism brine,167181.0,1,,2025-11,2025-11,False,裸场景词×优质词族
 faith over fear hoodie men,167216.0,1,,2025-12,2025-12,False,裸场景词×优质词族
 womens silver necklace,167303.0,1,,2025-12,2025-12,True,品类新入榜
+bogg bag -,167477.0,1,,2025-12,2025-12,False,裸场景词×优质词族
+fidget bracelet for kids,167662.0,2,,2025-08,2025-09,True,Phase5命中×品类
 the prayer of freedom beatty carmichael,167722.0,1,,2025-12,2025-12,False,裸场景词×优质词族
 breast cancer awareness t-shirts,167769.0,2,,2025-09,2025-10,False,裸场景词×优质词族
+initial pillow,167784.0,2,,2025-07,2025-08,False,裸场景词×优质词族
+bubble letter necklace silver,167857.0,3,,2025-01,2025-03,True,Phase5命中×品类
 bff necklace,167873.0,3,,2025-10,2025-12,True,品类新入榜
 faith in the flames,167884.0,1,,2025-07,2025-07,False,裸场景词×优质词族
 magnetic earrings for girls,168047.0,1,,2025-12,2025-12,True,品类新入榜
-jingle bell bracelets,168047.0,1,,2025-12,2025-12,True,品类新入榜
 junk case charms kit,168047.0,1,,2025-12,2025-12,True,品类新入榜
+jingle bell bracelets,168047.0,1,,2025-12,2025-12,True,品类新入榜
 earrings for kids,168153.0,2,,2025-11,2025-12,True,品类新入榜
-luma bracelet with bible verse,168470.0,1,,2025-12,2025-12,True,品类新入榜
+bogg bag charms for women,168164.0,2,,2025-05,2025-06,True,Phase5命中×品类
+luma bracelet with bible verse,168470.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 mom and daughter necklace,168541.0,1,,2025-12,2025-12,True,品类新入榜
+april birthstone necklace,168663.0,1,,2025-04,2025-04,True,Phase5命中×品类
 graduation rings for women 2025,168719.0,1,,2025-05,2025-05,True,Phase5命中×品类
-mens fidget ring,168788.0,1,,2025-12,2025-12,True,品类新入榜
+mens fidget ring,168788.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 the adventure begins graduation bracelet,168798.0,1,,2025-04,2025-04,True,Phase5命中×品类
+small belly button ring,168883.0,5,,2025-03,2025-07,True,Phase5命中×品类
 breast cancer awareness pens,169178.0,1,,2025-10,2025-10,False,裸场景词×优质词族
+silver upper arm cuff,169178.0,1,,2025-10,2025-10,True,Phase5命中×品类
 unicorn necklace,169200.0,1,,2025-12,2025-12,True,品类新入榜
+silver ear cuff,169311.0,6,1.0145093060260468,2025-04,2025-10,True,Phase5命中×品类
 breath as prayer,169357.0,2,,2025-01,2025-12,False,裸场景词×优质词族
 memorial necklace,169437.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 womens stud earrings,169512.0,1,,2025-12,2025-12,True,品类新入榜
-to my wife necklace,169597.0,1,,2025-12,2025-12,True,品类新入榜
 chanel necklace,169597.0,1,,2025-12,2025-12,True,品类新入榜
-necklaces for mom,169677.0,1,,2025-12,2025-12,True,品类新入榜
+to my wife necklace,169597.0,1,,2025-12,2025-12,True,品类新入榜
 pandora christmas charms,169677.0,1,,2025-12,2025-12,True,品类新入榜
+necklaces for mom,169677.0,1,,2025-12,2025-12,True,品类新入榜
 mens sterling silver bracelet,169823.0,1,,2025-12,2025-12,True,品类新入榜
 colon cancer awareness shirts,169882.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 solid gold necklace,169913.0,1,,2025-12,2025-12,True,品类新入榜
-cell phone charms,170006.0,1,,2025-12,2025-12,True,品类新入榜
+rose gold nose ring,169979.0,4,,2025-02,2025-09,True,Phase5命中×品类
 bracelets for girls 8-12,170006.0,1,,2025-12,2025-12,True,品类新入榜
+cell phone charms,170006.0,1,,2025-12,2025-12,True,品类新入榜
 love and friendship movie,170115.0,1,,2025-02,2025-02,False,裸场景词×优质词族
 necklace jewelry box,170173.0,1,,2025-12,2025-12,True,品类新入榜
 saint michael necklace for men,170213.0,2,,2025-04,2025-05,True,Phase5命中×品类
-birthstone colors by month chart,170349.0,1,,2025-12,2025-12,True,品类新入榜
 christmas rings for women,170349.0,1,,2025-12,2025-12,True,品类新入榜
+birthstone colors by month chart,170349.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
+diamond cross necklace,170365.0,1,,2025-09,2025-09,True,Phase5命中×品类
+hoop nose ring,170482.0,2,,2025-02,2025-09,True,Phase5命中×品类
+gold cross earrings,170551.0,3,,2025-04,2025-12,True,Phase5命中×品类
+gothic choker necklace,170586.0,1,,2025-10,2025-10,True,Phase5命中×品类
+shamrock socks,170651.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 rainbow loom bracelet kit,170674.0,2,,2025-11,2025-12,True,品类新入榜
 graduation charms,170790.0,1,,2025-05,2025-05,True,Phase5命中×品类
+magnetic fidget rings,170855.0,1,,2025-11,2025-11,True,Phase5命中×品类
+four leaf clover earrings,170977.0,1,,2025-03,2025-03,True,Phase5命中×品类
 elongated cushion cut engagement ring,171075.0,3,,2025-08,2025-10,True,Phase5命中×品类
 kendra scott earrings gold,171130.0,1,,2025-12,2025-12,True,品类新入榜
+initial stocking,171246.0,2,,2025-11,2025-12,False,裸场景词×优质词族
+bogg bag tray,171284.0,3,,2025-05,2025-07,False,裸场景词×优质词族
+football jewelry for women,171420.0,1,,2025-08,2025-08,True,Phase5命中×品类
+mardi gras bracelets for women,171480.0,1,,2025-02,2025-02,True,Phase5命中×品类
+rubber cross bracelets,171519.0,1,,2025-09,2025-09,True,Phase5命中×品类
+goth jewelry for women,171542.0,1,,2025-10,2025-10,True,Phase5命中×品类
 blue topaz ring,171735.0,1,,2025-12,2025-12,True,品类新入榜
 a necklace that hold ashes,171815.0,1,,2025-01,2025-01,True,Phase5命中×品类
+bogg bag accessories cup holder,171939.0,2,,2025-05,2025-06,False,裸场景词×优质词族
 jewelry mirror cabinet,172095.0,1,,2025-12,2025-12,True,品类新入榜
 rina saint,172096.0,1,,2025-09,2025-09,False,裸场景词×优质词族
+cartilage piercing kit,172103.0,5,,2025-01,2025-08,False,裸场景词×优质词族
 jewelry boxes bulk,172103.0,2,,2025-11,2025-12,True,品类新入榜
 forever bracelet,172192.0,1,,2025-12,2025-12,True,品类新入榜
+goth bracelets,172357.0,3,,2025-08,2025-10,True,Phase5命中×品类
 glass jewelry box,172422.0,1,,2025-12,2025-12,True,品类新入榜
 womens necklaces silver,172422.0,1,,2025-12,2025-12,True,品类新入榜
-necklace cross,172524.0,2,,2025-11,2025-12,True,品类新入榜
+initial necklace for men,172508.0,2,,2025-02,2025-12,True,Phase5命中×品类
+stainless steel nose ring,172508.0,8,1.0761457109283197,2025-01,2025-09,True,Phase5命中×品类
+necklace cross,172524.0,2,,2025-11,2025-12,True,Phase5命中×品类；品类新入榜
+nose ring gold,172530.0,5,,2025-02,2025-09,True,Phase5命中×品类
 cheer necklace,172559.0,4,,2025-09,2025-12,True,品类新入榜
+western nail charms,172699.0,1,,2025-05,2025-05,True,Phase5命中×品类
 holiday napkin rings,172703.0,2,,2025-11,2025-12,True,品类新入榜
+y2k bracelets,172814.0,3,,2025-07,2025-09,True,Phase5命中×品类
 spinning ring,172817.0,1,,2025-12,2025-12,True,品类新入榜
 bracelet pavoi,172817.0,1,,2025-12,2025-12,True,品类新入榜
 birth stone ring for women,172899.0,1,,2025-12,2025-12,True,品类新入榜
 dior necklace,173003.0,1,,2025-12,2025-12,True,品类新入榜
 childhood cancer awareness items,173011.0,1,,2025-09,2025-09,False,裸场景词×优质词族
-friendship christmas ornaments,173182.0,1,,2025-12,2025-12,False,裸场景词×优质词族
+bible verse calendar 2025,173161.0,1,,2025-01,2025-01,False,裸场景词×优质词族
 silicone ring adjuster,173182.0,1,,2025-12,2025-12,True,品类新入榜
+friendship christmas ornaments,173182.0,1,,2025-12,2025-12,False,裸场景词×优质词族
 clip on christmas earrings,173182.0,1,,2025-12,2025-12,True,品类新入榜
+bracelet advent calendar,173339.0,1,,2025-11,2025-11,True,Phase5命中×品类
+phone charm hook,173374.0,4,,2025-05,2025-09,True,Phase5命中×品类
+hypoallergenic belly button rings,173387.0,4,,2025-04,2025-07,True,Phase5命中×品类
 love & friendship,173551.0,1,,2025-02,2025-02,False,裸场景词×优质词族
 christmas bell necklace,173603.0,1,,2025-12,2025-12,True,品类新入榜
+silver necklace for women prom,173717.0,1,,2025-04,2025-04,True,Phase5命中×品类
 king of ashes s a cosby,173721.0,1,,2025-06,2025-06,False,裸场景词×优质词族
+fidget rings for kids,173841.0,3,,2025-09,2025-12,True,Phase5命中×品类
+gothic rings for women,173886.0,1,,2025-10,2025-10,True,Phase5命中×品类
 mommy of an angel ring,174035.0,1,,2025-12,2025-12,True,品类新入榜
+plastic belly button rings,174065.0,8,1.0669783297344104,2025-02,2025-09,True,Phase5命中×品类
+gothic necklaces for women,174081.0,1,,2025-10,2025-10,True,Phase5命中×品类
 lupus awareness shirt,174342.0,1,,2025-05,2025-05,False,裸场景词×优质词族
 fashion jewelry,174390.0,1,,2025-12,2025-12,True,品类新入榜
 ringconn gen 2 ring protector,174474.0,1,,2025-12,2025-12,True,品类新入榜
+bogg bag must have,174489.0,1,,2025-01,2025-01,False,裸场景词×优质词族
+prom earrings silver,174496.0,1,,2025-04,2025-04,True,Phase5命中×品类
+christmas bogg bag,174818.0,1,,2025-11,2025-11,False,裸场景词×优质词族
 2026 earrings,174998.0,1,,2025-12,2025-12,True,品类新入榜
 girls necklaces,175103.0,1,,2025-12,2025-12,True,品类新入榜
 purse charms for women,175103.0,1,,2025-12,2025-12,True,品类新入榜
 pavoi bracelets for women,175290.0,1,,2025-12,2025-12,True,品类新入榜
 teen bracelets,175290.0,1,,2025-12,2025-12,True,品类新入榜
+prom earrings gold,175391.0,1,,2025-04,2025-04,True,Phase5命中×品类
 mens necklaces,175541.0,1,,2025-12,2025-12,True,品类新入榜
 ashes of the imperium,175541.0,2,,2025-11,2025-12,False,裸场景词×优质词族
-14k gold earrings for girls,175727.0,1,,2025-12,2025-12,True,品类新入榜
+initial ornaments for christmas tree,175727.0,2,,2025-11,2025-12,False,裸场景词×优质词族
 women jewelry sets,175727.0,1,,2025-12,2025-12,True,品类新入榜
+14k gold earrings for girls,175727.0,1,,2025-12,2025-12,True,品类新入榜
+jesus bracelets for kids,175736.0,1,,2025-04,2025-04,True,Phase5命中×品类
 stitch necklace for girls,175816.0,1,,2025-12,2025-12,True,品类新入榜
 sticker bracelet,175973.0,2,,2025-11,2025-12,True,品类新入榜
 faith kipyegon,176056.0,1,,2025-06,2025-06,False,裸场景词×优质词族
 eamti engagement ring for women,176207.0,1,,2025-01,2025-01,True,Phase5命中×品类
-women's cross necklace,176421.0,1,,2025-12,2025-12,True,品类新入榜
+women's cross necklace,176421.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
+gold name necklace for women,176453.0,6,0.9926784034403978,2025-02,2025-08,True,Phase5命中×品类
 boy baptism outfit,176517.0,8,1.0034324274062858,2025-01,2025-09,False,裸场景词×优质词族
-custom bracelet,176520.0,1,,2025-12,2025-12,True,品类新入榜
 mens stainless steel bracelet,176520.0,1,,2025-12,2025-12,True,品类新入榜
-elephant necklace,177057.0,1,,2025-12,2025-12,True,品类新入榜
+custom bracelet,176520.0,1,,2025-12,2025-12,True,品类新入榜
+gold belly button piercing,176721.0,2,,2025-02,2025-03,False,裸场景词×优质词族
+boho rings,176737.0,6,0.9628808717731697,2025-04,2025-09,True,Phase5命中×品类
 women's eternity rings,177057.0,1,,2025-12,2025-12,True,品类新入榜
+elephant necklace,177057.0,1,,2025-12,2025-12,True,品类新入榜
 christmas light necklaces,177142.0,1,,2025-12,2025-12,True,品类新入榜
-jewelry box for teen girls,177343.0,1,,2025-12,2025-12,True,品类新入榜
 diamond hoop earrings,177343.0,1,,2025-12,2025-12,True,品类新入榜
+jewelry box for teen girls,177343.0,1,,2025-12,2025-12,True,品类新入榜
+croc charm valentines,177368.0,1,,2025-01,2025-01,True,Phase5命中×品类
+initial rings for women,177368.0,1,,2025-01,2025-01,True,Phase5命中×品类
+boho rings for women,177450.0,4,,2025-02,2025-05,True,Phase5命中×品类
 engagement rings for couples,177686.0,2,,2025-02,2025-04,True,Phase5命中×品类
+septum retainer,177771.0,1,,2025-09,2025-09,False,裸场景词×优质词族
 smart bracelet,177809.0,2,,2025-11,2025-12,True,品类新入榜
 lockets,178172.0,1,,2025-12,2025-12,True,品类新入榜
 men's jewelry box,178271.0,1,,2025-12,2025-12,True,品类新入榜
 photo bracelet,178429.0,1,,2025-12,2025-12,True,品类新入榜
-firefighter ornament,178785.0,1,,2025-12,2025-12,False,裸场景词×优质词族
 best friend bracelets for 2,178785.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
+firefighter ornament,178785.0,1,,2025-12,2025-12,False,裸场景词×优质词族
 phone scrolling ring,178866.0,1,,2025-12,2025-12,True,品类新入榜
 kid jewelry for girls,178961.0,1,,2025-12,2025-12,True,品类新入榜
-red christmas earrings,179053.0,1,,2025-12,2025-12,True,品类新入榜
 aunt bracelet,179053.0,1,,2025-12,2025-12,True,品类新入榜
+red christmas earrings,179053.0,1,,2025-12,2025-12,True,品类新入榜
+mermaid waist chain,179158.0,1,,2025-10,2025-10,True,Phase5命中×品类
 book necklace,179240.0,1,,2025-12,2025-12,True,品类新入榜
 serenity prayer wall art,179287.0,7,1.0296368160840157,2025-01,2025-09,False,裸场景词×优质词族
-kendra scott birthstone necklace,179325.0,1,,2025-12,2025-12,True,品类新入榜
+kendra scott birthstone necklace,179325.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
+stainless steel cross necklace women,179480.0,1,,2025-09,2025-09,True,Phase5命中×品类
 womens christmas earrings,179504.0,1,,2025-12,2025-12,True,品类新入榜
-girls initial necklace,179606.0,1,,2025-12,2025-12,True,品类新入榜
+girls initial necklace,179606.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
+august birthstone,179678.0,1,,2025-08,2025-08,True,Phase5命中×品类
 white gold chain for women,179789.0,1,,2025-12,2025-12,True,品类新入榜
 blue topaz earrings,179862.0,1,,2025-12,2025-12,True,品类新入榜
+soccer earrings for women,180127.0,1,,2025-09,2025-09,True,Phase5命中×品类
 mimi necklace,180314.0,1,,2025-12,2025-12,True,品类新入榜
 sister jewelry,180314.0,1,,2025-12,2025-12,True,品类新入榜
 firefighter jacket,180408.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 mens jewelry set,180413.0,1,,2025-12,2025-12,True,品类新入榜
 jewelry box for earrings,180609.0,1,,2025-12,2025-12,True,品类新入榜
-december birthstone rings,180793.0,1,,2025-12,2025-12,True,品类新入榜
+clear nose ring,180699.0,1,,2025-08,2025-08,True,Phase5命中×品类
+december birthstone rings,180793.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 orthodox prayer rope,180802.0,2,,2025-09,2025-10,False,裸场景词×优质词族
 evil eye charm,180912.0,4,,2025-05,2025-08,True,Phase5命中×品类
 musical jewelry box,180974.0,1,,2025-12,2025-12,True,品类新入榜
 epilepsy awareness shirts,181121.0,1,,2025-03,2025-03,False,裸场景词×优质词族
+baseball beaded necklaces for boys,181128.0,1,,2025-04,2025-04,True,Phase5命中×品类
 holiday jewelry,181160.0,1,,2025-12,2025-12,True,品类新入榜
 police officer costume for adults,181212.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 say a little prayer,181242.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 custom key chain,181244.0,1,,2025-12,2025-12,True,品类新入榜
 teen earrings,181432.0,1,,2025-12,2025-12,True,品类新入榜
+double cross necklace gold,181520.0,2,,2025-01,2025-02,True,Phase5命中×品类
 c necklace gold,181527.0,1,,2025-12,2025-12,True,品类新入榜
 necklace pendant,181527.0,1,,2025-12,2025-12,True,品类新入榜
 cool maker bracelet refill,181708.0,1,,2025-12,2025-12,True,品类新入榜
 tassel charms for graduation cap,181749.0,1,,2025-05,2025-05,True,Phase5命中×品类
 ring women,181802.0,1,,2025-12,2025-12,True,品类新入榜
+14k gold nose ring,181897.0,3,,2025-02,2025-04,True,Phase5命中×品类
+bible verse jar for women,181971.0,1,,2025-12,2025-12,False,裸场景词×优质词族
+starfish arm cuff,182123.0,1,,2025-10,2025-10,True,Phase5命中×品类
 judge faith,182329.0,2,,2025-03,2025-06,False,裸场景词×优质词族
 mother in law necklace,182360.0,1,,2025-12,2025-12,True,品类新入榜
-apple ring,182553.0,1,,2025-12,2025-12,True,品类新入榜
+6mm nose ring hoop,182414.0,1,,2025-03,2025-03,True,Phase5命中×品类
 lab diamond earrings,182553.0,1,,2025-12,2025-12,True,品类新入榜
+apple ring,182553.0,1,,2025-12,2025-12,True,品类新入榜
 police officer,182736.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 stand up jewelry box,182837.0,1,,2025-12,2025-12,True,品类新入榜
 sterling silver engagement rings,182895.0,1,,2025-02,2025-02,True,Phase5命中×品类
 s necklace gold,183039.0,1,,2025-12,2025-12,True,品类新入榜
+fantasy football draft party,183110.0,1,,2025-08,2025-08,False,裸场景词×优质词族
 jewelry gift bags,183134.0,1,,2025-12,2025-12,True,品类新入榜
 engagement rings for men,183181.0,1,,2025-02,2025-02,True,Phase5命中×品类
 infinity ring,183225.0,1,,2025-12,2025-12,True,品类新入榜
 autism awareness decorations,183448.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 fake engagement ring for women natural,183501.0,1,,2025-07,2025-07,True,Phase5命中×品类
+cross necklace with crown,183695.0,1,,2025-09,2025-09,True,Phase5命中×品类
 philosophy purity face wash,183701.0,1,,2025-01,2025-01,False,裸场景词×优质词族
 overdose awareness shirt,183754.0,1,,2025-08,2025-08,False,裸场景词×优质词族
 best friend necklaces for 2 girls,183810.0,3,,2025-01,2025-03,True,Phase5命中×品类
+softball bracelets,183987.0,2,,2025-05,2025-06,True,Phase5命中×品类
 kendra scott gold necklaces,183994.0,1,,2025-12,2025-12,True,品类新入榜
 saint patricks day decor,184021.0,1,,2025-02,2025-02,False,裸场景词×优质词族
 pet urns for dogs ashes,184296.0,1,,2025-02,2025-02,False,裸场景词×优质词族
+black septum ring,184335.0,1,,2025-09,2025-09,True,Phase5命中×品类
 crystal jewelry,184350.0,1,,2025-12,2025-12,True,品类新入榜
-birthstone jewelry for women,184445.0,1,,2025-12,2025-12,True,品类新入榜
+birthstone jewelry for women,184445.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 sticker bracelets for girls,184445.0,1,,2025-12,2025-12,True,品类新入榜
+baseball ring display case,184615.0,1,,2025-06,2025-06,True,Phase5命中×品类
 hypoallergenic hoop earrings,184628.0,1,,2025-12,2025-12,True,品类新入榜
 the ashes and the star cursed kimg,184661.0,3,,2025-01,2025-03,False,裸场景词×优质词族
-saint patricks day candy,184724.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 cerebral palsy awareness shirt,184724.0,1,,2025-03,2025-03,False,裸场景词×优质词族
+saint patricks day candy,184724.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 jewelry making kit for girls,184819.0,1,,2025-12,2025-12,True,品类新入榜
+jesus bracelets bulk,184942.0,1,,2025-10,2025-10,True,Phase5命中×品类
+titanium septum ring,184972.0,4,,2025-01,2025-09,True,Phase5命中×品类
+christmas bag charm,185008.0,1,,2025-11,2025-11,True,Phase5命中×品类
 cat chain,185084.0,1,,2025-12,2025-12,True,品类新入榜
 cherry charm for purse,185084.0,1,,2025-12,2025-12,True,品类新入榜
+baseball necklace for boys,185128.0,1,,2025-09,2025-09,True,Phase5命中×品类
 ashes in the snow,185223.0,1,,2025-02,2025-02,False,裸场景词×优质词族
 first communion bracelets for girls,185361.0,1,,2025-04,2025-04,True,Phase5命中×品类
 disney pandora charms,185366.0,1,,2025-12,2025-12,True,品类新入榜
 gold jewelry for teen girls,185477.0,1,,2025-12,2025-12,True,品类新入榜
 angel necklace,185586.0,1,,2025-12,2025-12,True,品类新入榜
 white gold bracelets for women,185586.0,1,,2025-12,2025-12,True,品类新入榜
+black cross necklace,185661.0,2,,2025-09,2025-12,True,Phase5命中×品类
 ashes of you,185819.0,1,,2025-02,2025-02,False,裸场景词×优质词族
-gold christmas earrings,186104.0,1,,2025-12,2025-12,True,品类新入榜
+horseshoe nose ring 20g,186044.0,1,,2025-03,2025-03,True,Phase5命中×品类
 stranger things charms,186104.0,1,,2025-12,2025-12,True,品类新入榜
-basketball necklace for boys,186203.0,1,,2025-12,2025-12,True,品类新入榜
+gold christmas earrings,186104.0,1,,2025-12,2025-12,True,品类新入榜
+basketball necklace for boys,186203.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 faith stickers,186213.0,1,,2025-09,2025-09,False,裸场景词×优质词族
+september birthstone,186349.0,1,,2025-09,2025-09,True,Phase5命中×品类
 baptism,186405.0,1,,2025-04,2025-04,False,裸场景词×优质词族
 gionlion 6000 clay beads bracelet making kit,186422.0,1,,2025-12,2025-12,True,品类新入榜
 christmas hoop earrings,186422.0,1,,2025-12,2025-12,True,品类新入榜
+tennis bracelet men,186513.0,2,,2025-04,2025-06,True,Phase5命中×品类
 sterling silver christmas earrings,186642.0,1,,2025-12,2025-12,True,品类新入榜
 baptism cake topper,186820.0,4,,2025-04,2025-09,False,裸场景词×优质词族
 prayer clothes for women islam,187001.0,1,,2025-03,2025-03,False,裸场景词×优质词族
+basketball bracelet,187153.0,1,,2025-02,2025-02,True,Phase5命中×品类
+bracelet advent calendar 2025,187225.0,1,,2025-11,2025-11,True,Phase5命中×品类
 emerald jewelry,187307.0,1,,2025-12,2025-12,True,品类新入榜
 key chain men,187520.0,1,,2025-12,2025-12,True,品类新入榜
 half hoop earrings,187610.0,1,,2025-12,2025-12,True,品类新入榜
 ovarian cancer awareness products,187870.0,1,,2025-09,2025-09,False,裸场景词×优质词族
 charm kit,187988.0,1,,2025-12,2025-12,True,品类新入榜
 faith wardrobe for women,187993.0,1,,2025-09,2025-09,False,裸场景词×优质词族
-ring gift box,188199.0,1,,2025-12,2025-12,True,品类新入榜
+vampire choker necklace,188018.0,1,,2025-10,2025-10,True,Phase5命中×品类
+initial keychains for women,188101.0,2,,2025-05,2025-12,False,裸场景词×优质词族
+cross charm,188131.0,1,,2025-09,2025-09,True,Phase5命中×品类
 necklace for daughter,188199.0,1,,2025-12,2025-12,True,品类新入榜
+ring gift box,188199.0,1,,2025-12,2025-12,True,品类新入榜
 ashes,188498.0,1,,2025-02,2025-02,False,裸场景词×优质词族
-football necklace for boys,188630.0,1,,2025-12,2025-12,True,品类新入榜
-cute phone charm,188937.0,1,,2025-12,2025-12,True,品类新入榜
-grinch jewelry,188937.0,1,,2025-12,2025-12,True,品类新入榜
+volleyball bracelet,188503.0,1,,2025-10,2025-10,True,Phase5命中×品类
+belly button ring titanium,188534.0,4,,2025-04,2025-07,True,Phase5命中×品类
+initial tote bag,188539.0,1,,2025-12,2025-12,False,裸场景词×优质词族
+football necklace for boys,188630.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 sticky roll bracelet,188937.0,1,,2025-12,2025-12,True,品类新入榜
+cute phone charm,188937.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
+grinch jewelry,188937.0,1,,2025-12,2025-12,True,品类新入榜
+silver earrings prom,189066.0,1,,2025-04,2025-04,True,Phase5命中×品类
 matching couples underwear,189090.0,1,,2025-02,2025-02,False,裸场景词×优质词族
+yoolife initial canvas tote bag,189249.0,1,,2025-12,2025-12,False,裸场景词×优质词族
+cross necklace women,189258.0,1,,2025-09,2025-09,True,Phase5命中×品类
 heart shaped sea glass friendship,189395.0,1,,2025-09,2025-09,False,裸场景词×优质词族
+st patricks day shot glass necklace,189470.0,1,,2025-03,2025-03,True,Phase5命中×品类
+baseball chains,189505.0,1,,2025-04,2025-04,True,Phase5命中×品类
 l necklace gold,189546.0,1,,2025-12,2025-12,True,品类新入榜
 police officer accessories,189694.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 purity coffee ground,189745.0,1,,2025-12,2025-12,False,裸场景词×优质词族
-jewelry cabinet standing,189854.0,1,,2025-12,2025-12,True,品类新入榜
 xmas earrings,189854.0,1,,2025-12,2025-12,True,品类新入榜
-pandora safety chain,190207.0,1,,2025-12,2025-12,True,品类新入榜
-bow bag charm,190207.0,1,,2025-12,2025-12,True,品类新入榜
-necklace for grandma,190207.0,1,,2025-12,2025-12,True,品类新入榜
+jewelry cabinet standing,189854.0,1,,2025-12,2025-12,True,品类新入榜
 jewellery box,190207.0,2,,2025-11,2025-12,True,品类新入榜
+necklace for grandma,190207.0,1,,2025-12,2025-12,True,品类新入榜
+bow bag charm,190207.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
+pandora safety chain,190207.0,1,,2025-12,2025-12,True,品类新入榜
 boys necklaces 5-8,190207.0,1,,2025-12,2025-12,True,品类新入榜
 prayer plants live house plants,190346.0,2,,2025-03,2025-04,False,裸场景词×优质词族
 jewelry for kids,190433.0,1,,2025-12,2025-12,True,品类新入榜
+plush bag charm,190605.0,1,,2025-08,2025-08,True,Phase5命中×品类
 ring necklace holder,190662.0,1,,2025-12,2025-12,True,品类新入榜
 jewelry organizer with drawer,190768.0,1,,2025-12,2025-12,True,品类新入榜
-kendra scott bracelets,191066.0,1,,2025-12,2025-12,True,品类新入榜
+jesus bracelet,190820.0,1,,2025-09,2025-09,True,Phase5命中×品类
+shamrock pin,191064.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 bracelet boxes for jewelry gift,191066.0,1,,2025-12,2025-12,True,品类新入榜
+kendra scott bracelets,191066.0,1,,2025-12,2025-12,True,品类新入榜
+bogg bag replacement buttons,191204.0,1,,2025-07,2025-07,False,裸场景词×优质词族
 dirty sexy saint,191219.0,1,,2025-03,2025-03,False,裸场景词×优质词族
+fantasy football draft board 2025 10 team,191238.0,1,,2025-08,2025-08,False,裸场景词×优质词族
 atv tire chains,191269.0,1,,2025-12,2025-12,True,品类新入榜
 couples bracelets long distance,191344.0,2,,2025-01,2025-12,True,Phase5命中×品类
 snowflake napkin rings,191377.0,1,,2025-12,2025-12,True,品类新入榜
 d necklace,191476.0,1,,2025-12,2025-12,True,品类新入榜
+fantasy football shirt,191517.0,1,,2025-08,2025-08,False,裸场景词×优质词族
 silver chain for boys,191573.0,1,,2025-12,2025-12,True,品类新入榜
 matching couple christmas pajamas,191712.0,2,,2025-11,2025-12,False,裸场景词×优质词族
 pearl earrings studs,191786.0,1,,2025-12,2025-12,True,品类新入榜
 necklace urns for human ashes,191893.0,1,,2025-02,2025-02,True,Phase5命中×品类
-mens silver cross necklace,192190.0,1,,2025-12,2025-12,True,品类新入榜
+mens silver cross necklace,192190.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 silver hoop earrings set,192414.0,1,,2025-12,2025-12,True,品类新入榜
 prayer dress for women muslim,192476.0,1,,2025-03,2025-03,False,裸场景词×优质词族
+mens cross necklaces stainless steel,192620.0,1,,2025-09,2025-09,True,Phase5命中×品类
+small cross necklace,192620.0,1,,2025-09,2025-09,True,Phase5命中×品类
+jesus necklace,192752.0,1,,2025-09,2025-09,True,Phase5命中×品类
 boys firefighter costume,192992.0,1,,2025-10,2025-10,False,裸场景词×优质词族
+cross with crown necklace for women,193046.0,1,,2025-09,2025-09,True,Phase5命中×品类
 harry potter necklace,193501.0,1,,2025-12,2025-12,True,品类新入榜
 cat bracelet,193501.0,1,,2025-12,2025-12,True,品类新入榜
+y2k rings,193542.0,1,,2025-08,2025-08,True,Phase5命中×品类
 long distance bracelets,193608.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 silver locket,193608.0,1,,2025-12,2025-12,True,品类新入榜
+pink bogg bag,193637.0,1,,2025-05,2025-05,False,裸场景词×优质词族
+gold waist chain belt,193657.0,1,,2025-10,2025-10,True,Phase5命中×品类
+christian necklace for men,193750.0,1,,2025-09,2025-09,True,Phase5命中×品类
 gold bow earrings for women,194038.0,1,,2025-12,2025-12,True,品类新入榜
+chain basketball net,194062.0,1,,2025-03,2025-03,True,Phase5命中×品类
 saint christopher necklace,194592.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 pink ribbon breast cancer awareness,194815.0,1,,2025-10,2025-10,False,裸场景词×优质词族
 faith linen sheets,194930.0,1,,2025-11,2025-11,False,裸场景词×优质词族
@@ -1469,48 +2060,65 @@ long earrings,194942.0,1,,2025-12,2025-12,True,品类新入榜
 no saint,194943.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 cool earrings,195037.0,1,,2025-12,2025-12,True,品类新入榜
 diabetes awareness shirt,195169.0,1,,2025-11,2025-11,False,裸场景词×优质词族
-kendra scott initial necklace,195275.0,1,,2025-12,2025-12,True,品类新入榜
+november birthstone ring,195169.0,1,,2025-11,2025-11,True,Phase5命中×品类
+rose gold cross necklace,195238.0,1,,2025-09,2025-09,True,Phase5命中×品类
+kendra scott initial necklace,195275.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 empath protection bracelet,195394.0,1,,2025-03,2025-03,True,Phase5命中×品类
-silver initial necklace,195515.0,1,,2025-12,2025-12,True,品类新入榜
+june birthstone,195403.0,1,,2025-06,2025-06,True,Phase5命中×品类
+pregnancy belly button rings,195458.0,1,,2025-02,2025-02,True,Phase5命中×品类
 matching necklaces,195515.0,1,,2025-12,2025-12,True,品类新入榜
+silver initial necklace,195515.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 black onyx ring,195515.0,1,,2025-12,2025-12,True,品类新入榜
+bogg bag mini,195521.0,1,,2025-06,2025-06,False,裸场景词×优质词族
 jewelry box for necklaces,195629.0,1,,2025-12,2025-12,True,品类新入榜
 earring case,195742.0,1,,2025-12,2025-12,True,品类新入榜
 engagement rings for women gold,195796.0,2,,2025-02,2025-05,True,Phase5命中×品类
 angela's ashes,195868.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 mom daughter bracelets,195869.0,1,,2025-12,2025-12,True,品类新入榜
 new years necklace,195988.0,1,,2025-12,2025-12,True,品类新入榜
+western rings for women,196041.0,1,,2025-03,2025-03,True,Phase5命中×品类
 matching bracelets for best friends,196103.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
-stranger things necklace,196215.0,1,,2025-12,2025-12,True,品类新入榜
-kendra scott necklace cross,196215.0,1,,2025-12,2025-12,True,品类新入榜
 toddler rings,196215.0,1,,2025-12,2025-12,True,品类新入榜
+kendra scott necklace cross,196215.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
+stranger things necklace,196215.0,1,,2025-12,2025-12,True,品类新入榜
+gold western jewelry for women,196393.0,2,,2025-06,2025-07,True,Phase5命中×品类
+diamond nose ring,196460.0,1,,2025-02,2025-02,True,Phase5命中×品类
 lego friends friendship camper van,196569.0,1,,2025-11,2025-11,False,裸场景词×优质词族
 jewelry box girls,196654.0,1,,2025-12,2025-12,True,品类新入榜
 wall mounted jewelry cabinet,196654.0,1,,2025-12,2025-12,True,品类新入榜
+bogg bag organizer insert,196759.0,1,,2025-06,2025-06,False,裸场景词×优质词族
 jewelry box kids,196779.0,1,,2025-12,2025-12,True,品类新入榜
 christmas necklace for women,196894.0,1,,2025-12,2025-12,True,品类新入榜
 firefighter helmet light,196972.0,1,,2025-02,2025-02,False,裸场景词×优质词族
 the prayer i share bracelet,197022.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
+kendra scott softball necklace,197067.0,1,,2025-11,2025-11,True,Phase5命中×品类
+blood pressure monitor arm cuff monitors,197158.0,1,,2025-02,2025-02,True,Phase5命中×品类
+gold septum,197402.0,1,,2025-08,2025-08,False,裸场景词×优质词族
+football bogg bag,197547.0,1,,2025-08,2025-08,False,裸场景词×优质词族
+bracelet making kit for boys,197553.0,1,,2025-12,2025-12,True,品类新入榜
 womens jewelry set,197553.0,1,,2025-12,2025-12,True,品类新入榜
 toddler bracelet,197553.0,1,,2025-12,2025-12,True,品类新入榜
-bracelet making kit for boys,197553.0,1,,2025-12,2025-12,True,品类新入榜
-kids cross necklace boys,197650.0,1,,2025-12,2025-12,True,品类新入榜
-mens saint patricks day shirt,197791.0,1,,2025-03,2025-03,False,裸场景词×优质词族
+essence scented nose ring,197628.0,1,,2025-04,2025-04,True,Phase5命中×品类
+kids cross necklace boys,197650.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 divorce bait,197791.0,1,,2025-03,2025-03,False,裸场景词×优质词族
+mens saint patricks day shirt,197791.0,1,,2025-03,2025-03,False,裸场景词×优质词族
+fantasy football trophy 2025,197836.0,1,,2025-08,2025-08,False,裸场景词×优质词族
+pearl cross necklace for women,197966.0,1,,2025-09,2025-09,True,Phase5命中×品类
 14k gold chain for women,198001.0,1,,2025-12,2025-12,True,品类新入榜
 the saint dvd,198083.0,1,,2025-04,2025-04,False,裸场景词×优质词族
+initial necklaces,198224.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 ring gold,198224.0,1,,2025-12,2025-12,True,品类新入榜
-initial necklaces,198224.0,1,,2025-12,2025-12,True,品类新入榜
 jade jewelry for women,198454.0,1,,2025-12,2025-12,True,品类新入榜
 airtag key chain,198566.0,1,,2025-12,2025-12,True,品类新入榜
 womens saint patricks day shirt,198626.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 tory burch bracelet,198694.0,1,,2025-12,2025-12,True,品类新入榜
 stick on earrings for girls,198802.0,1,,2025-12,2025-12,True,品类新入榜
 sister rings,198916.0,1,,2025-12,2025-12,True,品类新入榜
+shamrock plant,199251.0,1,,2025-03,2025-03,False,裸场景词×优质词族
 witches protection knot ring,199558.0,1,,2025-12,2025-12,True,Phase5命中×品类；品类新入榜
 stackable bracelets,199558.0,1,,2025-12,2025-12,True,品类新入榜
 earns for ashes for adult humans,199616.0,1,,2025-02,2025-02,False,裸场景词×优质词族
 kids gold chain,199671.0,1,,2025-12,2025-12,True,品类新入榜
 chicken earrings,199799.0,1,,2025-12,2025-12,True,品类新入榜
-christmas stud earrings for women,199916.0,1,,2025-12,2025-12,True,品类新入榜
 hello kitty key chain,199916.0,1,,2025-12,2025-12,True,品类新入榜
+christmas stud earrings for women,199916.0,1,,2025-12,2025-12,True,品类新入榜

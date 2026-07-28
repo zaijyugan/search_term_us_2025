@@ -1,20 +1,20 @@
 ﻿scene,cluster,n_category_terms,best_rank_min,peak_month,in_hypothesis_dict,rep_terms
-nail,charm潮流,38,971,2025-02,False,nail charms | nail charms and gems | christmas nail charms
-croc,charm潮流,34,2181,2025-04,False,croc charms | croc charms for girls | croc charms for boys
-phone,charm潮流,17,5345,2025-08,False,phone charm | phone charms | phone ring holder
-purse,charm潮流,14,3842,2025-12,False,purse charms | best selling purse charms | purse charms for handbags
-italian,charm潮流,8,7666,2025-05,False,italian charm bracelet | italian charms | italian charm bracelet charms
+nail,charm潮流,38,971,2025-02,True,nail charms | nail charms and gems | christmas nail charms
+croc,charm潮流,34,2181,2025-04,True,croc charms | croc charms for girls | croc charms for boys
+phone,charm潮流,17,5345,2025-08,True,phone charm | phone charms | phone ring holder
+purse,charm潮流,14,3842,2025-12,True,purse charms | best selling purse charms | purse charms for handbags
+italian,charm潮流,8,7666,2025-05,True,italian charm bracelet | italian charms | italian charm bracelet charms
 keychain,charm潮流,5,20175,2025-08,False,keychain charms | keychain rings | keychain ring
-bogg bag,charm潮流,4,5549,2025-06,False,bogg bag charms | bogg bag accessories charm | charms for bogg bag
+bogg bag,charm潮流,4,5549,2025-06,True,bogg bag charms | bogg bag accessories charm | charms for bogg bag
 crocs,charm潮流,4,10504,2025-03,False,crocs charms | crocs charms for women | crocs charms for girls
 shoe,charm潮流,4,13956,2025-08,False,shoe charms for sneakers | shoe charms | shoe charms for crocs
 clip,charm潮流,4,121311,2025-04,False,clip earrings for women | paper clip necklace | paper clip necklaces for women
 stack,charm潮流,3,101468,2025-08,False,gold stack bracelets for women | stack bracelets for women | gold stack bracelets
-initial,个性化/定制,21,5937,2025-12,False,initial necklaces for women | initial necklace | initial bracelet
-name,个性化/定制,11,7453,2025-12,False,name necklace | name necklaces for women | custom name necklace
-letter,个性化/定制,7,19405,2025-01,False,bubble letter necklace gold | letter necklace | letter charms
+initial,个性化/定制,21,5937,2025-12,True,initial necklaces for women | initial necklace | initial bracelet
+name,个性化/定制,11,7453,2025-12,True,name necklace | name necklaces for women | custom name necklace
+letter,个性化/定制,7,19405,2025-01,True,bubble letter necklace gold | letter necklace | letter charms
 photo,个性化/定制,4,53972,2025-05,False,graduation tassel photo charm | photo necklace | personalized graduation tassel photo charm with angel wings
-bubble letter,个性化/定制,3,19405,2025-01,False,bubble letter necklace gold | bubble letter necklace | bubble letter necklace silver
+bubble letter,个性化/定制,3,19405,2025-01,True,bubble letter necklace gold | bubble letter necklace | bubble letter necklace silver
 daughter,关系/身份,15,22969,2025-12,True,mother daughter bracelets | to my daughter necklace | mother daughter necklace
 friendship,关系/身份,13,6443,2025-09,True,friendship bracelet kit | friendship bracelets | friendship bracelet string
 matching,关系/身份,9,10654,2025-02,True,matching bracelets for couples | matching bracelets | matching rings for couples
@@ -25,18 +25,18 @@ couple,关系/身份,4,39860,2025-02,True,couple bracelets | totwoo couple brace
 bff,关系/身份,4,43096,2025-03,False,bff necklace for 2 | bff necklace for 3 | bff bracelets
 mama,关系/身份,3,23903,2025-05,False,mama necklace | mama necklaces for women | mama bracelet
 wife,关系/身份,3,69039,2025-12,False,to my wife necklace from husband | wife necklace from husband | to my wife necklace
-fidget,功能健康/特殊需求,13,4995,2025-12,False,fidget ring | fidget ring women | fidget rings
-repellent,功能健康/特殊需求,7,3316,2025-06,False,mosquito repellent bracelets | bug repellent bracelets | cliganic mosquito repellent bracelet
-permanent,功能健康/特殊需求,7,13006,2025-02,False,permanent bracelet kit | permanent jewelry starter kit | permanent jewelry
-alert,功能健康/特殊需求,6,19260,2025-04,False,medical alert bracelets for women | medical alert bracelets for men | medical alert bracelet
-mosquito repellent,功能健康/特殊需求,4,3316,2025-06,False,mosquito repellent bracelets | cliganic mosquito repellent bracelet | mosquito repellent bracelet
-calmi,功能健康/特殊需求,4,12424,2025-04,False,calmi ring | calmi ring magnetic | calmi rings for women
-medical alert,功能健康/特殊需求,4,19260,2025-04,False,medical alert bracelets for women | medical alert bracelets for men | medical alert bracelet
-mosquito,功能健康/特殊需求,4,34823,2025-06,False,mosquito bracelets | mosquito bracelets for adults | mosquito bracelets for kids
+fidget,功能健康/特殊需求,13,4995,2025-12,True,fidget ring | fidget ring women | fidget rings
+repellent,功能健康/特殊需求,7,3316,2025-06,True,mosquito repellent bracelets | bug repellent bracelets | cliganic mosquito repellent bracelet
+permanent,功能健康/特殊需求,7,13006,2025-02,True,permanent bracelet kit | permanent jewelry starter kit | permanent jewelry
+alert,功能健康/特殊需求,6,19260,2025-04,True,medical alert bracelets for women | medical alert bracelets for men | medical alert bracelet
+mosquito repellent,功能健康/特殊需求,4,3316,2025-06,True,mosquito repellent bracelets | cliganic mosquito repellent bracelet | mosquito repellent bracelet
+calmi,功能健康/特殊需求,4,12424,2025-04,True,calmi ring | calmi ring magnetic | calmi rings for women
+medical alert,功能健康/特殊需求,4,19260,2025-04,True,medical alert bracelets for women | medical alert bracelets for men | medical alert bracelet
+mosquito,功能健康/特殊需求,4,34823,2025-06,True,mosquito bracelets | mosquito bracelets for adults | mosquito bracelets for kids
 anxiety,功能健康/特殊需求,3,11764,2025-12,True,anxiety ring | anxiety rings for women | anxiety rings
-chew,功能健康/特殊需求,3,18290,2025-09,False,chew necklaces for sensory kids | sensory chew necklaces | chew necklace
+chew,功能健康/特殊需求,3,18290,2025-09,True,chew necklaces for sensory kids | sensory chew necklaces | chew necklace
 spinner,功能健康/特殊需求,3,52083,2025-12,False,spinner ring | fidget spinner ring | spinner ring women
-medical,功能健康/特殊需求,3,57672,2025-09,False,medical bracelet for woman | medical bracelet for men | medical bracelet
+medical,功能健康/特殊需求,3,57672,2025-09,True,medical bracelet for woman | medical bracelet for men | medical bracelet
 heart,动物/自然/motif,35,6187,2025-02,False,heart earrings | heart earrings for women | heart necklace
 bow,动物/自然/motif,21,12788,2025-12,False,bow earrings | bow earrings for women | bow necklace
 flower,动物/自然/motif,11,28283,2025-04,False,flower earrings | flower earrings for women | flower necklace
@@ -52,23 +52,23 @@ tree,动物/自然/motif,5,40714,2025-12,False,christmas tree earrings | christm
 moon,动物/自然/motif,5,79216,2025-12,False,moon necklace | moon earrings | sun and moon necklace
 starfish,动物/自然/motif,4,9127,2025-07,False,starfish earrings | starfish necklace | gold starfish earrings
 snowflake,动物/自然/motif,4,16998,2025-12,False,snowflake earrings | snowflake necklace | snowflake earrings for women
-four leaf,动物/自然/motif,3,82311,2025-03,False,four leaf clover necklace | four leaf clover bracelet | four leaf clover earrings
+four leaf,动物/自然/motif,3,82311,2025-03,True,four leaf clover necklace | four leaf clover bracelet | four leaf clover earrings
 sunflower,动物/自然/motif,3,92798,2025-02,False,sunflower necklaces for women | sunflower necklace | sunflower earrings
 dragon,动物/自然/motif,3,100536,2025-12,False,dragon necklace | dragon earrings | dragon ring
-cross,宗教灵性/护佑,94,1003,2025-09,False,cross necklace for women | cross necklace for men | cross necklace
+cross,宗教灵性/护佑,94,1003,2025-09,True,cross necklace for women | cross necklace for men | cross necklace
 lucky,宗教灵性/护佑,16,2586,2025-03,False,lucky charms marshmallows only | lucky charms | lucky charms shirt
-clover,宗教灵性/护佑,11,18905,2025-08,False,clover bracelet | clover necklace | clover earrings
+clover,宗教灵性/护佑,11,18905,2025-08,True,clover bracelet | clover necklace | clover earrings
 evil eye,宗教灵性/护佑,9,10872,2025-07,True,evil eye bracelets | evil eye necklace | evil eye ring
-christian,宗教灵性/护佑,9,62290,2025-09,False,christian bracelets | christian jewelry for women | christian bracelets for women
-bible verse,宗教灵性/护佑,6,21081,2025-12,False,bible verse bracelets | yappy bracelets bible verse | zox bible verse bracelet
-jesus,宗教灵性/护佑,6,32081,2025-10,False,jesus bracelets | ryan and rose jesus bracelet | jesus bracelets for kids
-wwjd,宗教灵性/护佑,4,14109,2025-04,False,wwjd bracelets | wwjd bracelets for kids | wwjd bracelets bulk
-verse,宗教灵性/护佑,4,21081,2025-12,False,bible verse bracelets | zox bible verse bracelet | daily bible verse bracelet
+christian,宗教灵性/护佑,9,62290,2025-09,True,christian bracelets | christian jewelry for women | christian bracelets for women
+bible verse,宗教灵性/护佑,6,21081,2025-12,True,bible verse bracelets | yappy bracelets bible verse | zox bible verse bracelet
+jesus,宗教灵性/护佑,6,32081,2025-10,True,jesus bracelets | ryan and rose jesus bracelet | jesus bracelets for kids
+wwjd,宗教灵性/护佑,4,14109,2025-04,True,wwjd bracelets | wwjd bracelets for kids | wwjd bracelets bulk
+verse,宗教灵性/护佑,4,21081,2025-12,True,bible verse bracelets | zox bible verse bracelet | daily bible verse bracelet
 rosary,宗教灵性/护佑,4,73053,2025-08,False,rosary necklace | rosary bracelet | rosary bracelet for women
-leaf clover,宗教灵性/护佑,4,82311,2025-03,False,four leaf clover necklace | four leaf clover bracelet | 4 leaf clover necklace
-shamrock,宗教灵性/护佑,3,16808,2025-03,False,shamrock earrings | shamrock necklace | shamrock earrings for women
+leaf clover,宗教灵性/护佑,4,82311,2025-03,True,four leaf clover necklace | four leaf clover bracelet | 4 leaf clover necklace
+shamrock,宗教灵性/护佑,3,16808,2025-03,True,shamrock earrings | shamrock necklace | shamrock earrings for women
 engagement,未分类(待人工归类),31,3137,2025-02,True,engagement rings for women | engagement ring | engagement ring box
-bag,未分类(待人工归类),29,1856,2025-12,False,bag charms | bogg bag charms | bag charm
+bag,未分类(待人工归类),29,1856,2025-12,True,bag charms | bogg bag charms | bag charm
 day,未分类(待人工归类),27,18639,2025-05,True,mothers day jewelry | st patricks day earrings | mothers day necklace
 silicone,未分类(待人工归类),21,1719,2025-06,False,silicone rings for her | silicone rings for him | silicone ring
 travel,未分类(待人工归类),16,2592,2025-12,False,travel jewelry case | travel jewelry organizer | mini travel jewelry bag
@@ -77,7 +77,7 @@ hair,未分类(待人工归类),13,8341,2025-03,False,hair jewelry | gold hair c
 promise,未分类(待人工归类),12,7677,2025-12,True,promise rings for her | promise ring | promise rings for couples
 stackable,未分类(待人工归类),12,24323,2025-04,False,stackable rings for women | stackable bracelets for women | stackable rings
 eye,未分类(待人工归类),11,10872,2025-07,True,evil eye bracelets | evil eye necklace | evil eye ring
-ear,未分类(待人工归类),11,14690,2025-08,False,ear cuff | ear cuffs non piercing | ear cuffs
+ear,未分类(待人工归类),11,14690,2025-08,True,ear cuff | ear cuffs non piercing | ear cuffs
 hello kitty,未分类(待人工归类),11,35297,2025-01,False,hello kitty nail charms | hello kitty charms | hello kitty croc charms
 waterproof,未分类(待人工归类),10,46902,2025-07,False,waterproof jewelry | waterproof jewelry for women gold | waterproof anklets for women
 link,未分类(待人工归类),8,13602,2025-04,False,cuban link chain for men | cuban link chain for women | cuban link chain
@@ -264,63 +264,63 @@ shark,未分类(待人工归类),3,159987,2025-07,False,shark earrings | shark n
 christmas,节日/场合,43,1210,2025-12,False,christmas earrings | christmas earrings for women | christmas necklace
 wedding,节日/场合,38,6940,2025-02,False,wedding rings for women | wedding ring | womens silicone wedding ring
 halloween,节日/场合,28,2191,2025-10,False,halloween earrings | halloween earrings for women | halloween bracelets
-prom,节日/场合,17,9641,2025-04,False,prom jewelry | gold prom jewelry | silver prom jewelry
+prom,节日/场合,17,9641,2025-04,True,prom jewelry | gold prom jewelry | silver prom jewelry
 july,节日/场合,13,12077,2025-06,False,4th of july earrings | 4th of july earrings for women | fourth of july earrings
 mothers day,节日/场合,12,18639,2025-05,True,mothers day jewelry | mothers day necklace | mothers day bracelet
 graduation,节日/场合,12,60514,2025-05,True,graduation necklace class of 2025 | graduation bracelet 2025 | graduation bracelet
 valentines,节日/场合,9,13376,2025-02,False,valentines earrings | valentines earrings for women | valentines bracelets
-mardi gras,节日/场合,8,7904,2025-02,False,mardi gras earrings | mardi gras earrings for women | mardi gras beads necklaces
+mardi gras,节日/场合,8,7904,2025-02,True,mardi gras earrings | mardi gras earrings for women | mardi gras beads necklaces
 easter,节日/场合,8,12532,2025-04,False,easter earrings | easter earrings for women | easter bracelets for kids
 patricks day,节日/场合,8,19542,2025-03,True,st patricks day earrings | st patricks day necklaces | st patricks day earrings for women
 valentine,节日/场合,8,19903,2025-01,False,valentine earrings for women | valentine earrings | valentine bracelets
 valentines day,节日/场合,8,25391,2025-01,True,valentines day earrings | valentines day necklace | valentines day earrings for women
-gras,节日/场合,7,7904,2025-02,False,mardi gras earrings | mardi gras earrings for women | mardi gras jewelry for women
-advent calendar,节日/场合,7,23299,2025-11,False,jewelry advent calendar 2025 | jewelry advent calendar | advent calendar jewelry
+gras,节日/场合,7,7904,2025-02,True,mardi gras earrings | mardi gras earrings for women | mardi gras jewelry for women
+advent calendar,节日/场合,7,23299,2025-11,True,jewelry advent calendar 2025 | jewelry advent calendar | advent calendar jewelry
 christmas tree,节日/场合,5,40714,2025-12,False,christmas tree earrings | christmas tree earrings for women | christmas tree lights with ring
 bridal,节日/场合,5,71471,2025-09,False,bridal earrings | bridal jewelry | bridal jewelry set for wedding
 mothers,节日/场合,4,40662,2025-12,False,mothers ring | mothers necklace | mothers rings with 3 birthstones
 thanksgiving,节日/场合,3,13407,2025-11,False,thanksgiving earrings | thanksgiving earrings for women | thanksgiving jewelry for women
 halloween led,节日/场合,3,30417,2025-09,False,halloween led rings | halloween led rings for kids | flashing halloween led rings
 bridesmaid,节日/场合,3,82646,2025-09,False,bridesmaid jewelry set | bridesmaid earrings | bridesmaid jewelry
-nose,身体珠宝/穿孔,77,761,2025-03,False,nose rings | nose rings for women | fake nose ring
+nose,身体珠宝/穿孔,77,761,2025-03,True,nose rings | nose rings for women | fake nose ring
 piercing,身体珠宝/穿孔,31,6893,2025-03,False,nipple piercing jewelry | tragus piercing jewelry | industrial piercing jewelry
-button,身体珠宝/穿孔,24,1357,2025-06,False,belly button ring | gold belly button ring | dangle belly button rings
-belly button,身体珠宝/穿孔,24,1357,2025-06,False,belly button ring | gold belly button ring | dangle belly button rings
-arm,身体珠宝/穿孔,24,7655,2025-07,False,arm cuff | gold arm cuff | silver arm cuff
+button,身体珠宝/穿孔,24,1357,2025-06,True,belly button ring | gold belly button ring | dangle belly button rings
+belly button,身体珠宝/穿孔,24,1357,2025-06,True,belly button ring | gold belly button ring | dangle belly button rings
+arm,身体珠宝/穿孔,24,7655,2025-07,True,arm cuff | gold arm cuff | silver arm cuff
 hand,身体珠宝/穿孔,17,7016,2025-07,False,hand chain | hand chain bracelet | sex hand cuff bracelets
-toe,身体珠宝/穿孔,14,4481,2025-06,False,toe rings for women | toe rings | toe ring
+toe,身体珠宝/穿孔,14,4481,2025-06,True,toe rings for women | toe rings | toe ring
 flat back,身体珠宝/穿孔,11,3975,2025-02,False,flat back earrings | flat back earrings for women | flat back earrings hypoallergenic
-septum,身体珠宝/穿孔,11,4976,2025-02,False,septum rings | septum jewelry | gold septum ring
-belly,身体珠宝/穿孔,10,12502,2025-06,False,belly chain | belly rings | belly ring
-waist,身体珠宝/穿孔,9,10573,2025-10,False,waist chain | gold waist chain | waist chains for women
-body,身体珠宝/穿孔,9,21827,2025-06,False,body chain | body chain jewelry for women | gold body chain
+septum,身体珠宝/穿孔,11,4976,2025-02,True,septum rings | septum jewelry | gold septum ring
+belly,身体珠宝/穿孔,10,12502,2025-06,True,belly chain | belly rings | belly ring
+waist,身体珠宝/穿孔,9,10573,2025-10,True,waist chain | gold waist chain | waist chains for women
+body,身体珠宝/穿孔,9,21827,2025-06,True,body chain | body chain jewelry for women | gold body chain
 nipple,身体珠宝/穿孔,8,22538,2025-02,False,nipple rings | nipple rings surgical steel | nipple jewelry non piercing
 cuban link,身体珠宝/穿孔,7,13602,2025-04,False,cuban link chain for men | cuban link chain for women | cuban link chain
-upper arm,身体珠宝/穿孔,7,50325,2025-07,False,arm bracelet upper arm | arm jewelry upper arm | bp cuff automatic upper arm
+upper arm,身体珠宝/穿孔,7,50325,2025-07,True,arm bracelet upper arm | arm jewelry upper arm | bp cuff automatic upper arm
 helix,身体珠宝/穿孔,6,46547,2025-09,False,helix earrings | helix earrings for women | hidden helix jewelry
-cartilage,身体珠宝/穿孔,5,6616,2025-02,False,cartilage earrings for women | cartilage earring | cartilage earrings
+cartilage,身体珠宝/穿孔,5,6616,2025-02,True,cartilage earrings for women | cartilage earring | cartilage earrings
 tongue,身体珠宝/穿孔,4,17532,2025-02,False,tongue rings | tongue rings for women | tongue ring
-clear nose,身体珠宝/穿孔,3,21149,2025-08,False,clear nose studs | clear nose rings | clear nose ring
+clear nose,身体珠宝/穿孔,3,21149,2025-08,True,clear nose studs | clear nose rings | clear nose ring
 tragus,身体珠宝/穿孔,3,41062,2025-01,False,tragus earrings for women | tragus jewelry | tragus earring
-gauge nose,身体珠宝/穿孔,3,83410,2025-09,False,18 gauge nose ring | 20 gauge nose ring | 22 gauge nose ring
-baseball,运动/兴趣,15,7558,2025-04,False,baseball necklaces for boys | baseball necklace | baseball earrings
-tennis,运动/兴趣,13,9843,2025-12,False,tennis bracelets for women | tennis bracelet | tennis necklaces for women
-football,运动/兴趣,13,16216,2025-09,False,football earrings | fantasy football ring | football earrings for women
-basketball,运动/兴趣,9,82020,2025-03,False,in ground basketball hoops outdoor | basketball necklace | basketball hoops
-softball,运动/兴趣,6,89983,2025-04,False,softball necklace | softball necklace for girls | softball earrings
-fantasy football,运动/兴趣,5,24216,2025-12,False,fantasy football ring | fantasy football ring 2025 | 2025 fantasy football ring
-volleyball,运动/兴趣,4,63322,2025-12,False,volleyball necklace | kendra scott volleyball necklace | volleyball earrings
-soccer,运动/兴趣,4,143046,2025-09,False,soccer earrings | soccer necklace | soccer bracelets
+gauge nose,身体珠宝/穿孔,3,83410,2025-09,True,18 gauge nose ring | 20 gauge nose ring | 22 gauge nose ring
+baseball,运动/兴趣,15,7558,2025-04,True,baseball necklaces for boys | baseball necklace | baseball earrings
+tennis,运动/兴趣,13,9843,2025-12,True,tennis bracelets for women | tennis bracelet | tennis necklaces for women
+football,运动/兴趣,13,16216,2025-09,True,football earrings | fantasy football ring | football earrings for women
+basketball,运动/兴趣,9,82020,2025-03,True,in ground basketball hoops outdoor | basketball necklace | basketball hoops
+softball,运动/兴趣,6,89983,2025-04,True,softball necklace | softball necklace for girls | softball earrings
+fantasy football,运动/兴趣,5,24216,2025-12,True,fantasy football ring | fantasy football ring 2025 | 2025 fantasy football ring
+volleyball,运动/兴趣,4,63322,2025-12,True,volleyball necklace | kendra scott volleyball necklace | volleyball earrings
+soccer,运动/兴趣,4,143046,2025-09,True,soccer earrings | soccer necklace | soccer bracelets
 cheer,运动/兴趣,3,130968,2025-11,False,kendra scott cheer necklace | cheer necklace | cheer bracelets
-western,风格/审美/亚文化,10,11102,2025-07,False,western jewelry for women | western jewelry | western necklaces for women
-gothic,风格/审美/亚文化,10,22651,2025-10,False,gothic jewelry | gothic necklace | gothic earrings
+western,风格/审美/亚文化,10,11102,2025-07,True,western jewelry for women | western jewelry | western necklaces for women
+gothic,风格/审美/亚文化,10,22651,2025-10,True,gothic jewelry | gothic necklace | gothic earrings
 beach,风格/审美/亚文化,9,26757,2025-06,False,best selling beach jewelry | beach jewelry for women | beach jewelry
 indian,风格/审美/亚文化,8,24538,2025-10,False,indian jewelry sets for women | indian jewelry | oxidized indian jewelry set
-vampire,风格/审美/亚文化,7,22542,2025-10,False,vampire necklace | vampire jewelry | vampire earrings
+vampire,风格/审美/亚文化,7,22542,2025-10,True,vampire necklace | vampire jewelry | vampire earrings
 summer,风格/审美/亚文化,7,34788,2025-06,False,summer jewelry | summer earrings | summer necklace
 leather,风格/审美/亚文化,7,56897,2025-12,False,leather bracelet for men | mens leather bracelet | leather necklace cord
-goth,风格/审美/亚文化,7,79096,2025-09,False,goth jewelry | goth earrings | goth necklace
+goth,风格/审美/亚文化,7,79096,2025-09,True,goth jewelry | goth earrings | goth necklace
 rhinestone,风格/审美/亚文化,7,86888,2025-09,False,rhinestone earrings | rhinestone necklace for women | rhinestone necklace
 witch,风格/审美/亚文化,5,49607,2025-10,False,witch earrings | witch jewelry | witch necklace
-mermaid,风格/审美/亚文化,3,61063,2025-10,False,mermaid jewelry | mermaid necklace | mermaid earrings
+mermaid,风格/审美/亚文化,3,61063,2025-10,True,mermaid jewelry | mermaid necklace | mermaid earrings
 fairy,风格/审美/亚文化,3,114574,2025-10,False,fairy jewelry | fairy earrings | fairy necklace

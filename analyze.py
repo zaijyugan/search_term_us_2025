@@ -81,6 +81,31 @@ HYPOTHESIS_DICT = {
     "身份仪式": ["quincea*", "bat mitzvah", "bar mitzvah", "baptism", "communion",
                  "confirmation", "sweet 16", "sweet sixteen"],
     "承诺誓约": ["promise ring*", "purity", "commitment", "engagement", "vow renewal"],
+    # ===== 以下为 Phase 6 发现引擎回填的新主题（发现→验证 闭环）=====
+    # 这些多为「珠宝已附着」型场景，全量匹配会带语义噪音（cross→crossfit、
+    # football→球赛周边），核对时以 is_category 列为准；零品类命中的词（monogram/
+    # pickleball/zodiac/coastal 等）实测验证不出，已弃用不入典。
+    "功能康复珠宝": ["fidget", "calmi", "medical alert", "mosquito repellent",
+                 "permanent bracelet", "chew necklace", "anxiety ring"],
+    "身体珠宝穿孔": ["nose ring", "belly button", "septum", "cartilage", "toe ring",
+                 "arm cuff", "ear cuff", "waist chain", "body chain"],
+    "charm潮流": ["croc charm", "bag charm", "nail charm", "phone charm",
+                "purse charm", "italian charm", "bogg bag"],
+    "个性化定制": ["initial", "birthstone", "name necklace", "bubble letter"],
+    "运动兴趣": ["baseball", "softball", "football", "basketball", "volleyball",
+                "soccer", "tennis bracelet", "fantasy football"],
+    "风格审美": ["western", "gothic", "goth", "vampire", "boho", "mermaid", "y2k"],
+    "宗教扩展": ["cross", "christian", "jesus", "bible verse", "wwjd",
+                "four leaf clover", "shamrock"],
+    "节日场合扩展": ["prom", "mardi gras", "st patrick*", "advent calendar"],
+}
+
+# 「珠宝已附着」型主题:场景天然带珠宝根,广词全量匹配噪音大。
+# 机会词候选里,这些主题的非品类命中一律不计入「趋势向好」(避免 fidget toys/cross stitch 混入);
+# 原有情感/里程碑主题不在此列，其无珠宝根的趋势词照常保留。
+JEWELRY_ATTACHED_THEMES = {
+    "功能康复珠宝", "身体珠宝穿孔", "charm潮流", "个性化定制",
+    "运动兴趣", "风格审美", "宗教扩展", "节日场合扩展",
 }
 
 MODIFIER_PATTERNS = [
@@ -1263,6 +1288,9 @@ def build_final_report(wide, ctx, quality, p2, p3, gift_agg, comm_agg, p4c, p4d,
             if r["is_category"]:
                 add(r["term"], "Phase5命中×品类")
             if pd.notna(r["trend_ratio"]) and r["trend_ratio"] < 0.7:
+                # 珠宝已附着型主题的非品类命中多为语义噪音（fidget toys/cross stitch），排除
+                if r["theme"] in JEWELRY_ATTACHED_THEMES and not r["is_category"]:
+                    continue
                 add(r["term"], "Phase5命中×趋势向好")
     # 品类子集新入榜 / 季节 spike
     ne_cat = wide.loc[p2["new_entrant_mask"] & is_cat.to_numpy(), "term"].tolist()
